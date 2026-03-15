@@ -64,7 +64,7 @@ Wait for your browser to open automatically. You will see the **UniSim Dashboard
 1. **Interact**: In the 3D circuit view, click on the **Button** component. You will see the **LED** light up instantly.
 2. **Check Logs**: Go to the **Logs Tab** at the bottom to see your `console.log` messages.
 3. **Debug State**: Open the **Debug Tab**. Look for the `GP1` pin state; it will toggle between `0` and `1` in real-time as you press the button.
-4. **Inspect Sensors**: If you added an LDR or Ultrasonic sensor, use the **Sensors Tab** to drag sliders and simulate environment changes without touching your circuit.
+4. **Inspect Sensors**: If you added an Ultrasonic sensor, use the **Sensors Tab** to drag sliders and simulate environment changes without touching your circuit.
 
 ---
 

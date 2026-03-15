@@ -15,7 +15,7 @@ The Pico has 40 physical pins, but in software (MicroPython and JavaScript), we 
 Many pins can do more than just turn ON and OFF.
 
 ### ADC (Analog to Digital Converter)
-Used for reading analog values from sensors like the **LDR (Light Sensor)** or **Potentiometer**.
+Used for reading analog values from sensors like the **Potentiometer**.
 - **GP26** (ADC0)
 - **GP27** (ADC1)
 - **GP28** (ADC2)

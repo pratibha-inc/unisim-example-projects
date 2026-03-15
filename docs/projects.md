@@ -13,7 +13,6 @@ Browse through our curated collection of UniSim projects. Each guide includes a 
 *   **[Servo Sweep](./projects/servo_sweep.md)**: Precise motor positioning.
 
 ### 📡 Sensors & Environment
-*   **[LDR Light Sensor](./projects/ldr_sensor.md)**: Measuring brightness with ADC.
 *   **[Ultrasonic Distance](./projects/ultrasonic_distance.md)**: Measuring range with sound pings.
 
 ---

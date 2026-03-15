@@ -14,7 +14,7 @@ The panel at the bottom provides several specialized modules:
 
 #### 📊 Sensors Tab
 The Sensors tab is crucial for testing your code's response to environmental changes.
-- **Manual Overrides**: Slide controls to simulate light levels (for LDRs), temperatures, or distances (for Ultrasonic sensors).
+- **Manual Overrides**: Slide controls to simulate temperatures or distances (for Ultrasonic sensors).
 - **Graphing**: View a real-time plot of sensor values being read by your microcontroller.
 
 #### 🛠️ Debug Tab

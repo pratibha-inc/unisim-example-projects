@@ -4,7 +4,7 @@ HIL is an advanced feature that allows UniSim to bridge the gap between virtual 
 
 ### How it Works
 When HIL is enabled, a physical microcontroller (connected via USB) acts as a proxy for a virtual component in your circuit.
-- **Sensor Input**: A physical LDR on your desk can provide real-world data to your virtual Pico.
+- **Sensor Input**: A physical sensor on your desk can provide real-world data to your virtual Pico.
 - **Actuator Output**: Your virtual simulation logic can move a real physical servo motor.
 
 ### Setup Process

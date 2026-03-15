@@ -12,7 +12,6 @@ Detailed documentation for every hardware component used in the UniSim example p
 
 ### 🔘 Inputs & Interaction
 - **[Push Button](./components/button.md)**: Tactile input for user triggers.
-- **[LDR (Light Sensor)](./components/ldr.md)**: Analog ambient light detection.
 
 ### 📏 Advanced Sensors & Actuators
 - **[Ultrasonic Sensor](./components/ultrasonic.md)**: Precise distance measurement using sound.
