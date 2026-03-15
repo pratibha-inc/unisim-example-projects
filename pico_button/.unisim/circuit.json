@@ -22,50 +22,47 @@
         "color": "green",
         "label": "Indicator",
         "on": false,
-        "duty": 0
+        "duty": 1
       }
     },
     {
-      "id": "pico-q3784x",
+      "id": "pico-cnpn9x",
       "type": "pico",
-      "x": 240,
-      "y": 60,
+      "x": 200,
+      "y": 80,
       "data": {},
       "locked": false
     },
     {
-      "id": "resistor-fuhtef",
+      "id": "resistor-xgft5g",
       "type": "resistor",
-      "x": 500,
-      "y": 400,
-      "data": {
-        "resistance": 220,
-        "tolerance": 5
-      },
+      "x": 560,
+      "y": 240,
+      "data": {},
       "locked": false
     }
   ],
   "wires": [
     {
-      "id": "wire-24r6o3",
+      "id": "wire-i3a1ia",
       "startPin": {
+        "componentId": "pico-cnpn9x",
+        "pinId": "GP0",
+        "x": 200,
+        "y": 80,
+        "type": "component-pin"
+      },
+      "endPin": {
         "componentId": "button-zc261n",
         "pinId": "p1",
         "x": 600,
         "y": 200,
         "type": "component-pin"
       },
-      "endPin": {
-        "componentId": "pico-q3784x",
-        "pinId": "GP0",
-        "x": 240,
-        "y": 60,
-        "type": "component-pin"
-      },
-      "color": "hsl(0, 85%, 55%)"
+      "color": "hsl(222, 85%, 55%)"
     },
     {
-      "id": "wire-3qvawb",
+      "id": "wire-4zi8w6",
       "startPin": {
         "componentId": "button-zc261n",
         "pinId": "p2",
@@ -74,39 +71,21 @@
         "type": "component-pin"
       },
       "endPin": {
-        "componentId": "pico-q3784x",
+        "componentId": "pico-cnpn9x",
         "pinId": "GND#3",
-        "x": 240,
-        "y": 100,
-        "type": "component-pin"
-      },
-      "color": "hsl(222, 85%, 55%)"
-    },
-    {
-      "id": "wire-577fma",
-      "startPin": {
-        "componentId": "pico-q3784x",
-        "pinId": "GP1",
-        "x": 240,
-        "y": 80,
-        "type": "component-pin"
-      },
-      "endPin": {
-        "componentId": "resistor-fuhtef",
-        "pinId": "pin1",
-        "x": 500,
-        "y": 400,
+        "x": 200,
+        "y": 120,
         "type": "component-pin"
       },
       "color": "hsl(84, 85%, 55%)"
     },
     {
-      "id": "wire-smmbet",
+      "id": "wire-e81chl",
       "startPin": {
-        "componentId": "resistor-fuhtef",
+        "componentId": "resistor-xgft5g",
         "pinId": "pin2",
-        "x": 500,
-        "y": 460,
+        "x": 560,
+        "y": 300,
         "type": "component-pin"
       },
       "endPin": {
@@ -119,7 +98,25 @@
       "color": "hsl(84, 85%, 55%)"
     },
     {
-      "id": "wire-tbfe63",
+      "id": "wire-zgm417",
+      "startPin": {
+        "componentId": "resistor-xgft5g",
+        "pinId": "pin1",
+        "x": 560,
+        "y": 240,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-cnpn9x",
+        "pinId": "GP1",
+        "x": 200,
+        "y": 100,
+        "type": "component-pin"
+      },
+      "color": "hsl(307, 85%, 55%)"
+    },
+    {
+      "id": "wire-i01wfm",
       "startPin": {
         "componentId": "led-c0ttl4",
         "pinId": "cathode",
@@ -128,13 +125,13 @@
         "type": "component-pin"
       },
       "endPin": {
-        "componentId": "pico-q3784x",
+        "componentId": "pico-cnpn9x",
         "pinId": "GND#8",
-        "x": 240,
-        "y": 200,
+        "x": 200,
+        "y": 220,
         "type": "component-pin"
       },
-      "color": "hsl(307, 85%, 55%)"
+      "color": "hsl(169, 85%, 55%)"
     }
   ]
 }
