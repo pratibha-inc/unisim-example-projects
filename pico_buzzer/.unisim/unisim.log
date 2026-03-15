@@ -1,0 +1,1152 @@
+[2026-03-08T06:20:13.740Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:108:16
+
+[2026-03-08T06:20:13.744Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: D:\UniSim\unisim-core\src\app\index.ts:11:8
+
+[2026-03-08T06:27:15.721Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:108:16
+
+[2026-03-08T06:27:15.726Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: D:\UniSim\unisim-core\src\app\index.ts:11:8
+
+[2026-03-08T06:27:21.777Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:94:16
+
+[2026-03-08T06:27:21.779Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: file:///D:/UniSim/unisim-core/dist/app/index.js:11:8
+
+[2026-03-08T06:30:59.264Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:108:16
+
+[2026-03-08T06:30:59.268Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: D:\UniSim\unisim-core\src\app\index.ts:11:8
+
+[2026-03-08T06:31:04.742Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:94:16
+
+[2026-03-08T06:31:04.745Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: file:///D:/UniSim/unisim-core/dist/app/index.js:11:8
+
+[2026-03-08T06:31:05.020Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:62:20
+
+[2026-03-08T06:31:05.035Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:62:20
+
+[2026-03-08T06:31:05.045Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:81:24
+
+[2026-03-08T06:31:05.086Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: PIN_STATE
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:99:20
+
+[2026-03-08T06:31:06.034Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:99:20
+
+[2026-03-08T06:31:06.054Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:128:16
+
+[2026-03-08T06:31:06.395Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-001 (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-08T06:31:06.398Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: buz1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:23:16
+
+[2026-03-08T06:31:06.399Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-001:GP0 <-> buz1:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:111:16
+
+[2026-03-08T06:31:06.400Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: pico-001:GP0 ↔ buz1:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:50:16
+
+[2026-03-08T06:31:06.403Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-001:GND <-> buz1:neg
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:111:16
+
+[2026-03-08T06:31:06.404Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: pico-001:GND ↔ buz1:neg
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:50:16
+
+[2026-03-08T06:31:06.405Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 2 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:305:20
+
+[2026-03-08T06:36:25.604Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:81:24
+
+[2026-03-08T06:37:44.607Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:108:16
+
+[2026-03-08T06:37:44.612Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: D:\UniSim\unisim-core\src\app\index.ts:11:8
+
+[2026-03-08T06:37:50.488Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:94:16
+
+[2026-03-08T06:37:50.489Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: file:///D:/UniSim/unisim-core/dist/app/index.js:11:8
+
+[2026-03-08T06:37:51.130Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:62:20
+
+[2026-03-08T06:37:51.160Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:81:24
+
+[2026-03-08T06:37:51.164Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:62:20
+
+[2026-03-08T06:37:51.212Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: PIN_STATE
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:99:20
+
+[2026-03-08T06:37:52.200Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:99:20
+
+[2026-03-08T06:37:52.220Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:128:16
+
+[2026-03-08T06:37:52.254Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-001 (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-08T06:37:52.256Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: buz1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:23:16
+
+[2026-03-08T06:37:52.260Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-001:GP0 <-> buz1:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:111:16
+
+[2026-03-08T06:37:52.261Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: pico-001:GP0 ↔ buz1:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:50:16
+
+[2026-03-08T06:37:52.264Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-001:GND <-> buz1:neg
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:111:16
+
+[2026-03-08T06:37:52.265Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: pico-001:GND ↔ buz1:neg
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:50:16
+
+[2026-03-08T06:37:52.266Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 2 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:305:20
+
+[2026-03-08T06:40:43.306Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:108:16
+
+[2026-03-08T06:40:43.310Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: D:\UniSim\unisim-core\src\app\index.ts:11:8
+
+[2026-03-08T06:40:48.859Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:94:16
+
+[2026-03-08T06:40:48.860Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: file:///D:/UniSim/unisim-core/dist/app/index.js:11:8
+
+[2026-03-08T06:40:49.468Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:62:20
+
+[2026-03-08T06:40:49.491Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:81:24
+
+[2026-03-08T06:40:49.494Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:62:20
+
+[2026-03-08T06:40:49.524Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: PIN_STATE
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:99:20
+
+[2026-03-08T06:40:50.521Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:99:20
+
+[2026-03-08T06:40:50.539Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:128:16
+
+[2026-03-08T06:40:50.575Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-001 (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-08T06:40:50.577Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: buz1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:23:16
+
+[2026-03-08T06:40:50.579Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-001:GP0 <-> buz1:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:111:16
+
+[2026-03-08T06:40:50.581Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: pico-001:GP0 ↔ buz1:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:50:16
+
+[2026-03-08T06:40:50.584Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-001:GND <-> buz1:neg
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:111:16
+
+[2026-03-08T06:40:50.585Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: pico-001:GND ↔ buz1:neg
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:50:16
+
+[2026-03-08T06:40:50.586Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 2 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:305:20
+
+[2026-03-08T06:44:57.248Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:108:16
+
+[2026-03-08T06:44:57.250Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: D:\UniSim\unisim-core\src\app\index.ts:11:8
+
+[2026-03-08T06:45:04.124Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T06:45:04.155Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
+
+[2026-03-08T06:45:04.160Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T06:45:05.464Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-001 (rp2040)
+  Location: D:\UniSim\unisim-core\src\core\mapping\service.ts:14:16
+
+[2026-03-08T06:45:45.781Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:108:16
+
+[2026-03-08T06:45:45.783Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: D:\UniSim\unisim-core\src\app\index.ts:11:8
+
+[2026-03-08T06:46:08.820Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
+
+[2026-03-08T06:46:19.511Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:108:16
+
+[2026-03-08T06:46:19.519Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: D:\UniSim\unisim-core\src\app\index.ts:11:8
+
+[2026-03-08T06:48:27.984Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:108:16
+
+[2026-03-08T06:48:27.991Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: D:\UniSim\unisim-core\src\app\index.ts:11:8
+
+[2026-03-08T06:48:36.307Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T06:48:36.322Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T06:48:36.343Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
+
+[2026-03-08T06:48:37.581Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-001 (rp2040)
+  Location: D:\UniSim\unisim-core\src\core\mapping\service.ts:14:16
+
+[2026-03-08T06:56:36.400Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
+
+[2026-03-08T07:05:55.363Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T07:12:20.683Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
+
+[2026-03-08T07:12:21.703Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T07:12:26.066Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
+
+[2026-03-08T07:17:20.862Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T07:17:37.701Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
+
+[2026-03-08T07:39:22.486Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T07:39:24.167Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
+
+[2026-03-08T10:13:26.529Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T10:14:06.729Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
+
+[2026-03-08T10:14:07.530Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T10:14:07.569Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
+
+[2026-03-08T10:14:07.590Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T10:14:33.382Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
+
+[2026-03-08T10:18:47.804Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:108:16
+
+[2026-03-08T10:18:47.807Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: D:\UniSim\unisim-core\src\app\index.ts:11:8
+
+[2026-03-08T10:20:11.347Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:108:16
+
+[2026-03-08T10:20:11.349Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: D:\UniSim\unisim-core\src\app\index.ts:11:8
+
+[2026-03-08T10:20:18.895Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T10:20:18.919Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T10:20:18.930Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
+
+[2026-03-08T10:20:19.786Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-001 (rp2040)
+  Location: D:\UniSim\unisim-core\src\core\mapping\service.ts:14:16
+
+[2026-03-08T10:20:37.260Z] [INFO] [CRITICALITY: LOW]
+  Message: ▶ Simulation STARTED
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:87:16
+
+[2026-03-08T10:20:37.269Z] [INFO] [CRITICALITY: LOW]
+  Message: START_SIM: Board [pico-001] received 1 files: main.py
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:121:20
+
+[2026-03-08T10:20:37.273Z] [INFO] [CRITICALITY: LOW]
+  Message: Spawning runtime for board: pico-001 (rp2040)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:46:16
+
+[2026-03-08T10:20:37.283Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-001 runtime started
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:173:16
+
+[2026-03-08T10:20:37.568Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Starting WASM execution... loading Pyodide
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:20:37.571Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] DEBUG PATH - __dirname: D:\UniSim\unisim-core\dist\core\runtime, fileURL: D:\UniSim\unisim-core\dist\core\runtime\worker.js, pyodideDir: D:\UniSim\unisim-core\node_modules\pyodide
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:20:40.670Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Pyodide loaded. Setting up VFS and shims.
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:20:40.689Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Found main.py (263 bytes). Injecting into globals and executing async loop.
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:20:40.704Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] [PY-TRACE] Python _unisimm_main started. Executing user code...
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:20:40.718Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] === Pico Buzzer Test Started (GP0) ===
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:20:40.726Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:20:41.230Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:20:42.737Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:20:43.242Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:20:44.747Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:20:45.255Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:20:46.770Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:20:47.275Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:20:48.777Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:20:49.286Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:20:50.800Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:20:51.317Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:20:52.819Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:20:53.336Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:20:54.839Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:20:55.352Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:20:56.869Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:20:57.381Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:20:58.891Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:20:59.401Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:00.909Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:01.414Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:02.923Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:03.429Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:04.944Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:05.446Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:06.953Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:07.461Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:08.977Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:09.498Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:11.010Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:11.523Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:13.030Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:13.544Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:15.059Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:15.573Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:17.083Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:17.597Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:19.101Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:19.617Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:21.130Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:21.646Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:23.158Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:23.673Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:25.178Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:25.685Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:27.188Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:27.700Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:29.213Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:29.719Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:31.231Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:31.734Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:33.240Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:33.752Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:35.264Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:35.780Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:21:36.902Z] [INFO] [CRITICALITY: LOW]
+  Message: Worker for pico-001 exited with code 1
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:169:20
+
+[2026-03-08T10:21:36.905Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-001 runtime stopped
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:183:16
+
+[2026-03-08T10:21:41.246Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
+
+[2026-03-08T10:21:51.514Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:108:16
+
+[2026-03-08T10:21:51.517Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: D:\UniSim\unisim-core\src\app\index.ts:11:8
+
+[2026-03-08T10:22:25.879Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:108:16
+
+[2026-03-08T10:22:25.881Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: D:\UniSim\unisim-core\src\app\index.ts:11:8
+
+[2026-03-08T10:28:31.235Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:108:16
+
+[2026-03-08T10:28:31.237Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: D:\UniSim\unisim-core\src\app\index.ts:11:8
+
+[2026-03-08T10:28:38.134Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T10:28:38.149Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T10:28:38.160Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
+
+[2026-03-08T10:28:39.237Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-001 (rp2040)
+  Location: D:\UniSim\unisim-core\src\core\mapping\service.ts:14:16
+
+[2026-03-08T10:28:43.914Z] [INFO] [CRITICALITY: LOW]
+  Message: ▶ Simulation STARTED
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:87:16
+
+[2026-03-08T10:28:43.921Z] [INFO] [CRITICALITY: LOW]
+  Message: START_SIM: Board [pico-001] received 1 files: main.py
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:121:20
+
+[2026-03-08T10:28:43.925Z] [INFO] [CRITICALITY: LOW]
+  Message: Spawning runtime for board: pico-001 (rp2040)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:46:16
+
+[2026-03-08T10:28:43.933Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-001 runtime started
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:173:16
+
+[2026-03-08T10:28:44.150Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Starting WASM execution... loading Pyodide
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:28:44.153Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] DEBUG PATH - __dirname: D:\UniSim\unisim-core\dist\core\runtime, fileURL: D:\UniSim\unisim-core\dist\core\runtime\worker.js, pyodideDir: D:\UniSim\unisim-core\node_modules\pyodide
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:28:46.766Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Pyodide loaded. Setting up VFS and shims.
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:28:46.784Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Found main.py (263 bytes). Injecting into globals and executing async loop.
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:28:46.795Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] [PY-TRACE] Python _unisimm_main started. Executing user code...
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:28:46.804Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] === Pico Buzzer Test Started (GP0) ===
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:28:46.809Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:28:47.317Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:28:48.827Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:28:49.335Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:28:50.843Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:28:51.349Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:28:52.857Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:28:53.361Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:28:54.872Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:28:55.375Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:28:56.886Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:28:57.396Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:28:58.908Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:28:59.423Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:00.937Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:01.441Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:02.958Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:03.476Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:04.992Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:05.507Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:07.023Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:07.538Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:09.047Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:09.555Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:11.067Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:11.574Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:13.079Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:13.588Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:15.100Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:15.614Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:17.130Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:17.634Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:19.136Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:19.640Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:21.151Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:21.657Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:23.161Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:23.670Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:25.183Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:25.697Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:27.204Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:27.704Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:29.215Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:29.721Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:31.234Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:31.738Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:33.252Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:33.769Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:35.274Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:35.779Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:37.289Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:37.802Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:39.304Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:39.822Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:41.336Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:41.851Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:43.367Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:43.873Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:45.386Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:45.889Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:47.403Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:47.906Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:49.420Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:49.930Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:51.441Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:51.958Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:53.469Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:53.976Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:55.494Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:56.016Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:57.524Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:58.040Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:29:59.553Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:30:00.069Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:30:01.579Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:30:02.083Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:30:03.593Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:30:04.096Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:30:05.606Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:30:06.115Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:30:07.622Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:30:08.132Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:30:09.637Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:30:10.139Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:30:11.654Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:30:12.170Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:30:13.673Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:30:14.187Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:30:15.703Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:30:16.209Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer OFF
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:30:17.710Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Buzzer ON
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T10:30:17.901Z] [INFO] [CRITICALITY: LOW]
+  Message: Worker for pico-001 exited with code 1
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:169:20
+
+[2026-03-08T10:30:17.904Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-001 runtime stopped
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:183:16
+
+[2026-03-08T10:30:20.574Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
+
+[2026-03-08T10:30:31.268Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:108:16
+
+[2026-03-08T10:30:31.270Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: D:\UniSim\unisim-core\src\app\index.ts:11:8
+
+[2026-03-08T10:30:39.395Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T10:30:39.411Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T10:30:39.436Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
+
+[2026-03-08T10:30:40.630Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-001 (rp2040)
+  Location: D:\UniSim\unisim-core\src\core\mapping\service.ts:14:16
+
+[2026-03-08T10:30:45.444Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
+

@@ -1,0 +1,10 @@
+{
+  "project": "PICO SERVO",
+  "version": "2.0.0",
+  "mappings": {
+    "pico-w4732e": "modules/pico-w4732e"
+  },
+  "transpiler": {
+    "target": "pyodide"
+  }
+}

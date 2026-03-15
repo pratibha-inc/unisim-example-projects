@@ -1,0 +1,504 @@
+[2026-03-08T05:29:21.136Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:101:16
+
+[2026-03-08T05:29:21.142Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: D:\UniSim\unisim-core\src\app\index.ts:11:8
+
+[2026-03-08T05:29:24.406Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T05:31:40.971Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:101:16
+
+[2026-03-08T05:31:40.975Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: D:\UniSim\unisim-core\src\app\index.ts:11:8
+
+[2026-03-08T05:31:45.493Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T05:31:45.516Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:87:24
+
+[2026-03-08T05:31:45.521Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T05:31:46.780Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-001 (rp2040)
+  Location: D:\UniSim\unisim-core\src\core\mapping\service.ts:14:16
+
+[2026-03-08T05:31:52.608Z] [INFO] [CRITICALITY: LOW]
+  Message: ▶ Simulation STARTED
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:87:16
+
+[2026-03-08T05:31:52.613Z] [INFO] [CRITICALITY: LOW]
+  Message: Netlist rebuilt from 3 wires
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:101:16
+
+[2026-03-08T05:31:52.617Z] [INFO] [CRITICALITY: LOW]
+  Message: START_SIM: Board [pico-001] received 1 files: main.py
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:121:20
+
+[2026-03-08T05:31:52.619Z] [INFO] [CRITICALITY: LOW]
+  Message: Spawning runtime for board: pico-001 (rp2040)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:46:16
+
+[2026-03-08T05:31:52.628Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-001 runtime started
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:168:16
+
+[2026-03-08T05:31:52.981Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Worker initialized for boardId: pico-001. physToLogicalMap size: 41
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:118:24
+
+[2026-03-08T05:31:52.990Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Starting WASM execution... loading Pyodide
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:118:24
+
+[2026-03-08T05:31:52.993Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] DEBUG PATH - __dirname: D:\UniSim\unisim-core\dist\core\runtime, fileURL: D:\UniSim\unisim-core\dist\core\runtime\worker.js, pyodideDir: D:\UniSim\unisim-core\node_modules\pyodide
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:118:24
+
+[2026-03-08T05:31:55.740Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Pyodide loaded. Setting up VFS and shims.
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:118:24
+
+[2026-03-08T05:31:55.762Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Found main.py (353 bytes). Injecting into globals and executing async loop.
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:118:24
+
+[2026-03-08T05:31:55.773Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] [PY-TRACE] Python _unisimm_main started. Executing user code...
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:118:24
+
+[2026-03-08T05:31:55.780Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] virtualPin resolved Python input '15' to physical index 20, aliased as 'GP15'
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:118:24
+
+[2026-03-08T05:31:55.792Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] === Pico Servo Test Started (GP15) ===
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:118:24
+
+[2026-03-08T05:32:29.209Z] [INFO] [CRITICALITY: LOW]
+  Message: ⏹ Simulation STOPPED
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:134:16
+
+[2026-03-08T05:32:29.250Z] [INFO] [CRITICALITY: LOW]
+  Message: Worker for pico-001 exited with code 1
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:164:20
+
+[2026-03-08T05:32:29.255Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-001 runtime stopped
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:178:16
+
+[2026-03-08T05:32:33.822Z] [INFO] [CRITICALITY: LOW]
+  Message: ⏹ Simulation STOPPED
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:134:16
+
+[2026-03-08T05:32:37.641Z] [INFO] [CRITICALITY: LOW]
+  Message: ⏹ Simulation STOPPED
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:134:16
+
+[2026-03-08T05:32:37.858Z] [INFO] [CRITICALITY: LOW]
+  Message: ⏹ Simulation STOPPED
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:134:16
+
+[2026-03-08T05:32:39.508Z] [INFO] [CRITICALITY: LOW]
+  Message: ⏹ Simulation STOPPED
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:134:16
+
+[2026-03-08T05:32:39.692Z] [INFO] [CRITICALITY: LOW]
+  Message: ⏹ Simulation STOPPED
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:134:16
+
+[2026-03-08T05:32:39.921Z] [INFO] [CRITICALITY: LOW]
+  Message: ⏹ Simulation STOPPED
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:134:16
+
+[2026-03-08T05:32:40.177Z] [INFO] [CRITICALITY: LOW]
+  Message: ⏹ Simulation STOPPED
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:134:16
+
+[2026-03-08T05:32:40.473Z] [INFO] [CRITICALITY: LOW]
+  Message: ⏹ Simulation STOPPED
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:134:16
+
+[2026-03-08T05:36:33.299Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:87:24
+
+[2026-03-08T05:37:15.289Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T05:37:17.184Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:101:16
+
+[2026-03-08T05:37:17.187Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: D:\UniSim\unisim-core\src\app\index.ts:11:8
+
+[2026-03-08T05:37:17.201Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T05:38:26.569Z] [INFO] [CRITICALITY: LOW]
+  Message: ▶ Simulation STARTED
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:87:16
+
+[2026-03-08T05:38:26.578Z] [INFO] [CRITICALITY: LOW]
+  Message: Netlist rebuilt from 0 wires
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:101:16
+
+[2026-03-08T05:38:26.583Z] [WARN] [CRITICALITY: MEDIUM]
+  Message: No boards registered. Cannot start simulation.
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:107:20
+
+[2026-03-08T05:40:39.742Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:87:24
+
+[2026-03-08T05:40:41.705Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T05:40:48.416Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:87:24
+
+[2026-03-08T05:40:49.825Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T05:41:01.878Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-001 (rp2040)
+  Location: D:\UniSim\unisim-core\src\core\mapping\service.ts:14:16
+
+[2026-03-08T05:42:40.178Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:87:24
+
+[2026-03-08T05:42:50.267Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:108:16
+
+[2026-03-08T05:42:50.272Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: D:\UniSim\unisim-core\src\app\index.ts:11:8
+
+[2026-03-08T05:42:54.470Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T05:44:14.730Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:108:16
+
+[2026-03-08T05:44:14.734Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: D:\UniSim\unisim-core\src\app\index.ts:11:8
+
+[2026-03-08T05:44:19.579Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T05:44:19.605Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T05:44:19.630Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
+
+[2026-03-08T05:44:20.814Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-001 (rp2040)
+  Location: D:\UniSim\unisim-core\src\core\mapping\service.ts:14:16
+
+[2026-03-08T05:44:32.511Z] [INFO] [CRITICALITY: LOW]
+  Message: ▶ Simulation STARTED
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:87:16
+
+[2026-03-08T05:44:32.518Z] [INFO] [CRITICALITY: LOW]
+  Message: START_SIM: Board [pico-001] received 1 files: main.py
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:121:20
+
+[2026-03-08T05:44:32.520Z] [INFO] [CRITICALITY: LOW]
+  Message: Spawning runtime for board: pico-001 (rp2040)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:46:16
+
+[2026-03-08T05:44:32.531Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-001 runtime started
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:173:16
+
+[2026-03-08T05:44:32.940Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Starting WASM execution... loading Pyodide
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T05:44:32.943Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] DEBUG PATH - __dirname: D:\UniSim\unisim-core\dist\core\runtime, fileURL: D:\UniSim\unisim-core\dist\core\runtime\worker.js, pyodideDir: D:\UniSim\unisim-core\node_modules\pyodide
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T05:44:37.181Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Pyodide loaded. Setting up VFS and shims.
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T05:44:37.205Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Found main.py (353 bytes). Injecting into globals and executing async loop.
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T05:44:37.217Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] [PY-TRACE] Python _unisimm_main started. Executing user code...
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T05:44:37.236Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] === Pico Servo Test Started (GP15) ===
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T05:45:16.766Z] [INFO] [CRITICALITY: LOW]
+  Message: Worker for pico-001 exited with code 1
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:169:20
+
+[2026-03-08T05:45:16.768Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-001 runtime stopped
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:183:16
+
+[2026-03-08T05:46:43.924Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
+
+[2026-03-08T05:50:12.051Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:108:16
+
+[2026-03-08T05:50:12.056Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: D:\UniSim\unisim-core\src\app\index.ts:11:8
+
+[2026-03-08T05:50:16.508Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T05:51:26.952Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:108:16
+
+[2026-03-08T05:51:26.956Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: D:\UniSim\unisim-core\src\app\index.ts:11:8
+
+[2026-03-08T05:51:31.068Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T05:51:31.080Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T05:51:31.107Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
+
+[2026-03-08T05:51:32.364Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-001 (rp2040)
+  Location: D:\UniSim\unisim-core\src\core\mapping\service.ts:14:16
+
+[2026-03-08T05:51:34.645Z] [INFO] [CRITICALITY: LOW]
+  Message: ▶ Simulation STARTED
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:87:16
+
+[2026-03-08T05:51:34.652Z] [INFO] [CRITICALITY: LOW]
+  Message: START_SIM: Board [pico-001] received 1 files: main.py
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:121:20
+
+[2026-03-08T05:51:34.656Z] [INFO] [CRITICALITY: LOW]
+  Message: Spawning runtime for board: pico-001 (rp2040)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:46:16
+
+[2026-03-08T05:51:34.675Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-001 runtime started
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:173:16
+
+[2026-03-08T05:51:34.960Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Starting WASM execution... loading Pyodide
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T05:51:34.963Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] DEBUG PATH - __dirname: D:\UniSim\unisim-core\dist\core\runtime, fileURL: D:\UniSim\unisim-core\dist\core\runtime\worker.js, pyodideDir: D:\UniSim\unisim-core\node_modules\pyodide
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T05:51:37.618Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Pyodide loaded. Setting up VFS and shims.
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T05:51:37.636Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Found main.py (353 bytes). Injecting into globals and executing async loop.
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T05:51:37.648Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] [PY-TRACE] Python _unisimm_main started. Executing user code...
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T05:51:37.666Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] === Pico Servo Test Started (GP15) ===
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T05:52:23.554Z] [INFO] [CRITICALITY: LOW]
+  Message: Worker for pico-001 exited with code 1
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:169:20
+
+[2026-03-08T05:52:23.559Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-001 runtime stopped
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:183:16
+
+[2026-03-08T05:52:27.091Z] [INFO] [CRITICALITY: LOW]
+  Message: ▶ Simulation STARTED
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:87:16
+
+[2026-03-08T05:52:27.100Z] [INFO] [CRITICALITY: LOW]
+  Message: START_SIM: Board [pico-001] received 1 files: main.py
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:121:20
+
+[2026-03-08T05:52:27.102Z] [INFO] [CRITICALITY: LOW]
+  Message: Spawning runtime for board: pico-001 (rp2040)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:46:16
+
+[2026-03-08T05:52:27.110Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-001 runtime started
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:173:16
+
+[2026-03-08T05:52:27.402Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Starting WASM execution... loading Pyodide
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T05:52:27.406Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] DEBUG PATH - __dirname: D:\UniSim\unisim-core\dist\core\runtime, fileURL: D:\UniSim\unisim-core\dist\core\runtime\worker.js, pyodideDir: D:\UniSim\unisim-core\node_modules\pyodide
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T05:52:30.982Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Pyodide loaded. Setting up VFS and shims.
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T05:52:31.006Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Found main.py (353 bytes). Injecting into globals and executing async loop.
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T05:52:31.022Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] [PY-TRACE] Python _unisimm_main started. Executing user code...
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T05:52:31.037Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] === Pico Servo Test Started (GP15) ===
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T05:53:10.739Z] [INFO] [CRITICALITY: LOW]
+  Message: Worker for pico-001 exited with code 1
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:169:20
+
+[2026-03-08T05:53:10.743Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-001 runtime stopped
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:183:16
+
+[2026-03-08T05:53:53.934Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
+
+[2026-03-08T06:10:23.694Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:108:16
+
+[2026-03-08T06:10:23.698Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: D:\UniSim\unisim-core\src\app\index.ts:11:8
+
+[2026-03-08T06:10:27.774Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T06:14:35.039Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:108:16
+
+[2026-03-08T06:14:35.042Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: D:\UniSim\unisim-core\src\app\index.ts:11:8
+
+[2026-03-08T06:14:39.787Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T06:14:39.810Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-08T06:14:39.829Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
+
+[2026-03-08T06:14:41.181Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-001 (rp2040)
+  Location: D:\UniSim\unisim-core\src\core\mapping\service.ts:14:16
+
+[2026-03-08T06:14:46.603Z] [INFO] [CRITICALITY: LOW]
+  Message: ▶ Simulation STARTED
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:87:16
+
+[2026-03-08T06:14:46.609Z] [INFO] [CRITICALITY: LOW]
+  Message: START_SIM: Board [pico-001] received 1 files: main.py
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:121:20
+
+[2026-03-08T06:14:46.611Z] [INFO] [CRITICALITY: LOW]
+  Message: Spawning runtime for board: pico-001 (rp2040)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:46:16
+
+[2026-03-08T06:14:46.622Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-001 runtime started
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:173:16
+
+[2026-03-08T06:14:46.864Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Starting WASM execution... loading Pyodide
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T06:14:46.868Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] DEBUG PATH - __dirname: D:\UniSim\unisim-core\dist\core\runtime, fileURL: D:\UniSim\unisim-core\dist\core\runtime\worker.js, pyodideDir: D:\UniSim\unisim-core\node_modules\pyodide
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T06:14:49.799Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Pyodide loaded. Setting up VFS and shims.
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T06:14:49.819Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] Found main.py (353 bytes). Injecting into globals and executing async loop.
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T06:14:49.829Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] [PY-TRACE] Python _unisimm_main started. Executing user code...
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T06:14:49.845Z] [INFO] [CRITICALITY: LOW]
+  Message: [WORKER pico-001] === Pico Servo Test Started (GP15) ===
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:123:29
+
+[2026-03-08T06:15:34.388Z] [INFO] [CRITICALITY: LOW]
+  Message: Worker for pico-001 exited with code 1
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:169:20
+
+[2026-03-08T06:15:34.392Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-001 runtime stopped
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:183:16
+
+[2026-03-08T06:15:44.072Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
+
+[2026-03-08T06:20:17.628Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+

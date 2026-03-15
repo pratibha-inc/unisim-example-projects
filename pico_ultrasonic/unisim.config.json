@@ -1,0 +1,10 @@
+{
+  "project": "PICO ULTRASONIC",
+  "version": "2.0.0",
+  "mappings": {
+    "pico-z57u5t": "modules/pico-z57u5t"
+  },
+  "transpiler": {
+    "target": "pyodide"
+  }
+}

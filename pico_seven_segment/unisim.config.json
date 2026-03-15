@@ -1,0 +1,10 @@
+{
+  "project": "PICO SEVEN SEGMENT",
+  "version": "2.0.0",
+  "mappings": {
+    "pico-jmd3r6": "modules/pico-jmd3r6"
+  },
+  "transpiler": {
+    "target": "pyodide"
+  }
+}

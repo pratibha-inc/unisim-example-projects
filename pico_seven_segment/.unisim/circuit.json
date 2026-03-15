@@ -1,0 +1,215 @@
+{
+  "version": "1.0",
+  "components": [
+    {
+      "id": "pico-jmd3r6",
+      "type": "pico",
+      "x": 240,
+      "y": 160,
+      "locked": false,
+      "data": {}
+    },
+    {
+      "id": "seven_segment-kebplt",
+      "type": "seven_segment",
+      "x": 620,
+      "y": 380,
+      "data": {
+        "commonType": "cathode",
+        "segments": {
+          "a": 0,
+          "b": 0,
+          "c": 0,
+          "d": 0,
+          "e": 0,
+          "f": 0,
+          "g": 0,
+          "dp": 0
+        }
+      },
+      "locked": false
+    }
+  ],
+  "wires": [
+    {
+      "id": "wire-zf6ut5",
+      "startPin": {
+        "componentId": "seven_segment-kebplt",
+        "pinId": "g",
+        "x": 625,
+        "y": 380,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-jmd3r6",
+        "pinId": "GP6",
+        "x": 240,
+        "y": 320,
+        "type": "component-pin"
+      },
+      "color": "hsl(0, 85%, 55%)"
+    },
+    {
+      "id": "wire-ck77nu",
+      "startPin": {
+        "componentId": "seven_segment-kebplt",
+        "pinId": "f",
+        "x": 637,
+        "y": 380,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-jmd3r6",
+        "pinId": "GP5",
+        "x": 240,
+        "y": 280,
+        "type": "component-pin"
+      },
+      "color": "hsl(222, 85%, 55%)"
+    },
+    {
+      "id": "wire-bhwf3f",
+      "startPin": {
+        "componentId": "seven_segment-kebplt",
+        "pinId": "com",
+        "x": 649,
+        "y": 380,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-jmd3r6",
+        "pinId": "GND#3",
+        "x": 240,
+        "y": 200,
+        "type": "component-pin"
+      },
+      "color": "hsl(84, 85%, 55%)"
+    },
+    {
+      "id": "wire-mq824d",
+      "startPin": {
+        "componentId": "seven_segment-kebplt",
+        "pinId": "a",
+        "x": 661,
+        "y": 380,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-jmd3r6",
+        "pinId": "GP0",
+        "x": 240,
+        "y": 160,
+        "type": "component-pin"
+      },
+      "color": "hsl(307, 85%, 55%)"
+    },
+    {
+      "id": "wire-5zrdo7",
+      "startPin": {
+        "componentId": "seven_segment-kebplt",
+        "pinId": "b",
+        "x": 673,
+        "y": 380,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-jmd3r6",
+        "pinId": "GP1",
+        "x": 240,
+        "y": 180,
+        "type": "component-pin"
+      },
+      "color": "hsl(169, 85%, 55%)"
+    },
+    {
+      "id": "wire-6tfsnp",
+      "startPin": {
+        "componentId": "seven_segment-kebplt",
+        "pinId": "e",
+        "x": 625,
+        "y": 480,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-jmd3r6",
+        "pinId": "GP4",
+        "x": 240,
+        "y": 260,
+        "type": "component-pin"
+      },
+      "color": "hsl(32, 85%, 55%)"
+    },
+    {
+      "id": "wire-l17d4h",
+      "startPin": {
+        "componentId": "seven_segment-kebplt",
+        "pinId": "d",
+        "x": 637,
+        "y": 480,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-jmd3r6",
+        "pinId": "GP3",
+        "x": 240,
+        "y": 240,
+        "type": "component-pin"
+      },
+      "color": "hsl(254, 85%, 55%)"
+    },
+    {
+      "id": "wire-3wjpij",
+      "startPin": {
+        "componentId": "seven_segment-kebplt",
+        "pinId": "com",
+        "x": 649,
+        "y": 480,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-jmd3r6",
+        "pinId": "GND#8",
+        "x": 240,
+        "y": 300,
+        "type": "component-pin"
+      },
+      "color": "hsl(117, 85%, 55%)"
+    },
+    {
+      "id": "wire-gonyf4",
+      "startPin": {
+        "componentId": "seven_segment-kebplt",
+        "pinId": "c",
+        "x": 661,
+        "y": 480,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-jmd3r6",
+        "pinId": "GP2",
+        "x": 240,
+        "y": 220,
+        "type": "component-pin"
+      },
+      "color": "hsl(339, 85%, 55%)"
+    },
+    {
+      "id": "wire-f00f8t",
+      "startPin": {
+        "componentId": "seven_segment-kebplt",
+        "pinId": "dp",
+        "x": 673,
+        "y": 480,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-jmd3r6",
+        "pinId": "GP7",
+        "x": 240,
+        "y": 340,
+        "type": "component-pin"
+      },
+      "color": "hsl(202, 85%, 55%)"
+    }
+  ]
+}

@@ -1,0 +1,900 @@
+[2026-03-14T20:55:15.542Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:108:16
+
+[2026-03-14T20:55:15.548Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: D:\UniSim\unisim-core\src\app\index.ts:11:8
+
+[2026-03-14T20:55:22.526Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-14T20:55:22.551Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
+
+[2026-03-14T20:55:22.555Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:66:20
+
+[2026-03-14T20:55:22.585Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: PIN_STATE
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:114:20
+
+[2026-03-14T20:55:22.588Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Snapshotting all pin states for UI...
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:211:16
+
+[2026-03-14T20:55:23.539Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:114:20
+
+[2026-03-14T20:55:23.557Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:156:16
+
+[2026-03-14T20:55:23.764Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-z57u5t (rp2040)
+  Location: D:\UniSim\unisim-core\src\core\mapping\service.ts:14:16
+
+[2026-03-14T20:55:23.768Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: ultrasonic-eq2di4
+  Location: D:\UniSim\unisim-core\src\core\circuit\solver.ts:36:16
+
+[2026-03-14T20:55:23.773Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected ultrasonic-eq2di4:gnd <-> pico-z57u5t:GND
+  Location: D:\UniSim\unisim-core\src\core\circuit\solver.ts:154:16
+
+[2026-03-14T20:55:23.774Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: ultrasonic-eq2di4:gnd ↔ pico-z57u5t:GND#3
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:80:16
+
+[2026-03-14T20:55:23.778Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected ultrasonic-eq2di4:vcc <-> pico-z57u5t:3V3
+  Location: D:\UniSim\unisim-core\src\core\circuit\solver.ts:154:16
+
+[2026-03-14T20:55:23.779Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: ultrasonic-eq2di4:vcc ↔ pico-z57u5t:3V3
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:80:16
+
+[2026-03-14T20:55:23.783Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected ultrasonic-eq2di4:trig <-> pico-z57u5t:GP11
+  Location: D:\UniSim\unisim-core\src\core\circuit\solver.ts:154:16
+
+[2026-03-14T20:55:23.784Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: ultrasonic-eq2di4:trig ↔ pico-z57u5t:GP11
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:80:16
+
+[2026-03-14T20:55:23.786Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected ultrasonic-eq2di4:echo <-> pico-z57u5t:GP10
+  Location: D:\UniSim\unisim-core\src\core\circuit\solver.ts:154:16
+
+[2026-03-14T20:55:23.787Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: ultrasonic-eq2di4:echo ↔ pico-z57u5t:GP10
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:80:16
+
+[2026-03-14T20:55:23.788Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 4 wires
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:346:20
+
+[2026-03-14T20:55:23.792Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-eq2di4 UI Update: 150cm [norm:0.375]
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:39:16
+
+[2026-03-14T20:55:23.794Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-eq2di4 Power Status: ON (VCC Net: 3.3)
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:49:16
+
+[2026-03-14T20:55:23.796Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-eq2di4 Driving ECHO pin: 0.3750
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:55:16
+
+[2026-03-14T20:55:23.801Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=0.375. Nodes: ultrasonic-eq2di4:echo, pico-z57u5t:GP10
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:172:16
+
+[2026-03-14T20:55:23.807Z] [WARN] [CRITICALITY: MEDIUM]
+  Message: [SYNC-DEBUG] No runtime found for board pico-z57u5t
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:198:28
+
+[2026-03-14T20:55:30.703Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:114:20
+
+[2026-03-14T20:55:30.705Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:156:16
+
+[2026-03-14T20:55:30.721Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-z57u5t (rp2040)
+  Location: D:\UniSim\unisim-core\src\core\mapping\service.ts:14:16
+
+[2026-03-14T20:55:30.723Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: ultrasonic-eq2di4
+  Location: D:\UniSim\unisim-core\src\core\circuit\solver.ts:36:16
+
+[2026-03-14T20:55:30.726Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected ultrasonic-eq2di4:gnd <-> pico-z57u5t:GND
+  Location: D:\UniSim\unisim-core\src\core\circuit\solver.ts:154:16
+
+[2026-03-14T20:55:30.728Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: ultrasonic-eq2di4:gnd ↔ pico-z57u5t:GND#3
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:80:16
+
+[2026-03-14T20:55:30.732Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected ultrasonic-eq2di4:trig <-> pico-z57u5t:GP11
+  Location: D:\UniSim\unisim-core\src\core\circuit\solver.ts:154:16
+
+[2026-03-14T20:55:30.734Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: ultrasonic-eq2di4:trig ↔ pico-z57u5t:GP11
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:80:16
+
+[2026-03-14T20:55:30.735Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected ultrasonic-eq2di4:echo <-> pico-z57u5t:GP10
+  Location: D:\UniSim\unisim-core\src\core\circuit\solver.ts:154:16
+
+[2026-03-14T20:55:30.737Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: ultrasonic-eq2di4:echo ↔ pico-z57u5t:GP10
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:80:16
+
+[2026-03-14T20:55:30.738Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 3 wires
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:346:20
+
+[2026-03-14T20:55:30.741Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-eq2di4 UI Update: 150cm [norm:0.375]
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:39:16
+
+[2026-03-14T20:55:30.743Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-eq2di4 Power Status: OFF (VCC Net: 0)
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:49:16
+
+[2026-03-14T20:55:30.747Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-eq2di4 Driving ECHO pin: 0.0000
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:55:16
+
+[2026-03-14T20:55:30.750Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: ultrasonic-eq2di4:echo, pico-z57u5t:GP10
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:172:16
+
+[2026-03-14T20:55:30.754Z] [WARN] [CRITICALITY: MEDIUM]
+  Message: [SYNC-DEBUG] No runtime found for board pico-z57u5t
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:198:28
+
+[2026-03-14T20:55:34.628Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:114:20
+
+[2026-03-14T20:55:34.630Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:156:16
+
+[2026-03-14T20:55:34.641Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-z57u5t (rp2040)
+  Location: D:\UniSim\unisim-core\src\core\mapping\service.ts:14:16
+
+[2026-03-14T20:55:34.643Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: ultrasonic-eq2di4
+  Location: D:\UniSim\unisim-core\src\core\circuit\solver.ts:36:16
+
+[2026-03-14T20:55:34.644Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected ultrasonic-eq2di4:gnd <-> pico-z57u5t:GND
+  Location: D:\UniSim\unisim-core\src\core\circuit\solver.ts:154:16
+
+[2026-03-14T20:55:34.646Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: ultrasonic-eq2di4:gnd ↔ pico-z57u5t:GND#3
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:80:16
+
+[2026-03-14T20:55:34.648Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected ultrasonic-eq2di4:trig <-> pico-z57u5t:GP11
+  Location: D:\UniSim\unisim-core\src\core\circuit\solver.ts:154:16
+
+[2026-03-14T20:55:34.650Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: ultrasonic-eq2di4:trig ↔ pico-z57u5t:GP11
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:80:16
+
+[2026-03-14T20:55:34.651Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected ultrasonic-eq2di4:echo <-> pico-z57u5t:GP10
+  Location: D:\UniSim\unisim-core\src\core\circuit\solver.ts:154:16
+
+[2026-03-14T20:55:34.652Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: ultrasonic-eq2di4:echo ↔ pico-z57u5t:GP10
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:80:16
+
+[2026-03-14T20:55:34.653Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 3 wires
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:346:20
+
+[2026-03-14T20:55:34.656Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-eq2di4 UI Update: 150cm [norm:0.375]
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:39:16
+
+[2026-03-14T20:55:34.658Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-eq2di4 Power Status: OFF (VCC Net: 0)
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:49:16
+
+[2026-03-14T20:55:34.660Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-eq2di4 Driving ECHO pin: 0.0000
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:55:16
+
+[2026-03-14T20:55:34.663Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: ultrasonic-eq2di4:echo, pico-z57u5t:GP10
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:172:16
+
+[2026-03-14T20:55:34.666Z] [WARN] [CRITICALITY: MEDIUM]
+  Message: [SYNC-DEBUG] No runtime found for board pico-z57u5t
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:198:28
+
+[2026-03-14T20:55:43.196Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:114:20
+
+[2026-03-14T20:55:43.198Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:156:16
+
+[2026-03-14T20:55:43.209Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-z57u5t (rp2040)
+  Location: D:\UniSim\unisim-core\src\core\mapping\service.ts:14:16
+
+[2026-03-14T20:55:43.211Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: ultrasonic-eq2di4
+  Location: D:\UniSim\unisim-core\src\core\circuit\solver.ts:36:16
+
+[2026-03-14T20:55:43.213Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected ultrasonic-eq2di4:gnd <-> pico-z57u5t:GND
+  Location: D:\UniSim\unisim-core\src\core\circuit\solver.ts:154:16
+
+[2026-03-14T20:55:43.215Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: ultrasonic-eq2di4:gnd ↔ pico-z57u5t:GND#3
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:80:16
+
+[2026-03-14T20:55:43.217Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected ultrasonic-eq2di4:trig <-> pico-z57u5t:GP11
+  Location: D:\UniSim\unisim-core\src\core\circuit\solver.ts:154:16
+
+[2026-03-14T20:55:43.218Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: ultrasonic-eq2di4:trig ↔ pico-z57u5t:GP11
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:80:16
+
+[2026-03-14T20:55:43.218Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected ultrasonic-eq2di4:echo <-> pico-z57u5t:GP10
+  Location: D:\UniSim\unisim-core\src\core\circuit\solver.ts:154:16
+
+[2026-03-14T20:55:43.219Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: ultrasonic-eq2di4:echo ↔ pico-z57u5t:GP10
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:80:16
+
+[2026-03-14T20:55:43.220Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected ultrasonic-eq2di4:vcc <-> pico-z57u5t:3V3
+  Location: D:\UniSim\unisim-core\src\core\circuit\solver.ts:154:16
+
+[2026-03-14T20:55:43.221Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: ultrasonic-eq2di4:vcc ↔ pico-z57u5t:3V3
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:80:16
+
+[2026-03-14T20:55:43.222Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 4 wires
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:346:20
+
+[2026-03-14T20:55:43.224Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-eq2di4 UI Update: 150cm [norm:0.375]
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:39:16
+
+[2026-03-14T20:55:43.225Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-eq2di4 Power Status: ON (VCC Net: 3.3)
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:49:16
+
+[2026-03-14T20:55:43.227Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-eq2di4 Driving ECHO pin: 0.3750
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:55:16
+
+[2026-03-14T20:55:43.229Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0.375. Nodes: ultrasonic-eq2di4:echo, pico-z57u5t:GP10
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:172:16
+
+[2026-03-14T20:55:43.232Z] [WARN] [CRITICALITY: MEDIUM]
+  Message: [SYNC-DEBUG] No runtime found for board pico-z57u5t
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:198:28
+
+[2026-03-14T20:55:45.569Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: START_SIM
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:114:20
+
+[2026-03-14T20:55:45.572Z] [INFO] [CRITICALITY: LOW]
+  Message: ▶ Simulation STARTED
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:87:16
+
+[2026-03-14T20:55:45.575Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected ultrasonic-eq2di4:gnd <-> pico-z57u5t:GND
+  Location: D:\UniSim\unisim-core\src\core\circuit\solver.ts:154:16
+
+[2026-03-14T20:55:45.577Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected ultrasonic-eq2di4:trig <-> pico-z57u5t:GP11
+  Location: D:\UniSim\unisim-core\src\core\circuit\solver.ts:154:16
+
+[2026-03-14T20:55:45.579Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected ultrasonic-eq2di4:echo <-> pico-z57u5t:GP10
+  Location: D:\UniSim\unisim-core\src\core\circuit\solver.ts:154:16
+
+[2026-03-14T20:55:45.582Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected ultrasonic-eq2di4:vcc <-> pico-z57u5t:3V3
+  Location: D:\UniSim\unisim-core\src\core\circuit\solver.ts:154:16
+
+[2026-03-14T20:55:45.584Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Netlist rebuilt from 4 wires
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:119:16
+
+[2026-03-14T20:55:45.589Z] [INFO] [CRITICALITY: LOW]
+  Message: START_SIM: Board [pico-z57u5t] received 1 files: main.py
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:122:20
+
+[2026-03-14T20:55:45.592Z] [INFO] [CRITICALITY: LOW]
+  Message: Spawning runtime for board: pico-z57u5t (rp2040)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:50:16
+
+[2026-03-14T20:55:45.602Z] [INFO] [CRITICALITY: LOW]
+  Message: Loaded pin-maps.json from disk
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:75:20
+
+[2026-03-14T20:55:45.608Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: pico-z57u5t
+  Location: D:\UniSim\unisim-core\src\core\circuit\solver.ts:36:16
+
+[2026-03-14T20:55:45.610Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-z57u5t runtime started
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:292:16
+
+[2026-03-14T20:55:45.612Z] [INFO] [CRITICALITY: LOW]
+  Message: All board runtimes spawned successfully.
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:128:16
+
+[2026-03-14T20:55:45.616Z] [INFO] [CRITICALITY: LOW]
+  Message: Spawning Master Coordinator (JS Brain)...
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:310:16
+
+[2026-03-14T20:55:45.624Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0. Nodes: ultrasonic-eq2di4:gnd, pico-z57u5t:GND
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:172:16
+
+[2026-03-14T20:55:45.627Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GND -> idx 3 = 0
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:185:28
+
+[2026-03-14T20:55:45.631Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=Z. Nodes: ultrasonic-eq2di4:trig, pico-z57u5t:GP11
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:172:16
+
+[2026-03-14T20:55:45.636Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP11 -> idx 15 = 65535
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:185:28
+
+[2026-03-14T20:55:45.642Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=Z. Nodes: ultrasonic-eq2di4:echo, pico-z57u5t:GP10
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:172:16
+
+[2026-03-14T20:55:45.644Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP10 -> idx 14 = 65535
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:185:28
+
+[2026-03-14T20:55:45.650Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=3.3. Nodes: ultrasonic-eq2di4:vcc, pico-z57u5t:3V3
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:172:16
+
+[2026-03-14T20:55:45.652Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:3V3 -> idx 36 = 216266
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:185:28
+
+[2026-03-14T20:55:45.659Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Synced 4 nets to all workers.
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:214:16
+
+[2026-03-14T20:55:45.837Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: PIN_STATE
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:114:20
+
+[2026-03-14T20:55:45.839Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Snapshotting all pin states for UI...
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:211:16
+
+[2026-03-14T20:55:45.940Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] Worker initialized for boardId: pico-z57u5t. physToLogicalMap size: 43
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:45.943Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-z57u5t] Starting WASM execution... loading Pyodide
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:186:29
+
+[2026-03-14T20:55:45.946Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-z57u5t] DEBUG PATH - __dirname: D:\UniSim\unisim-core\dist\core\runtime, fileURL: D:\UniSim\unisim-core\dist\core\runtime\worker.js, pyodideDir: D:\UniSim\unisim-core\node_modules\pyodide
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:186:29
+
+[2026-03-14T20:55:45.951Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GND' -> phys:3 (GND)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:45.954Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GND -> phys index 3, raw val 0
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:45.958Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP11' -> phys:15 (GP11)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:45.961Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP11 -> phys index 15, raw val 1
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:45.965Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP10' -> phys:14 (GP10)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:45.971Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP10 -> phys index 14, raw val 1
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:45.975Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved '3V3' -> phys:36 (3V3)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:45.978Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical 3V3 -> phys index 36, raw val 3.3
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:45.981Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Master Coordinator: Starting JS Brain...
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:448:29
+
+[2026-03-14T20:55:45.986Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] JS Brain: Booting pico_ultrasonic...
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:448:29
+
+[2026-03-14T20:55:45.989Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Master Coordinator: JS Brain initialized.
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:448:29
+
+[2026-03-14T20:55:45.992Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] System Ready. Monitoring hardware events...
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:448:29
+
+[2026-03-14T20:55:48.429Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-z57u5t] Pyodide loaded. Setting up VFS and shims.
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:186:29
+
+[2026-03-14T20:55:48.450Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-z57u5t] Executing code (430 bytes). Injecting into globals and executing async loop.
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:186:29
+
+[2026-03-14T20:55:48.463Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-z57u5t] [PY-TRACE] Python _unisimm_main started. Executing user code...
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:186:29
+
+[2026-03-14T20:55:48.472Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved '10' -> phys:14 (GP10)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:48.475Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [PULL/DRIVE] Configured pico-z57u5t:GP10 | pull: NONE | drive: undefined
+  Location: D:\UniSim\unisim-core\src\core\circuit\solver.ts:275:20
+
+[2026-03-14T20:55:48.478Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved '11' -> phys:15 (GP11)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:48.482Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [PULL/DRIVE] Configured pico-z57u5t:GP11 | pull: NONE | drive: undefined
+  Location: D:\UniSim\unisim-core\src\core\circuit\solver.ts:275:20
+
+[2026-03-14T20:55:48.486Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-z57u5t] === Pico Ultrasonic Test Started (GP14 Echo, GP15 Trig) ===
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:186:29
+
+[2026-03-14T20:55:48.489Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-z57u5t] Distance: 400.0 cm
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:186:29
+
+[2026-03-14T20:55:49.485Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-z57u5t] Distance: 400.0 cm
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:186:29
+
+[2026-03-14T20:55:50.493Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-z57u5t] Distance: 400.0 cm
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:186:29
+
+[2026-03-14T20:55:51.496Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-z57u5t] Distance: 400.0 cm
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:186:29
+
+[2026-03-14T20:55:52.501Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-z57u5t] Distance: 400.0 cm
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:186:29
+
+[2026-03-14T20:55:52.948Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:114:20
+
+[2026-03-14T20:55:52.951Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-eq2di4 -> set_environment (155)
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:375:20
+
+[2026-03-14T20:55:52.954Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-eq2di4 UI Update: 155cm [norm:0.388]
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:39:16
+
+[2026-03-14T20:55:52.956Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-eq2di4 Power Status: ON (VCC Net: 3.3)
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:49:16
+
+[2026-03-14T20:55:52.958Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-eq2di4 Driving ECHO pin: 0.3875
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:55:16
+
+[2026-03-14T20:55:52.962Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0.3875. Nodes: ultrasonic-eq2di4:echo, pico-z57u5t:GP10
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:172:16
+
+[2026-03-14T20:55:52.965Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP10 -> idx 14 = 25395
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:185:28
+
+[2026-03-14T20:55:52.969Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP10' -> phys:14 (GP10)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:52.973Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP10 -> phys index 14, raw val 0.3875
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:52.976Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP10' -> phys:14 (GP10)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:52.979Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP10 -> phys index 14, raw val 0.3875
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:53.074Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:114:20
+
+[2026-03-14T20:55:53.076Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-eq2di4 -> set_environment (2)
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:375:20
+
+[2026-03-14T20:55:53.080Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-eq2di4 UI Update: 2cm [norm:0.005]
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:39:16
+
+[2026-03-14T20:55:53.083Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-eq2di4 Power Status: ON (VCC Net: 3.3)
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:49:16
+
+[2026-03-14T20:55:53.086Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-eq2di4 Driving ECHO pin: 0.0050
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:55:16
+
+[2026-03-14T20:55:53.090Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0.005. Nodes: ultrasonic-eq2di4:echo, pico-z57u5t:GP10
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:172:16
+
+[2026-03-14T20:55:53.094Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP10 -> idx 14 = 328
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:185:28
+
+[2026-03-14T20:55:53.097Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP10' -> phys:14 (GP10)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:53.100Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP10 -> phys index 14, raw val 0.005
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:53.103Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP10' -> phys:14 (GP10)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:53.107Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP10 -> phys index 14, raw val 0.005
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:53.505Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-z57u5t] Distance: 2.0 cm
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:186:29
+
+[2026-03-14T20:55:54.517Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-z57u5t] Distance: 2.0 cm
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:186:29
+
+[2026-03-14T20:55:55.527Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-z57u5t] Distance: 2.0 cm
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:186:29
+
+[2026-03-14T20:55:56.539Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-z57u5t] Distance: 2.0 cm
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:186:29
+
+[2026-03-14T20:55:57.540Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-z57u5t] Distance: 2.0 cm
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:186:29
+
+[2026-03-14T20:55:57.966Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:114:20
+
+[2026-03-14T20:55:57.968Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-eq2di4 -> set_environment (59)
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:375:20
+
+[2026-03-14T20:55:57.970Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-eq2di4 UI Update: 59cm [norm:0.147]
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:39:16
+
+[2026-03-14T20:55:57.972Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-eq2di4 Power Status: ON (VCC Net: 3.3)
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:49:16
+
+[2026-03-14T20:55:57.976Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-eq2di4 Driving ECHO pin: 0.1475
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:55:16
+
+[2026-03-14T20:55:57.980Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0.1475. Nodes: ultrasonic-eq2di4:echo, pico-z57u5t:GP10
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:172:16
+
+[2026-03-14T20:55:57.985Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP10 -> idx 14 = 9666
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:185:28
+
+[2026-03-14T20:55:57.989Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP10' -> phys:14 (GP10)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:57.992Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP10 -> phys index 14, raw val 0.1475
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:57.995Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP10' -> phys:14 (GP10)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:57.999Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP10 -> phys index 14, raw val 0.1475
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:58.085Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:114:20
+
+[2026-03-14T20:55:58.087Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-eq2di4 -> set_environment (268)
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:375:20
+
+[2026-03-14T20:55:58.090Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-eq2di4 UI Update: 268cm [norm:0.670]
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:39:16
+
+[2026-03-14T20:55:58.092Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-eq2di4 Power Status: ON (VCC Net: 3.3)
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:49:16
+
+[2026-03-14T20:55:58.095Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-eq2di4 Driving ECHO pin: 0.6700
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:55:16
+
+[2026-03-14T20:55:58.099Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0.67. Nodes: ultrasonic-eq2di4:echo, pico-z57u5t:GP10
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:172:16
+
+[2026-03-14T20:55:58.104Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP10 -> idx 14 = 43908
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:185:28
+
+[2026-03-14T20:55:58.107Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP10' -> phys:14 (GP10)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:58.109Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP10 -> phys index 14, raw val 0.67
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:58.115Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP10' -> phys:14 (GP10)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:58.120Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP10 -> phys index 14, raw val 0.67
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:58.211Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:114:20
+
+[2026-03-14T20:55:58.213Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-eq2di4 -> set_environment (316)
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:375:20
+
+[2026-03-14T20:55:58.216Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-eq2di4 UI Update: 316cm [norm:0.790]
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:39:16
+
+[2026-03-14T20:55:58.218Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-eq2di4 Power Status: ON (VCC Net: 3.3)
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:49:16
+
+[2026-03-14T20:55:58.220Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-eq2di4 Driving ECHO pin: 0.7900
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:55:16
+
+[2026-03-14T20:55:58.222Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0.79. Nodes: ultrasonic-eq2di4:echo, pico-z57u5t:GP10
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:172:16
+
+[2026-03-14T20:55:58.226Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP10 -> idx 14 = 51773
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:185:28
+
+[2026-03-14T20:55:58.231Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP10' -> phys:14 (GP10)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:58.234Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP10 -> phys index 14, raw val 0.79
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:58.236Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP10' -> phys:14 (GP10)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:58.238Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP10 -> phys index 14, raw val 0.79
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:58.330Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:114:20
+
+[2026-03-14T20:55:58.332Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-eq2di4 -> set_environment (386)
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:375:20
+
+[2026-03-14T20:55:58.334Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-eq2di4 UI Update: 386cm [norm:0.965]
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:39:16
+
+[2026-03-14T20:55:58.336Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-eq2di4 Power Status: ON (VCC Net: 3.3)
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:49:16
+
+[2026-03-14T20:55:58.338Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-eq2di4 Driving ECHO pin: 0.9650
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:55:16
+
+[2026-03-14T20:55:58.342Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0.965. Nodes: ultrasonic-eq2di4:echo, pico-z57u5t:GP10
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:172:16
+
+[2026-03-14T20:55:58.345Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP10 -> idx 14 = 63241
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:185:28
+
+[2026-03-14T20:55:58.348Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP10' -> phys:14 (GP10)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:58.351Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP10 -> phys index 14, raw val 0.965
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:58.354Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP10' -> phys:14 (GP10)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:58.356Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP10 -> phys index 14, raw val 0.965
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:58.453Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:114:20
+
+[2026-03-14T20:55:58.455Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-eq2di4 -> set_environment (400)
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:375:20
+
+[2026-03-14T20:55:58.459Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-eq2di4 UI Update: 400cm [norm:1.000]
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:39:16
+
+[2026-03-14T20:55:58.461Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-eq2di4 Power Status: ON (VCC Net: 3.3)
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:49:16
+
+[2026-03-14T20:55:58.463Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-eq2di4 Driving ECHO pin: 1.0000
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:55:16
+
+[2026-03-14T20:55:58.467Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=1. Nodes: ultrasonic-eq2di4:echo, pico-z57u5t:GP10
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:172:16
+
+[2026-03-14T20:55:58.470Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP10 -> idx 14 = 65535
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:185:28
+
+[2026-03-14T20:55:58.473Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP10' -> phys:14 (GP10)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:58.475Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP10 -> phys index 14, raw val 1
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:58.479Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP10' -> phys:14 (GP10)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:58.482Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP10 -> phys index 14, raw val 1
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:58.554Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-z57u5t] Distance: 400.0 cm
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:186:29
+
+[2026-03-14T20:55:58.604Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:114:20
+
+[2026-03-14T20:55:58.606Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-eq2di4 -> set_environment (400)
+  Location: D:\UniSim\unisim-core\src\connectivity\router.ts:375:20
+
+[2026-03-14T20:55:58.608Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-eq2di4 UI Update: 400cm [norm:1.000]
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:39:16
+
+[2026-03-14T20:55:58.610Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-eq2di4 Power Status: ON (VCC Net: 3.3)
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:49:16
+
+[2026-03-14T20:55:58.613Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-eq2di4 Driving ECHO pin: 1.0000
+  Location: D:\UniSim\unisim-core\src\plugins\devices\ultrasonic.ts:55:16
+
+[2026-03-14T20:55:58.615Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=1. Nodes: ultrasonic-eq2di4:echo, pico-z57u5t:GP10
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:172:16
+
+[2026-03-14T20:55:58.618Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP10 -> idx 14 = 65535
+  Location: D:\UniSim\unisim-core\src\core\circuit\manager.ts:185:28
+
+[2026-03-14T20:55:58.622Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP10' -> phys:14 (GP10)
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:58.625Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP10 -> phys index 14, raw val 1
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:185:52
+
+[2026-03-14T20:55:59.567Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-z57u5t] Distance: 400.0 cm
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:186:29
+
+[2026-03-14T20:56:00.576Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-z57u5t] Distance: 400.0 cm
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:186:29
+
+[2026-03-14T20:56:01.593Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-z57u5t] Distance: 400.0 cm
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:186:29
+
+[2026-03-14T20:56:02.596Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-z57u5t] Distance: 400.0 cm
+  Location: D:\UniSim\unisim-core\src\core\runtime\manager.ts:186:29
+
+[2026-03-14T20:56:02.652Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
+

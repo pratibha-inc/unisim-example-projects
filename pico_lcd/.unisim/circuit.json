@@ -1,0 +1,69 @@
+{
+  "version": "1.0",
+  "components": [
+    {
+      "id": "pico-64dcar",
+      "type": "pico",
+      "x": 260,
+      "y": 160,
+      "data": {
+        "value": "0",
+        "state": "idle"
+      },
+      "locked": false
+    },
+    {
+      "id": "lcd_i2c-3vpij2",
+      "type": "lcd_i2c",
+      "x": 500,
+      "y": 320,
+      "data": {
+        "address": "0x27",
+        "label": "Display",
+        "text": [
+          "",
+          ""
+        ]
+      },
+      "locked": false
+    }
+  ],
+  "wires": [
+    {
+      "id": "wire-qk7tm3",
+      "startPin": {
+        "componentId": "lcd_i2c-3vpij2",
+        "pinId": "gnd",
+        "x": 515,
+        "y": 340,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-64dcar",
+        "pinId": "GND#38",
+        "x": 340,
+        "y": 200,
+        "type": "component-pin"
+      },
+      "color": "hsl(0, 85%, 55%)"
+    },
+    {
+      "id": "wire-hab0ho",
+      "startPin": {
+        "componentId": "lcd_i2c-3vpij2",
+        "pinId": "vcc",
+        "x": 515,
+        "y": 360,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-64dcar",
+        "pinId": "3V3",
+        "x": 340,
+        "y": 240,
+        "type": "component-pin"
+      },
+      "color": "hsl(222, 85%, 55%)"
+    }
+  ]
+}

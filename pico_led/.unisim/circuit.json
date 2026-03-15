@@ -1,0 +1,93 @@
+{
+  "version": "1.0",
+  "components": [
+    {
+      "id": "pico-rh9f75",
+      "type": "pico",
+      "x": 100,
+      "y": 100,
+      "data": {},
+      "locked": false
+    },
+    {
+      "id": "led-qjioqf",
+      "type": "led",
+      "x": 350,
+      "y": 100,
+      "data": {
+        "color": "red",
+        "label": "Blinky LED",
+        "on": true,
+        "duty": 1
+      },
+      "locked": false
+    },
+    {
+      "id": "resistor-rpdn4o",
+      "type": "resistor",
+      "x": 250,
+      "y": 100,
+      "data": {
+        "resistance": 220,
+        "tolerance": 5
+      },
+      "locked": false
+    }
+  ],
+  "wires": [
+    {
+      "id": "wire-ul0e2w",
+      "startPin": {
+        "componentId": "led-qjioqf",
+        "pinId": "cathode",
+        "x": 369,
+        "y": 100,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-rh9f75",
+        "pinId": "GND",
+        "x": 100,
+        "y": 140,
+        "type": "component-pin"
+      },
+      "color": "#1F2937"
+    },
+    {
+      "id": "wire-hqqhjn",
+      "startPin": {
+        "componentId": "pico-rh9f75",
+        "pinId": "GP1",
+        "x": 100,
+        "y": 120,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "resistor-rpdn4o",
+        "pinId": "pin1",
+        "x": 250,
+        "y": 100,
+        "type": "component-pin"
+      },
+      "color": "hsl(222, 85%, 55%)"
+    },
+    {
+      "id": "wire-c68odi",
+      "startPin": {
+        "componentId": "resistor-rpdn4o",
+        "pinId": "pin2",
+        "x": 250,
+        "y": 160,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "led-qjioqf",
+        "pinId": "anode",
+        "x": 331,
+        "y": 100,
+        "type": "component-pin"
+      },
+      "color": "hsl(222, 85%, 55%)"
+    }
+  ]
+}

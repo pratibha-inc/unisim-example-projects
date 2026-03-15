@@ -1,0 +1,10 @@
+{
+  "project": "PICO BUZZER",
+  "version": "2.0.0",
+  "mappings": {
+    "pico-bczcau": "modules/pico-bczcau"
+  },
+  "transpiler": {
+    "target": "pyodide"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "version": "1.0",
+  "components": [
+    {
+      "id": "pico-z57u5t",
+      "type": "pico",
+      "x": 300,
+      "y": 60,
+      "data": {
+        "value": "0",
+        "state": "idle"
+      },
+      "locked": false
+    },
+    {
+      "id": "ultrasonic-eq2di4",
+      "type": "ultrasonic",
+      "x": 660,
+      "y": 220,
+      "data": {
+        "value": 0.25,
+        "distance": 400
+      },
+      "locked": false
+    }
+  ],
+  "wires": [
+    {
+      "id": "wire-p19dhc",
+      "startPin": {
+        "componentId": "ultrasonic-eq2di4",
+        "pinId": "gnd",
+        "x": 730,
+        "y": 270,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-z57u5t",
+        "pinId": "GND#3",
+        "x": 300,
+        "y": 100,
+        "type": "component-pin"
+      },
+      "color": "hsl(307, 85%, 55%)"
+    },
+    {
+      "id": "wire-3eyly5",
+      "startPin": {
+        "componentId": "ultrasonic-eq2di4",
+        "pinId": "trig",
+        "x": 690,
+        "y": 270,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-z57u5t",
+        "pinId": "GP11",
+        "x": 300,
+        "y": 340,
+        "type": "component-pin"
+      },
+      "color": "hsl(84, 85%, 55%)"
+    },
+    {
+      "id": "wire-lldkm2",
+      "startPin": {
+        "componentId": "ultrasonic-eq2di4",
+        "pinId": "echo",
+        "x": 710,
+        "y": 270,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-z57u5t",
+        "pinId": "GP10",
+        "x": 300,
+        "y": 320,
+        "type": "component-pin"
+      },
+      "color": "hsl(307, 85%, 55%)"
+    },
+    {
+      "id": "wire-5rqdn9",
+      "startPin": {
+        "componentId": "ultrasonic-eq2di4",
+        "pinId": "vcc",
+        "x": 670,
+        "y": 270,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-z57u5t",
+        "pinId": "3V3",
+        "x": 440,
+        "y": 140,
+        "type": "component-pin"
+      },
+      "color": "hsl(307, 85%, 55%)"
+    }
+  ]
+}

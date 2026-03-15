@@ -1,0 +1,10 @@
+{
+  "project": "PICO LCD",
+  "version": "2.0.0",
+  "mappings": {
+    "pico-64dcar": "modules/pico-64dcar"
+  },
+  "transpiler": {
+    "target": "pyodide"
+  }
+}

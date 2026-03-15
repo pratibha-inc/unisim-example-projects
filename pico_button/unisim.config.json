@@ -1,0 +1,10 @@
+{
+  "project": "PICO BUTTON",
+  "version": "2.0.0",
+  "mappings": {
+    "pico-q3784x": "modules/pico-q3784x"
+  },
+  "transpiler": {
+    "target": "pyodide"
+  }
+}

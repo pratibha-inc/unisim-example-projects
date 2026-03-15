@@ -1,0 +1,208 @@
+[2026-03-08T06:27:21.768Z] [INFO] [CRITICALITY: LOW]
+  Message: Project path detected: D:\unisim-test\device-test-projects\pico_buzzer. Initializing local logging.
+  Location: file:///D:/UniSim/unisim-core/dist/app/index.js:7:12
+
+[2026-03-08T06:27:21.777Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:94:16
+
+[2026-03-08T06:27:21.779Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: file:///D:/UniSim/unisim-core/dist/app/index.js:11:8
+
+[2026-03-08T06:31:04.719Z] [INFO] [CRITICALITY: LOW]
+  Message: Project path detected: D:\unisim-test\device-test-projects\pico_buzzer. Initializing local logging.
+  Location: file:///D:/UniSim/unisim-core/dist/app/index.js:7:12
+
+[2026-03-08T06:31:04.742Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:94:16
+
+[2026-03-08T06:31:04.745Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: file:///D:/UniSim/unisim-core/dist/app/index.js:11:8
+
+[2026-03-08T06:31:05.020Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:62:20
+
+[2026-03-08T06:31:05.035Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:62:20
+
+[2026-03-08T06:31:05.045Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:81:24
+
+[2026-03-08T06:31:05.086Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: PIN_STATE
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:99:20
+
+[2026-03-08T06:31:06.034Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:99:20
+
+[2026-03-08T06:31:06.054Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:128:16
+
+[2026-03-08T06:31:06.395Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-001 (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-08T06:31:06.398Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: buz1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:23:16
+
+[2026-03-08T06:31:06.399Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-001:GP0 <-> buz1:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:111:16
+
+[2026-03-08T06:31:06.400Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: pico-001:GP0 ↔ buz1:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:50:16
+
+[2026-03-08T06:31:06.403Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-001:GND <-> buz1:neg
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:111:16
+
+[2026-03-08T06:31:06.404Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: pico-001:GND ↔ buz1:neg
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:50:16
+
+[2026-03-08T06:31:06.405Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 2 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:305:20
+
+[2026-03-08T06:36:25.604Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:81:24
+
+[2026-03-08T06:37:50.478Z] [INFO] [CRITICALITY: LOW]
+  Message: Project path detected: D:\unisim-test\device-test-projects\pico_buzzer. Initializing local logging.
+  Location: file:///D:/UniSim/unisim-core/dist/app/index.js:7:12
+
+[2026-03-08T06:37:50.488Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:94:16
+
+[2026-03-08T06:37:50.489Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: file:///D:/UniSim/unisim-core/dist/app/index.js:11:8
+
+[2026-03-08T06:37:51.130Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:62:20
+
+[2026-03-08T06:37:51.160Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:81:24
+
+[2026-03-08T06:37:51.164Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:62:20
+
+[2026-03-08T06:37:51.212Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: PIN_STATE
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:99:20
+
+[2026-03-08T06:37:52.200Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:99:20
+
+[2026-03-08T06:37:52.220Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:128:16
+
+[2026-03-08T06:37:52.254Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-001 (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-08T06:37:52.256Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: buz1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:23:16
+
+[2026-03-08T06:37:52.260Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-001:GP0 <-> buz1:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:111:16
+
+[2026-03-08T06:37:52.261Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: pico-001:GP0 ↔ buz1:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:50:16
+
+[2026-03-08T06:37:52.264Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-001:GND <-> buz1:neg
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:111:16
+
+[2026-03-08T06:37:52.265Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: pico-001:GND ↔ buz1:neg
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:50:16
+
+[2026-03-08T06:37:52.266Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 2 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:305:20
+
+[2026-03-08T06:40:48.851Z] [INFO] [CRITICALITY: LOW]
+  Message: Project path detected: D:\unisim-test\device-test-projects\pico_buzzer. Initializing local logging.
+  Location: file:///D:/UniSim/unisim-core/dist/app/index.js:7:12
+
+[2026-03-08T06:40:48.859Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:94:16
+
+[2026-03-08T06:40:48.860Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: file:///D:/UniSim/unisim-core/dist/app/index.js:11:8
+
+[2026-03-08T06:40:49.468Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:62:20
+
+[2026-03-08T06:40:49.491Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:81:24
+
+[2026-03-08T06:40:49.494Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:62:20
+
+[2026-03-08T06:40:49.524Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: PIN_STATE
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:99:20
+
+[2026-03-08T06:40:50.521Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:99:20
+
+[2026-03-08T06:40:50.539Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:128:16
+
+[2026-03-08T06:40:50.575Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-001 (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-08T06:40:50.577Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: buz1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:23:16
+
+[2026-03-08T06:40:50.579Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-001:GP0 <-> buz1:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:111:16
+
+[2026-03-08T06:40:50.581Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: pico-001:GP0 ↔ buz1:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:50:16
+
+[2026-03-08T06:40:50.584Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-001:GND <-> buz1:neg
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:111:16
+
+[2026-03-08T06:40:50.585Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: pico-001:GND ↔ buz1:neg
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:50:16
+
+[2026-03-08T06:40:50.586Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 2 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:305:20
+
