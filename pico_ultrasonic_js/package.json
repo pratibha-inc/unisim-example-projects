@@ -1,0 +1,11 @@
+{
+  "name": "pico-ultrasonic-js",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "unisim dev"
+  },
+  "dependencies": {
+    "unisim": "latest"
+  }
+}

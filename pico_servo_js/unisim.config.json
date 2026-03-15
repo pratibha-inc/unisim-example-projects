@@ -1,0 +1,8 @@
+{
+  "project": "PICO SERVO JS",
+  "version": "2.0.0",
+  "mappings": {},
+  "transpiler": {
+    "target": "javascript"
+  }
+}

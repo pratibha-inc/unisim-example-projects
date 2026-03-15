@@ -1,0 +1,72 @@
+{
+    "version":  "1.0",
+    "components":  [
+                       {
+                           "id":  "pico-lwihrj",
+                           "type":  "pico",
+                           "x":  300,
+                           "y":  300,
+                           "data":  {
+                                        "value":  "0",
+                                        "state":  "idle"
+                                    }
+                       },
+                       {
+                           "id":  "ldr-59vsir",
+                           "type":  "ldr",
+                           "x":  600,
+                           "y":  300,
+                           "data":  {
+                                        "label":  "Ambient Light",
+                                        "value":  0.3960784375667572,
+                                        "state":  "idle",
+                                        "percent":  0.3960784375667572,
+                                        "mode":  "hardware"
+                                    }
+                       }
+                   ],
+    "wires":  [
+                  {
+                      "id":  "wire-ncokan",
+                      "startPin":  {
+                                       "componentId":  "pico-lwihrj",
+                                       "pinId":  "3V3",
+                                       "type":  "component-pin"
+                                   },
+                      "endPin":  {
+                                     "componentId":  "ldr-59vsir",
+                                     "pinId":  "p1",
+                                     "type":  "component-pin"
+                                 },
+                      "color":  "red"
+                  },
+                  {
+                      "id":  "wire-1hpt47",
+                      "startPin":  {
+                                       "componentId":  "pico-lwihrj",
+                                       "pinId":  "GP27",
+                                       "type":  "component-pin"
+                                   },
+                      "endPin":  {
+                                     "componentId":  "ldr-59vsir",
+                                     "pinId":  "p2",
+                                     "type":  "component-pin"
+                                 },
+                      "color":  "cyan"
+                  },
+                  {
+                      "id":  "wire-jas3iv",
+                      "startPin":  {
+                                       "componentId":  "pico-lwihrj",
+                                       "pinId":  "GND",
+                                       "type":  "component-pin"
+                                   },
+                      "endPin":  {
+                                     "componentId":  "ldr-59vsir",
+                                     "pinId":  "p3",
+                                     "type":  "component-pin"
+                                 },
+                      "color":  "black"
+                  }
+              ]
+}

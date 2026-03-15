@@ -1,0 +1,64 @@
+{
+  "version": "1.0",
+  "components": [
+    {
+      "id": "pico-q3784x",
+      "type": "pico",
+      "x": 240,
+      "y": 60,
+      "data": {},
+      "locked": false
+    },
+    {
+      "id": "lcd_i2c-gz7r61",
+      "type": "lcd_i2c",
+      "x": 440,
+      "y": 160,
+      "data": {
+        "text": [
+          "",
+          ""
+        ]
+      },
+      "locked": false
+    }
+  ],
+  "wires": [
+    {
+      "id": "wire-daqv0h",
+      "startPin": {
+        "componentId": "lcd_i2c-gz7r61",
+        "pinId": "gnd",
+        "x": 455,
+        "y": 180,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-q3784x",
+        "pinId": "GND#38",
+        "x": 320,
+        "y": 100,
+        "type": "component-pin"
+      },
+      "color": "hsl(0, 85%, 55%)"
+    },
+    {
+      "id": "wire-syftgq",
+      "startPin": {
+        "componentId": "lcd_i2c-gz7r61",
+        "pinId": "vcc",
+        "x": 455,
+        "y": 200,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-q3784x",
+        "pinId": "3V3",
+        "x": 320,
+        "y": 140,
+        "type": "component-pin"
+      },
+      "color": "hsl(222, 85%, 55%)"
+    }
+  ]
+}

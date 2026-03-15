@@ -1,0 +1,78 @@
+{
+  "version": "1.0",
+  "components": [
+    {
+      "id": "pico-w4732e",
+      "type": "pico",
+      "x": 100,
+      "y": 100,
+      "data": {},
+      "locked": false
+    },
+    {
+      "id": "servo-d9txi9",
+      "type": "servo",
+      "x": 484,
+      "y": 244,
+      "data": {
+        "angle": null
+      }
+    }
+  ],
+  "wires": [
+    {
+      "id": "wire-r1chw0",
+      "startPin": {
+        "componentId": "servo-d9txi9",
+        "pinId": "sig",
+        "x": 484,
+        "y": 259,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-w4732e",
+        "pinId": "GP15",
+        "x": 100,
+        "y": 480,
+        "type": "component-pin"
+      },
+      "color": "hsl(0, 85%, 55%)"
+    },
+    {
+      "id": "wire-k6o2j5",
+      "startPin": {
+        "componentId": "servo-d9txi9",
+        "pinId": "vcc",
+        "x": 504,
+        "y": 259,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-w4732e",
+        "pinId": "3V3",
+        "x": 180,
+        "y": 180,
+        "type": "component-pin"
+      },
+      "color": "hsl(222, 85%, 55%)"
+    },
+    {
+      "id": "wire-oibl8x",
+      "startPin": {
+        "componentId": "servo-d9txi9",
+        "pinId": "gnd",
+        "x": 524,
+        "y": 259,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-w4732e",
+        "pinId": "GND#38",
+        "x": 180,
+        "y": 140,
+        "type": "component-pin"
+      },
+      "color": "hsl(84, 85%, 55%)"
+    }
+  ]
+}

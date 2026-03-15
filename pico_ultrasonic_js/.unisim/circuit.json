@@ -1,0 +1,108 @@
+{
+  "version": "1.0",
+  "components": [
+    {
+      "id": "pico-z57u5t",
+      "type": "pico",
+      "x": 280,
+      "y": 180,
+      "data": {
+        "value": "0",
+        "state": "idle"
+      },
+      "locked": false
+    },
+    {
+      "id": "ultrasonic-es3s3k",
+      "type": "ultrasonic",
+      "x": 600,
+      "y": 320,
+      "data": {
+        "0": "u",
+        "1": "s",
+        "2": "1",
+        "label": "Distance",
+        "value": 300,
+        "state": "idle",
+        "innerZone": 100,
+        "outerZone": 157,
+        "distance": 175
+      },
+      "locked": false
+    }
+  ],
+  "wires": [
+    {
+      "id": "wire-w4gdxp",
+      "startPin": {
+        "componentId": "pico-z57u5t",
+        "pinId": "GP15",
+        "type": "component-pin",
+        "x": 280,
+        "y": 560
+      },
+      "endPin": {
+        "componentId": "ultrasonic-es3s3k",
+        "pinId": "trig",
+        "type": "component-pin",
+        "x": 630,
+        "y": 370
+      },
+      "color": "blue"
+    },
+    {
+      "id": "wire-rpptdm",
+      "startPin": {
+        "componentId": "pico-z57u5t",
+        "pinId": "GP14",
+        "type": "component-pin",
+        "x": 280,
+        "y": 540
+      },
+      "endPin": {
+        "componentId": "ultrasonic-es3s3k",
+        "pinId": "echo",
+        "type": "component-pin",
+        "x": 650,
+        "y": 370
+      },
+      "color": "cyan"
+    },
+    {
+      "id": "wire-uwk5hi",
+      "startPin": {
+        "componentId": "pico-z57u5t",
+        "pinId": "GND",
+        "type": "component-pin",
+        "x": 280,
+        "y": 220
+      },
+      "endPin": {
+        "componentId": "ultrasonic-es3s3k",
+        "pinId": "gnd",
+        "type": "component-pin",
+        "x": 670,
+        "y": 370
+      },
+      "color": "black"
+    },
+    {
+      "id": "wire-87tmq8",
+      "startPin": {
+        "componentId": "ultrasonic-es3s3k",
+        "pinId": "vcc",
+        "x": 610,
+        "y": 370,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-z57u5t",
+        "pinId": "3V3",
+        "x": 420,
+        "y": 260,
+        "type": "component-pin"
+      },
+      "color": "hsl(307, 85%, 55%)"
+    }
+  ]
+}

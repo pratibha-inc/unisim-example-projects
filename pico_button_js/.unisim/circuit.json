@@ -1,0 +1,140 @@
+{
+  "version": "1.0",
+  "components": [
+    {
+      "id": "button-zc261n",
+      "type": "button",
+      "x": 600,
+      "y": 200,
+      "data": {
+        "label": "Input Btn",
+        "pressed": false,
+        "value": "Z",
+        "state": "idle"
+      }
+    },
+    {
+      "id": "led-c0ttl4",
+      "type": "led",
+      "x": 600,
+      "y": 400,
+      "data": {
+        "color": "green",
+        "label": "Indicator",
+        "on": false,
+        "duty": 0
+      }
+    },
+    {
+      "id": "pico-q3784x",
+      "type": "pico",
+      "x": 240,
+      "y": 60,
+      "data": {},
+      "locked": false
+    },
+    {
+      "id": "resistor-fuhtef",
+      "type": "resistor",
+      "x": 500,
+      "y": 400,
+      "data": {
+        "resistance": 220,
+        "tolerance": 5
+      },
+      "locked": false
+    }
+  ],
+  "wires": [
+    {
+      "id": "wire-24r6o3",
+      "startPin": {
+        "componentId": "button-zc261n",
+        "pinId": "p1",
+        "x": 600,
+        "y": 200,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-q3784x",
+        "pinId": "GP0",
+        "x": 240,
+        "y": 60,
+        "type": "component-pin"
+      },
+      "color": "hsl(0, 85%, 55%)"
+    },
+    {
+      "id": "wire-3qvawb",
+      "startPin": {
+        "componentId": "button-zc261n",
+        "pinId": "p2",
+        "x": 640,
+        "y": 200,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-q3784x",
+        "pinId": "GND#3",
+        "x": 240,
+        "y": 100,
+        "type": "component-pin"
+      },
+      "color": "hsl(222, 85%, 55%)"
+    },
+    {
+      "id": "wire-577fma",
+      "startPin": {
+        "componentId": "pico-q3784x",
+        "pinId": "GP1",
+        "x": 240,
+        "y": 80,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "resistor-fuhtef",
+        "pinId": "pin1",
+        "x": 500,
+        "y": 400,
+        "type": "component-pin"
+      },
+      "color": "hsl(84, 85%, 55%)"
+    },
+    {
+      "id": "wire-smmbet",
+      "startPin": {
+        "componentId": "resistor-fuhtef",
+        "pinId": "pin2",
+        "x": 500,
+        "y": 460,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "led-c0ttl4",
+        "pinId": "anode",
+        "x": 581,
+        "y": 400,
+        "type": "component-pin"
+      },
+      "color": "hsl(84, 85%, 55%)"
+    },
+    {
+      "id": "wire-tbfe63",
+      "startPin": {
+        "componentId": "led-c0ttl4",
+        "pinId": "cathode",
+        "x": 619,
+        "y": 400,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-q3784x",
+        "pinId": "GND#8",
+        "x": 240,
+        "y": 200,
+        "type": "component-pin"
+      },
+      "color": "hsl(307, 85%, 55%)"
+    }
+  ]
+}

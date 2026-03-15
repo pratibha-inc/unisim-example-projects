@@ -1,0 +1,65 @@
+{
+  "version": "1.0",
+  "components": [
+    {
+      "id": "pico-bczcau",
+      "type": "pico",
+      "x": 240,
+      "y": 100,
+      "data": {
+        "value": "0",
+        "state": "idle"
+      },
+      "locked": false
+    },
+    {
+      "id": "buzzer-0khg52",
+      "type": "buzzer",
+      "x": 600,
+      "y": 300,
+      "data": {
+        "label": "Alarm",
+        "on": false,
+        "frequency": 2000
+      }
+    }
+  ],
+  "wires": [
+    {
+      "id": "wire-ujness",
+      "startPin": {
+        "componentId": "pico-bczcau",
+        "pinId": "GP0",
+        "type": "component-pin",
+        "x": 240,
+        "y": 100
+      },
+      "endPin": {
+        "componentId": "buzzer-0khg52",
+        "pinId": "pos",
+        "type": "component-pin",
+        "x": 600,
+        "y": 300
+      },
+      "color": "blue"
+    },
+    {
+      "id": "wire-mtj6nq",
+      "startPin": {
+        "componentId": "pico-bczcau",
+        "pinId": "GND",
+        "type": "component-pin",
+        "x": 240,
+        "y": 140
+      },
+      "endPin": {
+        "componentId": "buzzer-0khg52",
+        "pinId": "neg",
+        "type": "component-pin",
+        "x": 600,
+        "y": 340
+      },
+      "color": "black"
+    }
+  ]
+}
