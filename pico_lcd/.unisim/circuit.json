@@ -64,6 +64,42 @@
         "type": "component-pin"
       },
       "color": "hsl(222, 85%, 55%)"
+    },
+    {
+      "id": "wire-sda-i2c",
+      "startPin": {
+        "componentId": "lcd_i2c-3vpij2",
+        "pinId": "sda",
+        "x": 515,
+        "y": 380,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-64dcar",
+        "pinId": "GP4",
+        "x": 340,
+        "y": 280,
+        "type": "component-pin"
+      },
+      "color": "hsl(140, 85%, 55%)"
+    },
+    {
+      "id": "wire-scl-i2c",
+      "startPin": {
+        "componentId": "lcd_i2c-3vpij2",
+        "pinId": "scl",
+        "x": 515,
+        "y": 400,
+        "type": "component-pin"
+      },
+      "endPin": {
+        "componentId": "pico-64dcar",
+        "pinId": "GP5",
+        "x": 340,
+        "y": 300,
+        "type": "component-pin"
+      },
+      "color": "hsl(200, 85%, 55%)"
     }
   ]
 }
