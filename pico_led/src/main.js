@@ -1,4 +1,4 @@
-import { Pin, sleep } from 'unisim';
+import unisim, { Pin, sleep } from 'unisim';
 
 console.log("JS Brain: Starting Pure JavaScript Blink (Pico)...");
 

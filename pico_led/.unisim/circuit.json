@@ -17,8 +17,8 @@
       "data": {
         "color": "red",
         "label": "Blinky LED",
-        "on": true,
-        "duty": 1
+        "on": false,
+        "duty": 0
       },
       "locked": false
     },

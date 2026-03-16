@@ -1,8 +1,8 @@
 from machine import Pin, PWM
 import time
 
-# GP15 is index 15
-srv = PWM(Pin(15)) 
+# GP15
+srv = PWM(Pin("GP15")) 
 srv.freq(50)
 
 print("=== Pico Servo Test Started (GP15) ===")

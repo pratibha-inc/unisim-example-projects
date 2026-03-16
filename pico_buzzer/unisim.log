@@ -1,0 +1,588 @@
+[2026-03-15T19:44:35.756Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:100:16
+
+[2026-03-15T19:44:35.759Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: file:///D:/UniSim/unisim-core/dist/app/index.js:11:8
+
+[2026-03-15T19:44:37.530Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:62:20
+
+[2026-03-15T19:44:37.557Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: PIN_STATE
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-15T19:44:37.559Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Snapshotting all pin states for UI...
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:203:16
+
+[2026-03-15T19:44:38.039Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-15T19:44:38.060Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:147:16
+
+[2026-03-15T19:44:38.110Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-bczcau (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-15T19:44:38.113Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: buzzer-0khg52
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-15T19:44:38.115Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-bczcau:GP0 <-> buzzer-0khg52:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T19:44:38.116Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: pico-bczcau:GP0 ↔ buzzer-0khg52:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-15T19:44:38.122Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-bczcau:GND <-> buzzer-0khg52:neg
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T19:44:38.124Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: pico-bczcau:GND ↔ buzzer-0khg52:neg
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-15T19:44:38.125Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 2 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:338:20
+
+[2026-03-15T19:44:41.720Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: START_SIM
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-15T19:44:41.722Z] [INFO] [CRITICALITY: LOW]
+  Message: ▶ Simulation STARTED
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:84:16
+
+[2026-03-15T19:44:41.725Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-bczcau:GP0 <-> buzzer-0khg52:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T19:44:41.726Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-bczcau:GND <-> buzzer-0khg52:neg
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T19:44:41.728Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Netlist rebuilt from 2 wires
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:108:16
+
+[2026-03-15T19:44:41.729Z] [INFO] [CRITICALITY: LOW]
+  Message: START_SIM: Board [pico-bczcau] received 1 files: main.py
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:118:20
+
+[2026-03-15T19:44:41.731Z] [INFO] [CRITICALITY: LOW]
+  Message: Spawning runtime for board: pico-bczcau (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:26:16
+
+[2026-03-15T19:44:41.736Z] [INFO] [CRITICALITY: LOW]
+  Message: Loaded pin-maps.json from disk
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:50:20
+
+[2026-03-15T19:44:41.746Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: pico-bczcau
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-15T19:44:41.748Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-bczcau runtime started
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:293:16
+
+[2026-03-15T19:44:41.749Z] [INFO] [CRITICALITY: LOW]
+  Message: All board runtimes spawned successfully.
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:123:16
+
+[2026-03-15T19:44:41.753Z] [INFO] [CRITICALITY: LOW]
+  Message: Spawning Master Coordinator (JS Brain)...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:309:16
+
+[2026-03-15T19:44:41.761Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=Z. Nodes: pico-bczcau:GP0, buzzer-0khg52:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:41.764Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-bczcau:GP0 -> idx 1 = 65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:41.766Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0. Nodes: pico-bczcau:GND, buzzer-0khg52:neg
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:41.769Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-bczcau:GND -> idx 3 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:41.774Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Synced 2 nets to all workers.
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:208:16
+
+[2026-03-15T19:44:41.787Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: PIN_STATE
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-15T19:44:41.790Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Snapshotting all pin states for UI...
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:203:16
+
+[2026-03-15T19:44:41.860Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] Worker initialized for boardId: pico-bczcau. physToLogicalMap size: 43
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:41.864Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-bczcau] Starting WASM execution... loading Pyodide
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:44:41.869Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-bczcau] DEBUG PATH - __dirname: D:\UniSim\unisim-core\dist\core\runtime, fileURL: D:\UniSim\unisim-core\dist\core\runtime\worker.js, pyodideDir: D:\UniSim\unisim-core\node_modules\pyodide
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:44:41.877Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Master Coordinator: Starting JS Brain...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-15T19:44:41.881Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] JS Brain: Booting pico_buzzer...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-15T19:44:41.885Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Master Coordinator: JS Brain initialized.
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-15T19:44:41.890Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] System Ready. Monitoring hardware events...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-15T19:44:45.021Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-bczcau] Pyodide loaded. Setting up VFS and shims.
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:44:45.045Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-bczcau] Executing code (263 bytes). Injecting into globals and executing async loop.
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:44:45.062Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-bczcau] [PY-TRACE] Python _unisimm_main started. Executing user code...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:44:45.072Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:45.076Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [PULL/DRIVE] Configured pico-bczcau:GP0 | pull: NONE | drive: undefined
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:249:20
+
+[2026-03-15T19:44:45.080Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-bczcau] === Pico Buzzer Test Started (GP0) ===
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:44:45.087Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Buzzer buzzer-0khg52 is now ON at 2000Hz
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/buzzer.js:23:24
+
+[2026-03-15T19:44:45.091Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=1. Nodes: pico-bczcau:GP0, buzzer-0khg52:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:45.095Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-bczcau:GP0 -> idx 1 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:45.099Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-bczcau] Buzzer ON
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:44:45.104Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:45.109Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:45.593Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Buzzer buzzer-0khg52 is now OFF at 2000Hz
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/buzzer.js:23:24
+
+[2026-03-15T19:44:45.595Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0. Nodes: pico-bczcau:GP0, buzzer-0khg52:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:45.598Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-bczcau:GP0 -> idx 1 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:45.604Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-bczcau] Buzzer OFF
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:44:45.608Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:45.611Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:47.099Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Buzzer buzzer-0khg52 is now ON at 2000Hz
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/buzzer.js:23:24
+
+[2026-03-15T19:44:47.101Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=1. Nodes: pico-bczcau:GP0, buzzer-0khg52:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:47.104Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-bczcau:GP0 -> idx 1 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:47.106Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-bczcau] Buzzer ON
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:44:47.110Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:47.113Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:47.610Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Buzzer buzzer-0khg52 is now OFF at 2000Hz
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/buzzer.js:23:24
+
+[2026-03-15T19:44:47.611Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0. Nodes: pico-bczcau:GP0, buzzer-0khg52:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:47.613Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-bczcau:GP0 -> idx 1 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:47.615Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-bczcau] Buzzer OFF
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:44:47.618Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:47.622Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:49.116Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Buzzer buzzer-0khg52 is now ON at 2000Hz
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/buzzer.js:23:24
+
+[2026-03-15T19:44:49.118Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=1. Nodes: pico-bczcau:GP0, buzzer-0khg52:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:49.122Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-bczcau:GP0 -> idx 1 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:49.124Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-bczcau] Buzzer ON
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:44:49.128Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:49.130Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:49.625Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Buzzer buzzer-0khg52 is now OFF at 2000Hz
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/buzzer.js:23:24
+
+[2026-03-15T19:44:49.627Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0. Nodes: pico-bczcau:GP0, buzzer-0khg52:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:49.630Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-bczcau:GP0 -> idx 1 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:49.633Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-bczcau] Buzzer OFF
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:44:49.639Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:49.642Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:51.132Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Buzzer buzzer-0khg52 is now ON at 2000Hz
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/buzzer.js:23:24
+
+[2026-03-15T19:44:51.135Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=1. Nodes: pico-bczcau:GP0, buzzer-0khg52:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:51.139Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-bczcau:GP0 -> idx 1 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:51.142Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-bczcau] Buzzer ON
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:44:51.145Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:51.148Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:51.636Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Buzzer buzzer-0khg52 is now OFF at 2000Hz
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/buzzer.js:23:24
+
+[2026-03-15T19:44:51.639Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0. Nodes: pico-bczcau:GP0, buzzer-0khg52:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:51.642Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-bczcau:GP0 -> idx 1 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:51.645Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-bczcau] Buzzer OFF
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:44:51.649Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:51.652Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:53.149Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Buzzer buzzer-0khg52 is now ON at 2000Hz
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/buzzer.js:23:24
+
+[2026-03-15T19:44:53.151Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=1. Nodes: pico-bczcau:GP0, buzzer-0khg52:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:53.156Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-bczcau:GP0 -> idx 1 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:53.158Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-bczcau] Buzzer ON
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:44:53.162Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:53.165Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:53.662Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Buzzer buzzer-0khg52 is now OFF at 2000Hz
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/buzzer.js:23:24
+
+[2026-03-15T19:44:53.664Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0. Nodes: pico-bczcau:GP0, buzzer-0khg52:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:53.668Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-bczcau:GP0 -> idx 1 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:53.675Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-bczcau] Buzzer OFF
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:44:53.684Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:53.693Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:55.176Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Buzzer buzzer-0khg52 is now ON at 2000Hz
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/buzzer.js:23:24
+
+[2026-03-15T19:44:55.178Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=1. Nodes: pico-bczcau:GP0, buzzer-0khg52:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:55.181Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-bczcau:GP0 -> idx 1 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:55.184Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-bczcau] Buzzer ON
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:44:55.189Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:55.192Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:55.685Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Buzzer buzzer-0khg52 is now OFF at 2000Hz
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/buzzer.js:23:24
+
+[2026-03-15T19:44:55.688Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0. Nodes: pico-bczcau:GP0, buzzer-0khg52:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:55.691Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-bczcau:GP0 -> idx 1 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:55.694Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-bczcau] Buzzer OFF
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:44:55.697Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:55.700Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:57.192Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Buzzer buzzer-0khg52 is now ON at 2000Hz
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/buzzer.js:23:24
+
+[2026-03-15T19:44:57.193Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=1. Nodes: pico-bczcau:GP0, buzzer-0khg52:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:57.198Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-bczcau:GP0 -> idx 1 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:57.203Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-bczcau] Buzzer ON
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:44:57.207Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:57.210Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:57.700Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Buzzer buzzer-0khg52 is now OFF at 2000Hz
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/buzzer.js:23:24
+
+[2026-03-15T19:44:57.702Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0. Nodes: pico-bczcau:GP0, buzzer-0khg52:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:57.706Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-bczcau:GP0 -> idx 1 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:57.709Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-bczcau] Buzzer OFF
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:44:57.712Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:57.716Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:59.210Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Buzzer buzzer-0khg52 is now ON at 2000Hz
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/buzzer.js:23:24
+
+[2026-03-15T19:44:59.212Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=1. Nodes: pico-bczcau:GP0, buzzer-0khg52:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:59.215Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-bczcau:GP0 -> idx 1 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:59.218Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-bczcau] Buzzer ON
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:44:59.223Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:59.227Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:59.719Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Buzzer buzzer-0khg52 is now OFF at 2000Hz
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/buzzer.js:23:24
+
+[2026-03-15T19:44:59.721Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0. Nodes: pico-bczcau:GP0, buzzer-0khg52:pos
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:59.724Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-bczcau:GP0 -> idx 1 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:59.727Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-bczcau] Buzzer OFF
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:44:59.730Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:59.732Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-bczcau] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:45:01.210Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: STOP_SIM
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-15T19:45:01.213Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: ⏹ Simulation STOPPED
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:147:16
+
+[2026-03-15T19:45:01.246Z] [INFO] [CRITICALITY: LOW]
+  Message: Worker for pico-bczcau exited with code 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:289:20
+
+[2026-03-15T19:45:01.249Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-bczcau runtime stopped
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:303:16
+
+[2026-03-15T19:45:03.573Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:87:24
+

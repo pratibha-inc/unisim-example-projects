@@ -36,7 +36,7 @@
       "startPin": {
         "componentId": "seven_segment-kebplt",
         "pinId": "g",
-        "x": 625,
+        "x": 630,
         "y": 380,
         "type": "component-pin"
       },
@@ -54,7 +54,7 @@
       "startPin": {
         "componentId": "seven_segment-kebplt",
         "pinId": "f",
-        "x": 637,
+        "x": 650,
         "y": 380,
         "type": "component-pin"
       },
@@ -72,7 +72,7 @@
       "startPin": {
         "componentId": "seven_segment-kebplt",
         "pinId": "com",
-        "x": 649,
+        "x": 670,
         "y": 380,
         "type": "component-pin"
       },
@@ -90,7 +90,7 @@
       "startPin": {
         "componentId": "seven_segment-kebplt",
         "pinId": "a",
-        "x": 661,
+        "x": 690,
         "y": 380,
         "type": "component-pin"
       },
@@ -108,7 +108,7 @@
       "startPin": {
         "componentId": "seven_segment-kebplt",
         "pinId": "b",
-        "x": 673,
+        "x": 710,
         "y": 380,
         "type": "component-pin"
       },
@@ -126,7 +126,7 @@
       "startPin": {
         "componentId": "seven_segment-kebplt",
         "pinId": "e",
-        "x": 625,
+        "x": 630,
         "y": 480,
         "type": "component-pin"
       },
@@ -144,7 +144,7 @@
       "startPin": {
         "componentId": "seven_segment-kebplt",
         "pinId": "d",
-        "x": 637,
+        "x": 650,
         "y": 480,
         "type": "component-pin"
       },
@@ -162,8 +162,8 @@
       "startPin": {
         "componentId": "seven_segment-kebplt",
         "pinId": "com",
-        "x": 649,
-        "y": 480,
+        "x": 670,
+        "y": 380,
         "type": "component-pin"
       },
       "endPin": {
@@ -180,7 +180,7 @@
       "startPin": {
         "componentId": "seven_segment-kebplt",
         "pinId": "c",
-        "x": 661,
+        "x": 690,
         "y": 480,
         "type": "component-pin"
       },
@@ -198,7 +198,7 @@
       "startPin": {
         "componentId": "seven_segment-kebplt",
         "pinId": "dp",
-        "x": 673,
+        "x": 710,
         "y": 480,
         "type": "component-pin"
       },

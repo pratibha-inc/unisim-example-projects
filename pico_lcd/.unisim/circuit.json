@@ -21,8 +21,8 @@
         "address": "0x27",
         "label": "Display",
         "text": [
-          "",
-          ""
+          "Hello UniSim!",
+          "Device Online"
         ]
       },
       "locked": false
@@ -30,7 +30,7 @@
   ],
   "wires": [
     {
-      "id": "wire-qk7tm3",
+      "id": "wire-0wrdqr",
       "startPin": {
         "componentId": "lcd_i2c-3vpij2",
         "pinId": "gnd",
@@ -40,15 +40,15 @@
       },
       "endPin": {
         "componentId": "pico-64dcar",
-        "pinId": "GND#38",
-        "x": 340,
+        "pinId": "GND#3",
+        "x": 260,
         "y": 200,
         "type": "component-pin"
       },
       "color": "hsl(0, 85%, 55%)"
     },
     {
-      "id": "wire-hab0ho",
+      "id": "wire-gdcfcj",
       "startPin": {
         "componentId": "lcd_i2c-3vpij2",
         "pinId": "vcc",
@@ -59,14 +59,14 @@
       "endPin": {
         "componentId": "pico-64dcar",
         "pinId": "3V3",
-        "x": 340,
+        "x": 400,
         "y": 240,
         "type": "component-pin"
       },
       "color": "hsl(222, 85%, 55%)"
     },
     {
-      "id": "wire-sda-i2c",
+      "id": "wire-y8bf5c",
       "startPin": {
         "componentId": "lcd_i2c-3vpij2",
         "pinId": "sda",
@@ -77,14 +77,14 @@
       "endPin": {
         "componentId": "pico-64dcar",
         "pinId": "GP4",
-        "x": 340,
-        "y": 280,
+        "x": 260,
+        "y": 260,
         "type": "component-pin"
       },
-      "color": "hsl(140, 85%, 55%)"
+      "color": "hsl(84, 85%, 55%)"
     },
     {
-      "id": "wire-scl-i2c",
+      "id": "wire-he2qoh",
       "startPin": {
         "componentId": "lcd_i2c-3vpij2",
         "pinId": "scl",
@@ -95,11 +95,11 @@
       "endPin": {
         "componentId": "pico-64dcar",
         "pinId": "GP5",
-        "x": 340,
-        "y": 300,
+        "x": 260,
+        "y": 280,
         "type": "component-pin"
       },
-      "color": "hsl(200, 85%, 55%)"
+      "color": "hsl(307, 85%, 55%)"
     }
   ]
 }

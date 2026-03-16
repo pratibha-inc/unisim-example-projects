@@ -22,7 +22,7 @@
         "color": "green",
         "label": "Indicator",
         "on": false,
-        "duty": 1
+        "duty": 0
       }
     },
     {

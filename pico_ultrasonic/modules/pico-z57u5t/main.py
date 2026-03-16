@@ -1,9 +1,9 @@
 from machine import Pin, HCSR04
 import time
 
-# GP14 is index 14, GP15 is index 15
-echo = Pin(10, Pin.IN)  
-trig = Pin(11, Pin.OUT) 
+# GP10 Echo, GP11 Trig
+echo = Pin("GP10", Pin.IN)  
+trig = Pin("GP11", Pin.OUT) 
 sensor = HCSR04(trig, echo)
 
 print("=== Pico Ultrasonic Test Started (GP10 Echo, GP11 Trig) ===")

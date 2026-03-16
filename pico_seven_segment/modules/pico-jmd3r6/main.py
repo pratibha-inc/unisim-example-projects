@@ -2,7 +2,7 @@ from machine import Pin
 import time
 
 # GP0-GP6: Segments A-G, GP7: Decimal Point (DP)
-segments = [Pin(i, Pin.OUT) for i in range(8)]
+segments = [Pin(f"GP{i}", Pin.OUT) for i in range(8)]
 
 # Bit patterns: [A, B, C, D, E, F, G, DP]
 # Setting the 8th bit to 1 turns ON the decimal point

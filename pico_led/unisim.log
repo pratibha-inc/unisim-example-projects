@@ -1,0 +1,1032 @@
+[2026-03-15T18:18:47.685Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:100:16
+
+[2026-03-15T18:18:47.689Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: file:///D:/UniSim/unisim-core/dist/app/index.js:11:8
+
+[2026-03-15T18:24:56.983Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:100:16
+
+[2026-03-15T18:24:56.986Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: file:///D:/UniSim/unisim-core/dist/app/index.js:11:8
+
+[2026-03-15T18:27:36.655Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:100:16
+
+[2026-03-15T18:27:36.658Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: file:///D:/UniSim/unisim-core/dist/app/index.js:11:8
+
+[2026-03-15T18:27:38.769Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:62:20
+
+[2026-03-15T18:27:38.798Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: PIN_STATE
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-15T18:27:38.800Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Snapshotting all pin states for UI...
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:203:16
+
+[2026-03-15T18:27:39.616Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-15T18:27:39.632Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:147:16
+
+[2026-03-15T18:27:39.677Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-rh9f75 (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-15T18:27:39.680Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: led-qjioqf
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-15T18:27:39.681Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: resistor-rpdn4o
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-15T18:27:39.683Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected led-qjioqf:cathode <-> pico-rh9f75:GND
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T18:27:39.684Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: led-qjioqf:cathode ↔ pico-rh9f75:GND
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-15T18:27:39.687Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-rh9f75:GP1 <-> resistor-rpdn4o:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T18:27:39.689Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: pico-rh9f75:GP1 ↔ resistor-rpdn4o:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-15T18:27:39.691Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected resistor-rpdn4o:pin2 <-> led-qjioqf:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T18:27:39.692Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: resistor-rpdn4o:pin2 ↔ led-qjioqf:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-15T18:27:39.694Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 2 devices, and 3 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:338:20
+
+[2026-03-15T18:27:50.317Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: START_SIM
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-15T18:27:50.318Z] [INFO] [CRITICALITY: LOW]
+  Message: ▶ Simulation STARTED
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:84:16
+
+[2026-03-15T18:27:50.320Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected led-qjioqf:cathode <-> pico-rh9f75:GND
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T18:27:50.322Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-rh9f75:GP1 <-> resistor-rpdn4o:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T18:27:50.323Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected resistor-rpdn4o:pin2 <-> led-qjioqf:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T18:27:50.325Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Netlist rebuilt from 3 wires
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:108:16
+
+[2026-03-15T18:27:50.327Z] [INFO] [CRITICALITY: LOW]
+  Message: START_SIM: Board [pico-rh9f75] received 0 files: 
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:118:20
+
+[2026-03-15T18:27:50.329Z] [INFO] [CRITICALITY: LOW]
+  Message: Spawning runtime for board: pico-rh9f75 (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:26:16
+
+[2026-03-15T18:27:50.332Z] [INFO] [CRITICALITY: LOW]
+  Message: Loaded pin-maps.json from disk
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:50:20
+
+[2026-03-15T18:27:50.344Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: pico-rh9f75
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-15T18:27:50.345Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-rh9f75 runtime started
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:285:16
+
+[2026-03-15T18:27:50.346Z] [INFO] [CRITICALITY: LOW]
+  Message: All board runtimes spawned successfully.
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:123:16
+
+[2026-03-15T18:27:50.348Z] [INFO] [CRITICALITY: LOW]
+  Message: Spawning Master Coordinator (JS Brain)...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:301:16
+
+[2026-03-15T18:27:50.352Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0. Nodes: led-qjioqf:cathode, pico-rh9f75:GND
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:27:50.354Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-rh9f75:GND -> idx 3 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T18:27:50.357Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=Z. Nodes: pico-rh9f75:GP1, resistor-rpdn4o:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:27:50.360Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-rh9f75:GP1 -> idx 2 = 65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T18:27:50.362Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=Z. Nodes: resistor-rpdn4o:pin2, led-qjioqf:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:27:50.364Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Synced 3 nets to all workers.
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:208:16
+
+[2026-03-15T18:27:50.369Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: PIN_STATE
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-15T18:27:50.371Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Snapshotting all pin states for UI...
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:203:16
+
+[2026-03-15T18:27:50.478Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Master Coordinator: Starting JS Brain...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:432:28
+
+[2026-03-15T18:27:50.482Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] JS Brain: Starting Pure JavaScript Blink (Pico)...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:432:28
+
+[2026-03-15T18:27:50.484Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Master Coordinator: JS Brain initialized.
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:432:28
+
+[2026-03-15T18:27:50.487Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Simulator Ready! Starting blink loop...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:432:28
+
+[2026-03-15T18:27:50.490Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] LED ON
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:432:28
+
+[2026-03-15T18:27:50.494Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 1 to pico-rh9f75:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:376:28
+
+[2026-03-15T18:27:50.497Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=1. Nodes: pico-rh9f75:GP1, resistor-rpdn4o:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:27:50.500Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-rh9f75:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T18:27:50.509Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=1. Nodes: resistor-rpdn4o:pin2, led-qjioqf:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:27:50.513Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: LED led-qjioqf is now ON (duty: 1)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/led.js:59:24
+
+[2026-03-15T18:27:50.518Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] Worker initialized for boardId: pico-rh9f75. physToLogicalMap size: 40
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:27:50.521Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-rh9f75] Starting WASM execution... loading Pyodide
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T18:27:50.525Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-rh9f75] DEBUG PATH - __dirname: D:\UniSim\unisim-core\dist\core\runtime, fileURL: D:\UniSim\unisim-core\dist\core\runtime\worker.js, pyodideDir: D:\UniSim\unisim-core\node_modules\pyodide
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T18:27:50.528Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] virtualPin resolved 'GND' -> phys:3 (3)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:27:50.532Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] [WORKER] PIN_UPDATE: logical GND -> phys index 3, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:27:50.534Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] virtualPin resolved 'GP1' -> phys:2 (2)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:27:50.536Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:27:51.482Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] LED OFF
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:432:28
+
+[2026-03-15T18:27:51.485Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-rh9f75:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:376:28
+
+[2026-03-15T18:27:51.487Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0. Nodes: pico-rh9f75:GP1, resistor-rpdn4o:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:27:51.488Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-rh9f75:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T18:27:51.489Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: resistor-rpdn4o:pin2, led-qjioqf:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:27:51.492Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: LED led-qjioqf is now OFF (duty: 0)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/led.js:59:24
+
+[2026-03-15T18:27:52.496Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] LED ON
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:432:28
+
+[2026-03-15T18:27:52.499Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 1 to pico-rh9f75:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:376:28
+
+[2026-03-15T18:27:52.503Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=1. Nodes: pico-rh9f75:GP1, resistor-rpdn4o:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:27:52.506Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-rh9f75:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T18:27:52.509Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=1. Nodes: resistor-rpdn4o:pin2, led-qjioqf:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:27:52.512Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: LED led-qjioqf is now ON (duty: 1)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/led.js:59:24
+
+[2026-03-15T18:27:53.206Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-rh9f75] Pyodide loaded. Setting up VFS and shims.
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T18:27:53.227Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] virtualPin resolved 'GP1' -> phys:2 (2)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:27:53.230Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:27:53.233Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] virtualPin resolved 'GP1' -> phys:2 (2)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:27:53.234Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:27:53.236Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-rh9f75] No main.py/main.cpp found. Starting board in Hardware Shim mode.
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T18:27:53.509Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] LED OFF
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:432:28
+
+[2026-03-15T18:27:53.512Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-rh9f75:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:376:28
+
+[2026-03-15T18:27:53.514Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0. Nodes: pico-rh9f75:GP1, resistor-rpdn4o:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:27:53.516Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-rh9f75:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T18:27:53.517Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: resistor-rpdn4o:pin2, led-qjioqf:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:27:53.519Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: LED led-qjioqf is now OFF (duty: 0)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/led.js:59:24
+
+[2026-03-15T18:27:53.521Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] virtualPin resolved 'GP1' -> phys:2 (2)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:27:53.522Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:27:54.519Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] LED ON
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:432:28
+
+[2026-03-15T18:27:54.520Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 1 to pico-rh9f75:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:376:28
+
+[2026-03-15T18:27:54.522Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=1. Nodes: pico-rh9f75:GP1, resistor-rpdn4o:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:27:54.523Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-rh9f75:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T18:27:54.525Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=1. Nodes: resistor-rpdn4o:pin2, led-qjioqf:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:27:54.528Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: LED led-qjioqf is now ON (duty: 1)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/led.js:59:24
+
+[2026-03-15T18:27:54.530Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] virtualPin resolved 'GP1' -> phys:2 (2)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:27:54.532Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:27:55.526Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] LED OFF
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:432:28
+
+[2026-03-15T18:27:55.529Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-rh9f75:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:376:28
+
+[2026-03-15T18:27:55.531Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0. Nodes: pico-rh9f75:GP1, resistor-rpdn4o:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:27:55.533Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-rh9f75:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T18:27:55.534Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: resistor-rpdn4o:pin2, led-qjioqf:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:27:55.536Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: LED led-qjioqf is now OFF (duty: 0)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/led.js:59:24
+
+[2026-03-15T18:27:55.538Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] virtualPin resolved 'GP1' -> phys:2 (2)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:27:55.539Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:27:56.539Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] LED ON
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:432:28
+
+[2026-03-15T18:27:56.542Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 1 to pico-rh9f75:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:376:28
+
+[2026-03-15T18:27:56.544Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=1. Nodes: pico-rh9f75:GP1, resistor-rpdn4o:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:27:56.546Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-rh9f75:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T18:27:56.548Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=1. Nodes: resistor-rpdn4o:pin2, led-qjioqf:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:27:56.551Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: LED led-qjioqf is now ON (duty: 1)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/led.js:59:24
+
+[2026-03-15T18:27:56.553Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] virtualPin resolved 'GP1' -> phys:2 (2)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:27:56.554Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:27:57.554Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] LED OFF
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:432:28
+
+[2026-03-15T18:27:57.557Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-rh9f75:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:376:28
+
+[2026-03-15T18:27:57.562Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0. Nodes: pico-rh9f75:GP1, resistor-rpdn4o:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:27:57.564Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-rh9f75:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T18:27:57.567Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: resistor-rpdn4o:pin2, led-qjioqf:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:27:57.571Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: LED led-qjioqf is now OFF (duty: 0)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/led.js:59:24
+
+[2026-03-15T18:27:57.574Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] virtualPin resolved 'GP1' -> phys:2 (2)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:27:57.578Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:27:58.558Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] LED ON
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:432:28
+
+[2026-03-15T18:27:58.561Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 1 to pico-rh9f75:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:376:28
+
+[2026-03-15T18:27:58.565Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=1. Nodes: pico-rh9f75:GP1, resistor-rpdn4o:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:27:58.567Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-rh9f75:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T18:27:58.569Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=1. Nodes: resistor-rpdn4o:pin2, led-qjioqf:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:27:58.571Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: LED led-qjioqf is now ON (duty: 1)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/led.js:59:24
+
+[2026-03-15T18:27:58.573Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] virtualPin resolved 'GP1' -> phys:2 (2)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:27:58.575Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:27:59.575Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] LED OFF
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:432:28
+
+[2026-03-15T18:27:59.578Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-rh9f75:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:376:28
+
+[2026-03-15T18:27:59.580Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0. Nodes: pico-rh9f75:GP1, resistor-rpdn4o:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:27:59.582Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-rh9f75:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T18:27:59.584Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: resistor-rpdn4o:pin2, led-qjioqf:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:27:59.585Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: LED led-qjioqf is now OFF (duty: 0)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/led.js:59:24
+
+[2026-03-15T18:27:59.587Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] virtualPin resolved 'GP1' -> phys:2 (2)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:27:59.588Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:28:00.583Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] LED ON
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:432:28
+
+[2026-03-15T18:28:00.586Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 1 to pico-rh9f75:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:376:28
+
+[2026-03-15T18:28:00.588Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=1. Nodes: pico-rh9f75:GP1, resistor-rpdn4o:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:28:00.589Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-rh9f75:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T18:28:00.591Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=1. Nodes: resistor-rpdn4o:pin2, led-qjioqf:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:28:00.594Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: LED led-qjioqf is now ON (duty: 1)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/led.js:59:24
+
+[2026-03-15T18:28:00.597Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] virtualPin resolved 'GP1' -> phys:2 (2)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:28:00.599Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:28:00.782Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: STOP_SIM
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-15T18:28:00.784Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: ⏹ Simulation STOPPED
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:147:16
+
+[2026-03-15T18:28:00.816Z] [INFO] [CRITICALITY: LOW]
+  Message: Worker for pico-rh9f75 exited with code 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:281:20
+
+[2026-03-15T18:28:00.818Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-rh9f75 runtime stopped
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:295:16
+
+[2026-03-15T18:28:00.821Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: LED led-qjioqf is now OFF (duty: Z)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/led.js:59:24
+
+[2026-03-15T18:28:04.321Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:87:24
+
+[2026-03-15T18:29:52.472Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:100:16
+
+[2026-03-15T18:29:52.473Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: file:///D:/UniSim/unisim-core/dist/app/index.js:11:8
+
+[2026-03-15T18:29:54.609Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:62:20
+
+[2026-03-15T18:29:54.639Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: PIN_STATE
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-15T18:29:54.641Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Snapshotting all pin states for UI...
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:203:16
+
+[2026-03-15T18:29:55.158Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-15T18:29:55.203Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:147:16
+
+[2026-03-15T18:29:55.252Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-rh9f75 (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-15T18:29:55.254Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: led-qjioqf
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-15T18:29:55.256Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: resistor-rpdn4o
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-15T18:29:55.258Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected led-qjioqf:cathode <-> pico-rh9f75:GND
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T18:29:55.259Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: led-qjioqf:cathode ↔ pico-rh9f75:GND
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-15T18:29:55.264Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-rh9f75:GP1 <-> resistor-rpdn4o:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T18:29:55.265Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: pico-rh9f75:GP1 ↔ resistor-rpdn4o:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-15T18:29:55.267Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected resistor-rpdn4o:pin2 <-> led-qjioqf:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T18:29:55.268Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: resistor-rpdn4o:pin2 ↔ led-qjioqf:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-15T18:29:55.269Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 2 devices, and 3 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:338:20
+
+[2026-03-15T18:29:58.456Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: START_SIM
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-15T18:29:58.458Z] [INFO] [CRITICALITY: LOW]
+  Message: ▶ Simulation STARTED
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:84:16
+
+[2026-03-15T18:29:58.462Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected led-qjioqf:cathode <-> pico-rh9f75:GND
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T18:29:58.464Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-rh9f75:GP1 <-> resistor-rpdn4o:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T18:29:58.466Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected resistor-rpdn4o:pin2 <-> led-qjioqf:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T18:29:58.467Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Netlist rebuilt from 3 wires
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:108:16
+
+[2026-03-15T18:29:58.469Z] [INFO] [CRITICALITY: LOW]
+  Message: START_SIM: Board [pico-rh9f75] received 0 files: 
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:118:20
+
+[2026-03-15T18:29:58.471Z] [INFO] [CRITICALITY: LOW]
+  Message: Spawning runtime for board: pico-rh9f75 (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:26:16
+
+[2026-03-15T18:29:58.475Z] [INFO] [CRITICALITY: LOW]
+  Message: Loaded pin-maps.json from disk
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:50:20
+
+[2026-03-15T18:29:58.489Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: pico-rh9f75
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-15T18:29:58.491Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-rh9f75 runtime started
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:285:16
+
+[2026-03-15T18:29:58.493Z] [INFO] [CRITICALITY: LOW]
+  Message: All board runtimes spawned successfully.
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:123:16
+
+[2026-03-15T18:29:58.496Z] [INFO] [CRITICALITY: LOW]
+  Message: Spawning Master Coordinator (JS Brain)...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:301:16
+
+[2026-03-15T18:29:58.502Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0. Nodes: led-qjioqf:cathode, pico-rh9f75:GND
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:29:58.505Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-rh9f75:GND -> idx 3 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T18:29:58.509Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=Z. Nodes: pico-rh9f75:GP1, resistor-rpdn4o:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:29:58.511Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-rh9f75:GP1 -> idx 2 = 65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T18:29:58.513Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=Z. Nodes: resistor-rpdn4o:pin2, led-qjioqf:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:29:58.516Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Synced 3 nets to all workers.
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:208:16
+
+[2026-03-15T18:29:58.522Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: PIN_STATE
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-15T18:29:58.523Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Snapshotting all pin states for UI...
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:203:16
+
+[2026-03-15T18:29:58.619Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Master Coordinator: Starting JS Brain...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:432:28
+
+[2026-03-15T18:29:58.623Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] JS Brain: Starting Pure JavaScript Blink (Pico)...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:432:28
+
+[2026-03-15T18:29:58.625Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Master Coordinator: JS Brain initialized.
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:432:28
+
+[2026-03-15T18:29:58.629Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Simulator Ready! Starting blink loop...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:432:28
+
+[2026-03-15T18:29:58.632Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] LED ON
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:432:28
+
+[2026-03-15T18:29:58.635Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 1 to pico-rh9f75:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:376:28
+
+[2026-03-15T18:29:58.638Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=1. Nodes: pico-rh9f75:GP1, resistor-rpdn4o:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:29:58.641Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-rh9f75:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T18:29:58.655Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=1. Nodes: resistor-rpdn4o:pin2, led-qjioqf:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:29:58.661Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: LED led-qjioqf is now ON (duty: 1)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/led.js:59:24
+
+[2026-03-15T18:29:58.666Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] Worker initialized for boardId: pico-rh9f75. physToLogicalMap size: 40
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:29:58.668Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-rh9f75] Starting WASM execution... loading Pyodide
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T18:29:58.671Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-rh9f75] DEBUG PATH - __dirname: D:\UniSim\unisim-core\dist\core\runtime, fileURL: D:\UniSim\unisim-core\dist\core\runtime\worker.js, pyodideDir: D:\UniSim\unisim-core\node_modules\pyodide
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T18:29:58.673Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] virtualPin resolved 'GND' -> phys:3 (3)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:29:58.677Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] [WORKER] PIN_UPDATE: logical GND -> phys index 3, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:29:58.680Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] virtualPin resolved 'GP1' -> phys:2 (2)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:29:58.684Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:29:59.621Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] LED OFF
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:432:28
+
+[2026-03-15T18:29:59.624Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-rh9f75:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:376:28
+
+[2026-03-15T18:29:59.626Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0. Nodes: pico-rh9f75:GP1, resistor-rpdn4o:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:29:59.627Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-rh9f75:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T18:29:59.631Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: resistor-rpdn4o:pin2, led-qjioqf:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:29:59.634Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: LED led-qjioqf is now OFF (duty: 0)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/led.js:59:24
+
+[2026-03-15T18:30:00.628Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] LED ON
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:432:28
+
+[2026-03-15T18:30:00.631Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 1 to pico-rh9f75:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:376:28
+
+[2026-03-15T18:30:00.634Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=1. Nodes: pico-rh9f75:GP1, resistor-rpdn4o:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:30:00.636Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-rh9f75:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T18:30:00.638Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=1. Nodes: resistor-rpdn4o:pin2, led-qjioqf:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:30:00.640Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: LED led-qjioqf is now ON (duty: 1)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/led.js:59:24
+
+[2026-03-15T18:30:01.224Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-rh9f75] Pyodide loaded. Setting up VFS and shims.
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T18:30:01.252Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] virtualPin resolved 'GP1' -> phys:2 (2)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:30:01.255Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:30:01.258Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] virtualPin resolved 'GP1' -> phys:2 (2)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:30:01.260Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:30:01.263Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-rh9f75] No main.py/main.cpp found. Starting board in Hardware Shim mode.
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T18:30:01.637Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] LED OFF
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:432:28
+
+[2026-03-15T18:30:01.638Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-rh9f75:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:376:28
+
+[2026-03-15T18:30:01.640Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0. Nodes: pico-rh9f75:GP1, resistor-rpdn4o:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:30:01.642Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-rh9f75:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T18:30:01.643Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: resistor-rpdn4o:pin2, led-qjioqf:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:30:01.647Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: LED led-qjioqf is now OFF (duty: 0)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/led.js:59:24
+
+[2026-03-15T18:30:01.650Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] virtualPin resolved 'GP1' -> phys:2 (2)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:30:01.652Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:30:02.653Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] LED ON
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:432:28
+
+[2026-03-15T18:30:02.654Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 1 to pico-rh9f75:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:376:28
+
+[2026-03-15T18:30:02.656Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=1. Nodes: pico-rh9f75:GP1, resistor-rpdn4o:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:30:02.657Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-rh9f75:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T18:30:02.659Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=1. Nodes: resistor-rpdn4o:pin2, led-qjioqf:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:30:02.661Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: LED led-qjioqf is now ON (duty: 1)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/led.js:59:24
+
+[2026-03-15T18:30:02.663Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] virtualPin resolved 'GP1' -> phys:2 (2)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:30:02.666Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:30:03.663Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] LED OFF
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:432:28
+
+[2026-03-15T18:30:03.666Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-rh9f75:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:376:28
+
+[2026-03-15T18:30:03.668Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0. Nodes: pico-rh9f75:GP1, resistor-rpdn4o:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:30:03.670Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-rh9f75:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T18:30:03.672Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: resistor-rpdn4o:pin2, led-qjioqf:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:30:03.674Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: LED led-qjioqf is now OFF (duty: 0)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/led.js:59:24
+
+[2026-03-15T18:30:03.676Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] virtualPin resolved 'GP1' -> phys:2 (2)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:30:03.677Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:30:04.677Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] LED ON
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:432:28
+
+[2026-03-15T18:30:04.680Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 1 to pico-rh9f75:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:376:28
+
+[2026-03-15T18:30:04.683Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=1. Nodes: pico-rh9f75:GP1, resistor-rpdn4o:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:30:04.684Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-rh9f75:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T18:30:04.686Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=1. Nodes: resistor-rpdn4o:pin2, led-qjioqf:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T18:30:04.689Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: LED led-qjioqf is now ON (duty: 1)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/led.js:59:24
+
+[2026-03-15T18:30:04.692Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] virtualPin resolved 'GP1' -> phys:2 (2)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:30:04.694Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-rh9f75] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T18:30:05.115Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: STOP_SIM
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-15T18:30:05.117Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: ⏹ Simulation STOPPED
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:147:16
+
+[2026-03-15T18:30:05.152Z] [INFO] [CRITICALITY: LOW]
+  Message: Worker for pico-rh9f75 exited with code 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:281:20
+
+[2026-03-15T18:30:05.154Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-rh9f75 runtime stopped
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:295:16
+
+[2026-03-15T18:30:05.159Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: LED led-qjioqf is now OFF (duty: Z)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/led.js:59:24
+
+[2026-03-15T18:30:07.378Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:87:24
+

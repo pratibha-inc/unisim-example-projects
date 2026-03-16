@@ -10186,3 +10186,1767 @@
   Message: Client disconnected
   Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
 
+[2026-03-15T19:43:45.337Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:100:16
+
+[2026-03-15T19:43:45.342Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: file:///D:/UniSim/unisim-core/dist/app/index.js:11:8
+
+[2026-03-15T19:43:47.222Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:62:20
+
+[2026-03-15T19:43:47.251Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: PIN_STATE
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-15T19:43:47.253Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Snapshotting all pin states for UI...
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:203:16
+
+[2026-03-15T19:43:47.787Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-15T19:43:47.808Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:147:16
+
+[2026-03-15T19:43:47.867Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-jmd3r6 (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-15T19:43:47.870Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: seven_segment-kebplt
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-15T19:43:47.873Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected seven_segment-kebplt:g <-> pico-jmd3r6:GP6
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T19:43:47.876Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: seven_segment-kebplt:g ↔ pico-jmd3r6:GP6
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-15T19:43:47.882Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected seven_segment-kebplt:f <-> pico-jmd3r6:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T19:43:47.883Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: seven_segment-kebplt:f ↔ pico-jmd3r6:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-15T19:43:47.884Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected seven_segment-kebplt:com <-> pico-jmd3r6:GND
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T19:43:47.885Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: seven_segment-kebplt:com ↔ pico-jmd3r6:GND#3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-15T19:43:47.889Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected seven_segment-kebplt:a <-> pico-jmd3r6:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T19:43:47.890Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: seven_segment-kebplt:a ↔ pico-jmd3r6:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-15T19:43:47.892Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected seven_segment-kebplt:b <-> pico-jmd3r6:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T19:43:47.894Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: seven_segment-kebplt:b ↔ pico-jmd3r6:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-15T19:43:47.897Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected seven_segment-kebplt:e <-> pico-jmd3r6:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T19:43:47.899Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: seven_segment-kebplt:e ↔ pico-jmd3r6:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-15T19:43:47.900Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected seven_segment-kebplt:d <-> pico-jmd3r6:GP3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T19:43:47.902Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: seven_segment-kebplt:d ↔ pico-jmd3r6:GP3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-15T19:43:47.903Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: seven_segment-kebplt:com ↔ pico-jmd3r6:GND#8
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-15T19:43:47.904Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected seven_segment-kebplt:c <-> pico-jmd3r6:GP2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T19:43:47.905Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: seven_segment-kebplt:c ↔ pico-jmd3r6:GP2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-15T19:43:47.907Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected seven_segment-kebplt:dp <-> pico-jmd3r6:GP7
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T19:43:47.908Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: seven_segment-kebplt:dp ↔ pico-jmd3r6:GP7
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-15T19:43:47.910Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 10 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:338:20
+
+[2026-03-15T19:43:53.891Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: START_SIM
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-15T19:43:53.895Z] [INFO] [CRITICALITY: LOW]
+  Message: ▶ Simulation STARTED
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:84:16
+
+[2026-03-15T19:43:53.898Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected seven_segment-kebplt:g <-> pico-jmd3r6:GP6
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T19:43:53.899Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected seven_segment-kebplt:f <-> pico-jmd3r6:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T19:43:53.901Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected seven_segment-kebplt:com <-> pico-jmd3r6:GND
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T19:43:53.902Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected seven_segment-kebplt:a <-> pico-jmd3r6:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T19:43:53.904Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected seven_segment-kebplt:b <-> pico-jmd3r6:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T19:43:53.906Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected seven_segment-kebplt:e <-> pico-jmd3r6:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T19:43:53.907Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected seven_segment-kebplt:d <-> pico-jmd3r6:GP3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T19:43:53.910Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected seven_segment-kebplt:c <-> pico-jmd3r6:GP2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T19:43:53.913Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected seven_segment-kebplt:dp <-> pico-jmd3r6:GP7
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-15T19:43:53.915Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Netlist rebuilt from 10 wires
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:108:16
+
+[2026-03-15T19:43:53.917Z] [INFO] [CRITICALITY: LOW]
+  Message: START_SIM: Board [pico-jmd3r6] received 1 files: main.py
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:118:20
+
+[2026-03-15T19:43:53.920Z] [INFO] [CRITICALITY: LOW]
+  Message: Spawning runtime for board: pico-jmd3r6 (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:26:16
+
+[2026-03-15T19:43:53.924Z] [INFO] [CRITICALITY: LOW]
+  Message: Loaded pin-maps.json from disk
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:50:20
+
+[2026-03-15T19:43:53.940Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: pico-jmd3r6
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-15T19:43:53.941Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-jmd3r6 runtime started
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:293:16
+
+[2026-03-15T19:43:53.944Z] [INFO] [CRITICALITY: LOW]
+  Message: All board runtimes spawned successfully.
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:123:16
+
+[2026-03-15T19:43:53.951Z] [INFO] [CRITICALITY: LOW]
+  Message: Spawning Master Coordinator (JS Brain)...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:309:16
+
+[2026-03-15T19:43:53.957Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=Z. Nodes: seven_segment-kebplt:g, pico-jmd3r6:GP6
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:53.962Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP6 -> idx 9 = 65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:53.967Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=Z. Nodes: seven_segment-kebplt:f, pico-jmd3r6:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:53.970Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP5 -> idx 7 = 65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:53.972Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: seven_segment-kebplt:com, pico-jmd3r6:GND
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:53.976Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GND -> idx 3 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:53.980Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=Z. Nodes: seven_segment-kebplt:a, pico-jmd3r6:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:53.983Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP0 -> idx 1 = 65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:53.987Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_5 value=Z. Nodes: seven_segment-kebplt:b, pico-jmd3r6:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:53.990Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP1 -> idx 2 = 65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:53.992Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_6 value=Z. Nodes: seven_segment-kebplt:e, pico-jmd3r6:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:53.998Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP4 -> idx 6 = 65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:54.002Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_7 value=Z. Nodes: seven_segment-kebplt:d, pico-jmd3r6:GP3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:54.005Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP3 -> idx 5 = 65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:54.006Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_8 value=Z. Nodes: seven_segment-kebplt:c, pico-jmd3r6:GP2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:54.014Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP2 -> idx 4 = 65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:54.016Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_9 value=Z. Nodes: seven_segment-kebplt:dp, pico-jmd3r6:GP7
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:54.020Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP7 -> idx 10 = 65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:54.023Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Synced 9 nets to all workers.
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:208:16
+
+[2026-03-15T19:43:54.134Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Master Coordinator: Starting JS Brain...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-15T19:43:54.138Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] JS Brain: Booting pico_seven_segment...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-15T19:43:54.142Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Master Coordinator: JS Brain initialized.
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-15T19:43:54.147Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] System Ready. Monitoring hardware events...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-15T19:43:54.158Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] Worker initialized for boardId: pico-jmd3r6. physToLogicalMap size: 43
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:54.172Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-jmd3r6] Starting WASM execution... loading Pyodide
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:43:54.180Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-jmd3r6] DEBUG PATH - __dirname: D:\UniSim\unisim-core\dist\core\runtime, fileURL: D:\UniSim\unisim-core\dist\core\runtime\worker.js, pyodideDir: D:\UniSim\unisim-core\node_modules\pyodide
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:43:54.184Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP6' -> phys:9 (Logical: GP6)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:54.190Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP6 -> phys index 9, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:54.198Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP5' -> phys:7 (Logical: GP5)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:54.204Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP5 -> phys index 7, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:54.208Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GND' -> phys:3 (Logical: GND)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:54.214Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GND -> phys index 3, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:54.218Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:54.222Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:54.224Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP1' -> phys:2 (Logical: GP1)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:54.229Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:54.232Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP4' -> phys:6 (Logical: GP4)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:54.235Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP4 -> phys index 6, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:54.238Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP3' -> phys:5 (Logical: GP3)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:54.240Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP3 -> phys index 5, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:54.243Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP2' -> phys:4 (Logical: GP2)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:54.247Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP2 -> phys index 4, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:54.251Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP7' -> phys:10 (Logical: GP7)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:54.254Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP7 -> phys index 10, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:54.388Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: PIN_STATE
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-15T19:43:54.391Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Snapshotting all pin states for UI...
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:203:16
+
+[2026-03-15T19:43:57.422Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-jmd3r6] Pyodide loaded. Setting up VFS and shims.
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:43:57.451Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-jmd3r6] Executing code (869 bytes). Injecting into globals and executing async loop.
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:43:57.469Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-jmd3r6] [PY-TRACE] Python _unisimm_main started. Executing user code...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:43:57.485Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:57.489Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [PULL/DRIVE] Configured pico-jmd3r6:GP0 | pull: NONE | drive: undefined
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:249:20
+
+[2026-03-15T19:43:57.495Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP1' -> phys:2 (Logical: GP1)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:57.500Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [PULL/DRIVE] Configured pico-jmd3r6:GP1 | pull: NONE | drive: undefined
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:249:20
+
+[2026-03-15T19:43:57.504Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP2' -> phys:4 (Logical: GP2)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:57.507Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [PULL/DRIVE] Configured pico-jmd3r6:GP2 | pull: NONE | drive: undefined
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:249:20
+
+[2026-03-15T19:43:57.513Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP3' -> phys:5 (Logical: GP3)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:57.519Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [PULL/DRIVE] Configured pico-jmd3r6:GP3 | pull: NONE | drive: undefined
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:249:20
+
+[2026-03-15T19:43:57.523Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP4' -> phys:6 (Logical: GP4)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:57.530Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [PULL/DRIVE] Configured pico-jmd3r6:GP4 | pull: NONE | drive: undefined
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:249:20
+
+[2026-03-15T19:43:57.534Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP5' -> phys:7 (Logical: GP5)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:57.539Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [PULL/DRIVE] Configured pico-jmd3r6:GP5 | pull: NONE | drive: undefined
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:249:20
+
+[2026-03-15T19:43:57.544Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP6' -> phys:9 (Logical: GP6)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:57.547Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [PULL/DRIVE] Configured pico-jmd3r6:GP6 | pull: NONE | drive: undefined
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:249:20
+
+[2026-03-15T19:43:57.550Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP7' -> phys:10 (Logical: GP7)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:57.553Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [PULL/DRIVE] Configured pico-jmd3r6:GP7 | pull: NONE | drive: undefined
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:249:20
+
+[2026-03-15T19:43:57.557Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-jmd3r6] === Pico 7-Segment Counter with DP Started ===
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-15T19:43:57.565Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=1. Nodes: seven_segment-kebplt:a, pico-jmd3r6:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:57.574Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP0 -> idx 1 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:57.579Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_5 value=1. Nodes: seven_segment-kebplt:b, pico-jmd3r6:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:57.583Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:57.586Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_8 value=1. Nodes: seven_segment-kebplt:c, pico-jmd3r6:GP2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:57.590Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP2 -> idx 4 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:57.595Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_7 value=1. Nodes: seven_segment-kebplt:d, pico-jmd3r6:GP3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:57.600Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP3 -> idx 5 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:57.606Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_6 value=1. Nodes: seven_segment-kebplt:e, pico-jmd3r6:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:57.608Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP4 -> idx 6 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:57.612Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=1. Nodes: seven_segment-kebplt:f, pico-jmd3r6:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:57.615Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP5 -> idx 7 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:57.620Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0. Nodes: seven_segment-kebplt:g, pico-jmd3r6:GP6
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:57.622Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP6 -> idx 9 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:57.625Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_9 value=1. Nodes: seven_segment-kebplt:dp, pico-jmd3r6:GP7
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:57.631Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP7 -> idx 10 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:57.636Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:57.639Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:57.642Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP1' -> phys:2 (Logical: GP1)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:57.647Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:57.652Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP2' -> phys:4 (Logical: GP2)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:57.656Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP2 -> phys index 4, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:57.659Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP3' -> phys:5 (Logical: GP3)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:57.665Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP3 -> phys index 5, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:57.669Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP4' -> phys:6 (Logical: GP4)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:57.671Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP4 -> phys index 6, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:57.673Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP5' -> phys:7 (Logical: GP5)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:57.676Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP5 -> phys index 7, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:57.680Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP6' -> phys:9 (Logical: GP6)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:57.684Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP6 -> phys index 9, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:57.686Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP7' -> phys:10 (Logical: GP7)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:57.689Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP7 -> phys index 10, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:58.491Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=0. Nodes: seven_segment-kebplt:a, pico-jmd3r6:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:58.494Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP0 -> idx 1 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:58.497Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_5 value=1. Nodes: seven_segment-kebplt:b, pico-jmd3r6:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:58.500Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:58.504Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_8 value=1. Nodes: seven_segment-kebplt:c, pico-jmd3r6:GP2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:58.507Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP2 -> idx 4 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:58.514Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_7 value=0. Nodes: seven_segment-kebplt:d, pico-jmd3r6:GP3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:58.519Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP3 -> idx 5 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:58.522Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_6 value=0. Nodes: seven_segment-kebplt:e, pico-jmd3r6:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:58.526Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP4 -> idx 6 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:58.533Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0. Nodes: seven_segment-kebplt:f, pico-jmd3r6:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:58.536Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP5 -> idx 7 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:58.539Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0. Nodes: seven_segment-kebplt:g, pico-jmd3r6:GP6
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:58.544Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP6 -> idx 9 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:58.550Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_9 value=1. Nodes: seven_segment-kebplt:dp, pico-jmd3r6:GP7
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:58.554Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP7 -> idx 10 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:58.557Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:58.561Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:58.567Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP3' -> phys:5 (Logical: GP3)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:58.571Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP3 -> phys index 5, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:58.576Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP4' -> phys:6 (Logical: GP4)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:58.583Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP4 -> phys index 6, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:58.586Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP5' -> phys:7 (Logical: GP5)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:58.588Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP5 -> phys index 7, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:59.493Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=1. Nodes: seven_segment-kebplt:a, pico-jmd3r6:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:59.496Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP0 -> idx 1 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:59.499Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_5 value=1. Nodes: seven_segment-kebplt:b, pico-jmd3r6:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:59.502Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:59.506Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_8 value=0. Nodes: seven_segment-kebplt:c, pico-jmd3r6:GP2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:59.511Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP2 -> idx 4 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:59.517Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_7 value=1. Nodes: seven_segment-kebplt:d, pico-jmd3r6:GP3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:59.521Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP3 -> idx 5 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:59.523Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_6 value=1. Nodes: seven_segment-kebplt:e, pico-jmd3r6:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:59.528Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP4 -> idx 6 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:59.532Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0. Nodes: seven_segment-kebplt:f, pico-jmd3r6:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:59.536Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP5 -> idx 7 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:59.539Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=1. Nodes: seven_segment-kebplt:g, pico-jmd3r6:GP6
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:59.543Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP6 -> idx 9 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:59.548Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_9 value=1. Nodes: seven_segment-kebplt:dp, pico-jmd3r6:GP7
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:43:59.553Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP7 -> idx 10 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:43:59.556Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:59.561Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:59.565Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP2' -> phys:4 (Logical: GP2)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:59.570Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP2 -> phys index 4, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:59.574Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP3' -> phys:5 (Logical: GP3)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:59.578Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP3 -> phys index 5, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:59.582Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP4' -> phys:6 (Logical: GP4)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:59.585Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP4 -> phys index 6, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:59.588Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP6' -> phys:9 (Logical: GP6)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:43:59.590Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP6 -> phys index 9, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:00.500Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=1. Nodes: seven_segment-kebplt:a, pico-jmd3r6:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:00.502Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP0 -> idx 1 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:00.506Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_5 value=1. Nodes: seven_segment-kebplt:b, pico-jmd3r6:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:00.511Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:00.515Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_8 value=1. Nodes: seven_segment-kebplt:c, pico-jmd3r6:GP2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:00.518Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP2 -> idx 4 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:00.520Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_7 value=1. Nodes: seven_segment-kebplt:d, pico-jmd3r6:GP3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:00.525Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP3 -> idx 5 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:00.533Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_6 value=0. Nodes: seven_segment-kebplt:e, pico-jmd3r6:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:00.537Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP4 -> idx 6 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:00.539Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0. Nodes: seven_segment-kebplt:f, pico-jmd3r6:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:00.543Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP5 -> idx 7 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:00.548Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=1. Nodes: seven_segment-kebplt:g, pico-jmd3r6:GP6
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:00.553Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP6 -> idx 9 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:00.555Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_9 value=1. Nodes: seven_segment-kebplt:dp, pico-jmd3r6:GP7
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:00.560Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP7 -> idx 10 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:00.566Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP2' -> phys:4 (Logical: GP2)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:00.569Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP2 -> phys index 4, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:00.572Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP4' -> phys:6 (Logical: GP4)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:00.574Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP4 -> phys index 6, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:01.508Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=0. Nodes: seven_segment-kebplt:a, pico-jmd3r6:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:01.511Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP0 -> idx 1 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:01.513Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_5 value=1. Nodes: seven_segment-kebplt:b, pico-jmd3r6:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:01.515Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:01.518Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_8 value=1. Nodes: seven_segment-kebplt:c, pico-jmd3r6:GP2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:01.521Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP2 -> idx 4 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:01.524Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_7 value=0. Nodes: seven_segment-kebplt:d, pico-jmd3r6:GP3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:01.529Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP3 -> idx 5 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:01.533Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_6 value=0. Nodes: seven_segment-kebplt:e, pico-jmd3r6:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:01.537Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP4 -> idx 6 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:01.539Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=1. Nodes: seven_segment-kebplt:f, pico-jmd3r6:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:01.543Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP5 -> idx 7 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:01.549Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=1. Nodes: seven_segment-kebplt:g, pico-jmd3r6:GP6
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:01.553Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP6 -> idx 9 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:01.557Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_9 value=1. Nodes: seven_segment-kebplt:dp, pico-jmd3r6:GP7
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:01.562Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP7 -> idx 10 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:01.567Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:01.570Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:01.572Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP3' -> phys:5 (Logical: GP3)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:01.577Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP3 -> phys index 5, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:01.581Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP5' -> phys:7 (Logical: GP5)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:01.585Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP5 -> phys index 7, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:02.512Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=1. Nodes: seven_segment-kebplt:a, pico-jmd3r6:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:02.515Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP0 -> idx 1 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:02.518Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_5 value=0. Nodes: seven_segment-kebplt:b, pico-jmd3r6:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:02.521Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:02.524Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_8 value=1. Nodes: seven_segment-kebplt:c, pico-jmd3r6:GP2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:02.529Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP2 -> idx 4 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:02.532Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_7 value=1. Nodes: seven_segment-kebplt:d, pico-jmd3r6:GP3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:02.535Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP3 -> idx 5 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:02.538Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_6 value=0. Nodes: seven_segment-kebplt:e, pico-jmd3r6:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:02.545Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP4 -> idx 6 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:02.548Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=1. Nodes: seven_segment-kebplt:f, pico-jmd3r6:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:02.551Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP5 -> idx 7 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:02.553Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=1. Nodes: seven_segment-kebplt:g, pico-jmd3r6:GP6
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:02.557Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP6 -> idx 9 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:02.562Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_9 value=1. Nodes: seven_segment-kebplt:dp, pico-jmd3r6:GP7
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:02.567Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP7 -> idx 10 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:02.570Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:02.573Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:02.575Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP1' -> phys:2 (Logical: GP1)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:02.580Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:02.584Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP3' -> phys:5 (Logical: GP3)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:02.587Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP3 -> phys index 5, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:03.518Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=1. Nodes: seven_segment-kebplt:a, pico-jmd3r6:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:03.520Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP0 -> idx 1 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:03.522Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_5 value=0. Nodes: seven_segment-kebplt:b, pico-jmd3r6:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:03.524Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:03.527Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_8 value=1. Nodes: seven_segment-kebplt:c, pico-jmd3r6:GP2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:03.531Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP2 -> idx 4 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:03.534Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_7 value=1. Nodes: seven_segment-kebplt:d, pico-jmd3r6:GP3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:03.537Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP3 -> idx 5 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:03.540Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_6 value=1. Nodes: seven_segment-kebplt:e, pico-jmd3r6:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:03.544Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP4 -> idx 6 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:03.547Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=1. Nodes: seven_segment-kebplt:f, pico-jmd3r6:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:03.551Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP5 -> idx 7 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:03.554Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=1. Nodes: seven_segment-kebplt:g, pico-jmd3r6:GP6
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:03.557Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP6 -> idx 9 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:03.561Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_9 value=1. Nodes: seven_segment-kebplt:dp, pico-jmd3r6:GP7
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:03.565Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP7 -> idx 10 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:03.568Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP4' -> phys:6 (Logical: GP4)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:03.570Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP4 -> phys index 6, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:04.519Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=1. Nodes: seven_segment-kebplt:a, pico-jmd3r6:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:04.520Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP0 -> idx 1 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:04.522Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_5 value=1. Nodes: seven_segment-kebplt:b, pico-jmd3r6:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:04.525Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:04.528Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_8 value=1. Nodes: seven_segment-kebplt:c, pico-jmd3r6:GP2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:04.532Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP2 -> idx 4 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:04.535Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_7 value=0. Nodes: seven_segment-kebplt:d, pico-jmd3r6:GP3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:04.538Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP3 -> idx 5 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:04.541Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_6 value=0. Nodes: seven_segment-kebplt:e, pico-jmd3r6:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:04.546Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP4 -> idx 6 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:04.552Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0. Nodes: seven_segment-kebplt:f, pico-jmd3r6:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:04.555Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP5 -> idx 7 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:04.561Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0. Nodes: seven_segment-kebplt:g, pico-jmd3r6:GP6
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:04.564Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP6 -> idx 9 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:04.567Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_9 value=1. Nodes: seven_segment-kebplt:dp, pico-jmd3r6:GP7
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:04.571Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP7 -> idx 10 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:04.574Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP1' -> phys:2 (Logical: GP1)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:04.578Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:04.582Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP3' -> phys:5 (Logical: GP3)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:04.585Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP3 -> phys index 5, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:04.588Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP4' -> phys:6 (Logical: GP4)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:04.590Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP4 -> phys index 6, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:04.595Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP5' -> phys:7 (Logical: GP5)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:04.600Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP5 -> phys index 7, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:04.603Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP6' -> phys:9 (Logical: GP6)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:04.605Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP6 -> phys index 9, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:05.526Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=1. Nodes: seven_segment-kebplt:a, pico-jmd3r6:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:05.528Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP0 -> idx 1 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:05.531Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_5 value=1. Nodes: seven_segment-kebplt:b, pico-jmd3r6:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:05.534Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:05.537Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_8 value=1. Nodes: seven_segment-kebplt:c, pico-jmd3r6:GP2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:05.547Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP2 -> idx 4 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:05.551Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_7 value=1. Nodes: seven_segment-kebplt:d, pico-jmd3r6:GP3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:05.554Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP3 -> idx 5 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:05.558Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_6 value=1. Nodes: seven_segment-kebplt:e, pico-jmd3r6:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:05.562Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP4 -> idx 6 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:05.568Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=1. Nodes: seven_segment-kebplt:f, pico-jmd3r6:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:05.571Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP5 -> idx 7 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:05.575Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=1. Nodes: seven_segment-kebplt:g, pico-jmd3r6:GP6
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:05.582Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP6 -> idx 9 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:05.586Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_9 value=1. Nodes: seven_segment-kebplt:dp, pico-jmd3r6:GP7
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:05.590Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP7 -> idx 10 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:05.595Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP3' -> phys:5 (Logical: GP3)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:05.597Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP3 -> phys index 5, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:05.600Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP4' -> phys:6 (Logical: GP4)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:05.603Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP4 -> phys index 6, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:05.606Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP5' -> phys:7 (Logical: GP5)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:05.609Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP5 -> phys index 7, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:05.613Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP6' -> phys:9 (Logical: GP6)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:05.617Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP6 -> phys index 9, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:06.540Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=1. Nodes: seven_segment-kebplt:a, pico-jmd3r6:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:06.542Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP0 -> idx 1 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:06.545Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_5 value=1. Nodes: seven_segment-kebplt:b, pico-jmd3r6:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:06.549Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:06.553Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_8 value=1. Nodes: seven_segment-kebplt:c, pico-jmd3r6:GP2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:06.556Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP2 -> idx 4 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:06.559Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_7 value=1. Nodes: seven_segment-kebplt:d, pico-jmd3r6:GP3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:06.563Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP3 -> idx 5 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:06.567Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_6 value=0. Nodes: seven_segment-kebplt:e, pico-jmd3r6:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:06.570Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP4 -> idx 6 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:06.572Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=1. Nodes: seven_segment-kebplt:f, pico-jmd3r6:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:06.577Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP5 -> idx 7 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:06.581Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=1. Nodes: seven_segment-kebplt:g, pico-jmd3r6:GP6
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:06.584Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP6 -> idx 9 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:06.587Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_9 value=1. Nodes: seven_segment-kebplt:dp, pico-jmd3r6:GP7
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:06.590Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP7 -> idx 10 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:06.596Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP4' -> phys:6 (Logical: GP4)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:06.599Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP4 -> phys index 6, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:07.543Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=1. Nodes: seven_segment-kebplt:a, pico-jmd3r6:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:07.546Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP0 -> idx 1 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:07.549Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_5 value=1. Nodes: seven_segment-kebplt:b, pico-jmd3r6:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:07.551Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:07.554Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_8 value=1. Nodes: seven_segment-kebplt:c, pico-jmd3r6:GP2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:07.556Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP2 -> idx 4 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:07.558Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_7 value=1. Nodes: seven_segment-kebplt:d, pico-jmd3r6:GP3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:07.564Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP3 -> idx 5 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:07.567Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_6 value=1. Nodes: seven_segment-kebplt:e, pico-jmd3r6:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:07.570Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP4 -> idx 6 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:07.572Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=1. Nodes: seven_segment-kebplt:f, pico-jmd3r6:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:07.575Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP5 -> idx 7 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:07.582Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0. Nodes: seven_segment-kebplt:g, pico-jmd3r6:GP6
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:07.586Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP6 -> idx 9 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:07.589Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_9 value=1. Nodes: seven_segment-kebplt:dp, pico-jmd3r6:GP7
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:07.592Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP7 -> idx 10 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:07.597Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP4' -> phys:6 (Logical: GP4)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:07.601Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP4 -> phys index 6, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:07.604Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP6' -> phys:9 (Logical: GP6)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:07.608Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP6 -> phys index 9, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:08.548Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=0. Nodes: seven_segment-kebplt:a, pico-jmd3r6:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:08.550Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP0 -> idx 1 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:08.552Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_5 value=1. Nodes: seven_segment-kebplt:b, pico-jmd3r6:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:08.557Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:08.559Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_8 value=1. Nodes: seven_segment-kebplt:c, pico-jmd3r6:GP2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:08.563Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP2 -> idx 4 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:08.566Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_7 value=0. Nodes: seven_segment-kebplt:d, pico-jmd3r6:GP3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:08.569Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP3 -> idx 5 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:08.573Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_6 value=0. Nodes: seven_segment-kebplt:e, pico-jmd3r6:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:08.578Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP4 -> idx 6 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:08.584Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0. Nodes: seven_segment-kebplt:f, pico-jmd3r6:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:08.587Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP5 -> idx 7 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:08.590Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0. Nodes: seven_segment-kebplt:g, pico-jmd3r6:GP6
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:08.596Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP6 -> idx 9 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:08.600Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_9 value=1. Nodes: seven_segment-kebplt:dp, pico-jmd3r6:GP7
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:08.604Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP7 -> idx 10 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:08.607Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:08.612Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:08.616Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP3' -> phys:5 (Logical: GP3)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:08.620Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP3 -> phys index 5, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:08.622Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP4' -> phys:6 (Logical: GP4)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:08.625Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP4 -> phys index 6, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:08.632Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP5' -> phys:7 (Logical: GP5)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:08.635Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP5 -> phys index 7, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:09.552Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=1. Nodes: seven_segment-kebplt:a, pico-jmd3r6:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:09.553Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP0 -> idx 1 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:09.555Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_5 value=1. Nodes: seven_segment-kebplt:b, pico-jmd3r6:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:09.557Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:09.561Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_8 value=0. Nodes: seven_segment-kebplt:c, pico-jmd3r6:GP2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:09.564Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP2 -> idx 4 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:09.567Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_7 value=1. Nodes: seven_segment-kebplt:d, pico-jmd3r6:GP3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:09.571Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP3 -> idx 5 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:09.578Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_6 value=1. Nodes: seven_segment-kebplt:e, pico-jmd3r6:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:09.581Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP4 -> idx 6 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:09.584Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0. Nodes: seven_segment-kebplt:f, pico-jmd3r6:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:09.586Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP5 -> idx 7 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:09.589Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=1. Nodes: seven_segment-kebplt:g, pico-jmd3r6:GP6
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:09.591Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP6 -> idx 9 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:09.596Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_9 value=1. Nodes: seven_segment-kebplt:dp, pico-jmd3r6:GP7
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:09.601Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP7 -> idx 10 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:09.604Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:09.607Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:09.613Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP2' -> phys:4 (Logical: GP2)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:09.616Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP2 -> phys index 4, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:09.620Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP3' -> phys:5 (Logical: GP3)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:09.622Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP3 -> phys index 5, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:09.624Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP4' -> phys:6 (Logical: GP4)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:09.626Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP4 -> phys index 6, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:09.630Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP6' -> phys:9 (Logical: GP6)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:09.634Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP6 -> phys index 9, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:10.556Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=1. Nodes: seven_segment-kebplt:a, pico-jmd3r6:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:10.560Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP0 -> idx 1 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:10.562Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_5 value=1. Nodes: seven_segment-kebplt:b, pico-jmd3r6:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:10.565Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:10.570Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_8 value=1. Nodes: seven_segment-kebplt:c, pico-jmd3r6:GP2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:10.573Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP2 -> idx 4 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:10.576Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_7 value=1. Nodes: seven_segment-kebplt:d, pico-jmd3r6:GP3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:10.582Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP3 -> idx 5 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:10.587Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_6 value=0. Nodes: seven_segment-kebplt:e, pico-jmd3r6:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:10.590Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP4 -> idx 6 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:10.594Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0. Nodes: seven_segment-kebplt:f, pico-jmd3r6:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:10.600Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP5 -> idx 7 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:10.603Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=1. Nodes: seven_segment-kebplt:g, pico-jmd3r6:GP6
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:10.606Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP6 -> idx 9 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:10.608Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_9 value=1. Nodes: seven_segment-kebplt:dp, pico-jmd3r6:GP7
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-15T19:44:10.614Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-jmd3r6:GP7 -> idx 10 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-15T19:44:10.617Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP2' -> phys:4 (Logical: GP2)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:10.620Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP2 -> phys index 4, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:10.622Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] virtualPin resolved 'GP4' -> phys:6 (Logical: GP4)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:10.627Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-jmd3r6] [WORKER] PIN_UPDATE: logical GP4 -> phys index 6, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-15T19:44:11.052Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: STOP_SIM
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-15T19:44:11.055Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: ⏹ Simulation STOPPED
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:147:16
+
+[2026-03-15T19:44:11.098Z] [INFO] [CRITICALITY: LOW]
+  Message: Worker for pico-jmd3r6 exited with code 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:289:20
+
+[2026-03-15T19:44:11.101Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-jmd3r6 runtime stopped
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:303:16
+
+[2026-03-15T19:44:13.085Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:87:24
+
