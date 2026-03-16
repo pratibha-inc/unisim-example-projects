@@ -2,16 +2,16 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "node",
+    "lib": ["ESNext", "DOM"],
     "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "noEmit": true,
     "baseUrl": ".",
     "paths": {
-      "unisim": [
-        "node_modules/unisim/types"
-      ]
+      "unisim": ["node_modules/unisim/types"]
     }
   },
-  "include": [
-    "src/**/*"
-  ]
+  "include": ["src/**/*"]
 }

@@ -6,7 +6,7 @@
     "dev": "unisim dev",
     "compile": "unisim compile --pxt",
     "flash": "unisim flash",
-    "lint": "unisim-extension lint"
+    "lint": "unisim lint"
   },
   "dependencies": {
     "unisim": "latest"

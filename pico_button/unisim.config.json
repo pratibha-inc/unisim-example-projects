@@ -2,7 +2,7 @@
   "project": "PICO BUTTON",
   "version": "2.0.0",
   "mappings": {
-    "pico-cnpn9x": "src/pico-cnpn9x"
+    "pico-cnpn9x": "./modules/pico-cnpn9x"
   },
   "transpiler": {
     "target": "pyodide"
