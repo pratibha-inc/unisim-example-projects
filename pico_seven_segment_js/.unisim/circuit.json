@@ -162,7 +162,7 @@
         "componentId": "seven_segment-kebplt",
         "pinId": "com",
         "x": 650,
-        "y": 300,
+        "y": 200,
         "type": "component-pin"
       },
       "endPin": {

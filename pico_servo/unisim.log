@@ -2046,3 +2046,2535 @@
   Message: Servo servo-lzxw0h Angle: NaN° (duty: NaN)
   Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
 
+[2026-03-16T15:59:47.060Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:100:16
+
+[2026-03-16T15:59:47.063Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: file:///D:/UniSim/unisim-core/dist/app/index.js:11:8
+
+[2026-03-16T15:59:48.387Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:62:20
+
+[2026-03-16T15:59:48.407Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: PIN_STATE
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:59:48.412Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Snapshotting all pin states for UI...
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:203:16
+
+[2026-03-16T15:59:48.847Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:59:48.862Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:147:16
+
+[2026-03-16T15:59:48.896Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-w4732e (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-16T15:59:48.899Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: servo-lzxw0h
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-16T15:59:48.901Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected servo-lzxw0h:sig <-> pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:59:48.902Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: servo-lzxw0h:sig ↔ pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:59:48.904Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected servo-lzxw0h:vcc <-> pico-w4732e:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:59:48.910Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: servo-lzxw0h:vcc ↔ pico-w4732e:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:59:48.912Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected servo-lzxw0h:gnd <-> pico-w4732e:GND
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:59:48.913Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: servo-lzxw0h:gnd ↔ pico-w4732e:GND#38
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:59:48.915Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 3 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:338:20
+
+[2026-03-16T15:59:54.460Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:59:54.461Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:147:16
+
+[2026-03-16T15:59:54.462Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-w4732e (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-16T15:59:54.465Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: servo-lzxw0h
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-16T15:59:54.466Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected servo-lzxw0h:sig <-> pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:59:54.467Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: servo-lzxw0h:sig ↔ pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:59:54.468Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected servo-lzxw0h:vcc <-> pico-w4732e:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:59:54.469Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: servo-lzxw0h:vcc ↔ pico-w4732e:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:59:54.469Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 2 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:338:20
+
+[2026-03-16T15:59:56.390Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:59:56.391Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:147:16
+
+[2026-03-16T15:59:56.392Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-w4732e (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-16T15:59:56.394Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: servo-lzxw0h
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-16T15:59:56.395Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected servo-lzxw0h:sig <-> pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:59:56.396Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: servo-lzxw0h:sig ↔ pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:59:56.398Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 1 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:338:20
+
+[2026-03-16T16:00:00.397Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:00:00.399Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:147:16
+
+[2026-03-16T16:00:00.400Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-w4732e (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-16T16:00:00.402Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: servo-lzxw0h
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-16T16:00:00.403Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected servo-lzxw0h:sig <-> pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T16:00:00.403Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: servo-lzxw0h:sig ↔ pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T16:00:00.405Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected servo-lzxw0h:vcc <-> pico-w4732e:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T16:00:00.405Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: servo-lzxw0h:vcc ↔ pico-w4732e:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T16:00:00.406Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 2 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:338:20
+
+[2026-03-16T16:00:05.931Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:00:05.932Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:147:16
+
+[2026-03-16T16:00:05.942Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-w4732e (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-16T16:00:05.943Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: servo-lzxw0h
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-16T16:00:05.944Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected servo-lzxw0h:sig <-> pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T16:00:05.946Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: servo-lzxw0h:sig ↔ pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T16:00:05.949Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected servo-lzxw0h:vcc <-> pico-w4732e:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T16:00:05.950Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: servo-lzxw0h:vcc ↔ pico-w4732e:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T16:00:05.951Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected servo-lzxw0h:gnd <-> pico-w4732e:GND
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T16:00:05.952Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: servo-lzxw0h:gnd ↔ pico-w4732e:GND#38
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T16:00:05.952Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 3 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:338:20
+
+[2026-03-16T16:00:07.463Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: START_SIM
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:00:07.465Z] [INFO] [CRITICALITY: LOW]
+  Message: ▶ Simulation STARTED
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:84:16
+
+[2026-03-16T16:00:07.468Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected servo-lzxw0h:sig <-> pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T16:00:07.470Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected servo-lzxw0h:vcc <-> pico-w4732e:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T16:00:07.471Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected servo-lzxw0h:gnd <-> pico-w4732e:GND
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T16:00:07.472Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Netlist rebuilt from 3 wires
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:108:16
+
+[2026-03-16T16:00:07.473Z] [INFO] [CRITICALITY: LOW]
+  Message: START_SIM: Board [pico-w4732e] received 1 files: main.py
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:118:20
+
+[2026-03-16T16:00:07.475Z] [INFO] [CRITICALITY: LOW]
+  Message: Spawning runtime for board: pico-w4732e (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:26:16
+
+[2026-03-16T16:00:07.477Z] [INFO] [CRITICALITY: LOW]
+  Message: Loaded pin-maps.json from disk
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:50:20
+
+[2026-03-16T16:00:07.482Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: pico-w4732e
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-16T16:00:07.485Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-w4732e runtime started
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:293:16
+
+[2026-03-16T16:00:07.486Z] [INFO] [CRITICALITY: LOW]
+  Message: All board runtimes spawned successfully.
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:123:16
+
+[2026-03-16T16:00:07.488Z] [INFO] [CRITICALITY: LOW]
+  Message: Spawning Master Coordinator (JS Brain)...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:309:16
+
+[2026-03-16T16:00:07.491Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=Z. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:07.493Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:07.494Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=3.3. Nodes: servo-lzxw0h:vcc, pico-w4732e:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:07.496Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:3V3 -> idx 36 = 65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:07.498Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: servo-lzxw0h:gnd, pico-w4732e:GND
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:07.502Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GND -> idx 3 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:07.505Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Synced 3 nets to all workers.
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:208:16
+
+[2026-03-16T16:00:07.511Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: PIN_STATE
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:00:07.513Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Snapshotting all pin states for UI...
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:203:16
+
+[2026-03-16T16:00:07.561Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Master Coordinator: Starting JS Brain...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:00:07.564Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] JS Brain: Booting pico_servo...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:00:07.568Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Master Coordinator: JS Brain initialized.
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:00:07.572Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] Worker initialized for boardId: pico-w4732e. physToLogicalMap size: 43
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:07.575Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-w4732e] Starting WASM execution... loading Pyodide
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-16T16:00:07.577Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-w4732e] DEBUG PATH - __dirname: D:\UniSim\unisim-core\dist\core\runtime, fileURL: D:\UniSim\unisim-core\dist\core\runtime\worker.js, pyodideDir: D:\UniSim\unisim-core\node_modules\pyodide
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-16T16:00:07.580Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:07.583Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:07.588Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved '3V3' -> phys:36 (Logical: 3V3)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:07.590Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical 3V3 -> phys index 36, raw val 3.3
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:07.592Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GND' -> phys:3 (Logical: GND)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:07.593Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GND -> phys index 3, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:07.599Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] System Ready. Monitoring hardware events...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:00:09.886Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-w4732e] Pyodide loaded. Setting up VFS and shims.
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-16T16:00:09.907Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-w4732e] Executing code (486 bytes). Injecting into globals and executing async loop.
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-16T16:00:09.922Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-w4732e] [PY-TRACE] Python _unisimm_main started. Executing user code...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-16T16:00:09.927Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:09.930Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [PULL/DRIVE] Configured pico-w4732e:GP15 | pull: NONE | drive: undefined
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:249:20
+
+[2026-03-16T16:00:09.934Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-w4732e] === Pico Servo Test Started (GP15) ===
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-16T16:00:09.940Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.02499427786678874. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:09.943Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 496
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:09.945Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:09.948Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.02499427786678874
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:10.043Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 14° (duty: 0.033)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:10.046Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.03262378881513695. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:10.049Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 648
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:10.053Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:10.056Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.03262378881513695
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:10.145Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 27° (duty: 0.040)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:10.147Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.04025329976348516. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:10.150Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 799
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:10.153Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:10.156Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.04025329976348516
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:10.252Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 41° (duty: 0.048)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:10.254Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.047882810711833375. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:10.257Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 951
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:10.259Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:10.260Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.047882810711833375
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:10.366Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 55° (duty: 0.056)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:10.369Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.05551232166018158. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:10.372Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1102
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:10.374Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:10.376Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.05551232166018158
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:10.475Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 69° (duty: 0.063)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:10.477Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.06314183260852979. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:10.480Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1254
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:10.482Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:10.483Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.06314183260852979
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:10.577Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 82° (duty: 0.071)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:10.579Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.070771343556878. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:10.582Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1405
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:10.586Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:10.588Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.070771343556878
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:10.679Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 96° (duty: 0.078)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:10.681Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.07840085450522621. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:10.684Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1557
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:10.686Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:10.689Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.07840085450522621
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:10.782Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 110° (duty: 0.086)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:10.784Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.08603036545357443. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:10.787Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1708
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:10.791Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:10.794Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.08603036545357443
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:10.896Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 124° (duty: 0.094)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:10.898Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.09365987640192264. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:10.901Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1860
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:10.904Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:10.907Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.09365987640192264
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:10.996Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 137° (duty: 0.101)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:10.998Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.10128938735027085. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:11.002Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2012
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:11.005Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:11.009Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.10128938735027085
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:11.112Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 151° (duty: 0.109)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:11.115Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.10891889829861906. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:11.118Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2163
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:11.121Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:11.123Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.10891889829861906
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:11.216Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 165° (duty: 0.117)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:11.217Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.11654840924696727. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:11.219Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2315
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:11.222Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:11.226Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.11654840924696727
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:11.319Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 179° (duty: 0.124)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:11.321Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.12417792019531548. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:11.324Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2466
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:11.326Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:11.329Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.12417792019531548
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:11.432Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 180° (duty: 0.125)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:11.434Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.1250019073777371. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:11.437Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2482
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:11.439Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:11.442Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.1250019073777371
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:11.544Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 166° (duty: 0.117)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:11.546Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.11737239642938888. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:11.549Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2331
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:11.552Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:11.554Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.11737239642938888
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:11.646Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 153° (duty: 0.110)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:11.648Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.10974288548104066. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:11.651Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2179
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:11.655Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:11.658Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.10974288548104066
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:11.760Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 139° (duty: 0.102)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:11.762Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.10211337453269245. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:11.765Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2028
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:11.766Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:11.769Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.10211337453269245
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:11.868Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 125° (duty: 0.094)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:11.870Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.09448386358434424. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:11.874Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1876
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:11.876Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:11.877Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.09448386358434424
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:11.984Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 111° (duty: 0.087)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:11.986Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.08685435263599603. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:11.988Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1725
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:11.990Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:11.994Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.08685435263599603
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:12.097Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 98° (duty: 0.079)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:12.100Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.07922484168764782. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:12.102Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1573
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:12.104Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:12.107Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.07922484168764782
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:12.204Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 84° (duty: 0.072)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:12.205Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.0715953307392996. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:12.208Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1422
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:12.211Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:12.215Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.0715953307392996
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:12.307Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 70° (duty: 0.064)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:12.309Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.0639658197909514. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:12.311Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1270
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:12.314Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:12.317Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.0639658197909514
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:12.414Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 56° (duty: 0.056)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:12.416Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.05633630884260319. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:12.419Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1119
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:12.422Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:12.425Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.05633630884260319
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:12.520Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 43° (duty: 0.049)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:12.522Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.04870679789425498. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:12.525Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 967
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:12.528Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:12.530Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.04870679789425498
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:12.627Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 29° (duty: 0.041)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:12.629Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.04107728694590677. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:12.632Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 816
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:12.634Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:12.636Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.04107728694590677
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:12.731Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 15° (duty: 0.033)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:12.734Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.033447775997558556. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:12.737Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 664
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:12.739Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:12.742Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.033447775997558556
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:12.846Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 1° (duty: 0.026)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:12.848Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.025818265049210344. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:12.850Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 513
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:12.853Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:12.856Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.025818265049210344
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:12.961Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 0° (duty: 0.025)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:12.963Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.02499427786678874. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:12.965Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 496
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:12.969Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:12.971Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.02499427786678874
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:13.062Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 14° (duty: 0.033)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:13.064Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.03262378881513695. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:13.067Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 648
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:13.068Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:13.070Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.03262378881513695
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:13.165Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 27° (duty: 0.040)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:13.167Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.04025329976348516. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:13.169Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 799
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:13.173Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:13.174Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.04025329976348516
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:13.278Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 41° (duty: 0.048)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:13.281Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.047882810711833375. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:13.285Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 951
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:13.288Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:13.290Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.047882810711833375
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:13.394Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 55° (duty: 0.056)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:13.395Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.05551232166018158. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:13.398Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1102
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:13.400Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:13.402Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.05551232166018158
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:13.497Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 69° (duty: 0.063)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:13.500Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.06314183260852979. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:13.502Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1254
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:13.504Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:13.506Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.06314183260852979
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:13.612Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 82° (duty: 0.071)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:13.614Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.070771343556878. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:13.618Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1405
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:13.622Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:13.625Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.070771343556878
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:13.727Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 96° (duty: 0.078)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:13.730Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.07840085450522621. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:13.734Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1557
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:13.737Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:13.739Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.07840085450522621
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:13.834Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 110° (duty: 0.086)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:13.836Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.08603036545357443. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:13.839Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1708
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:13.841Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:13.843Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.08603036545357443
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:13.944Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 124° (duty: 0.094)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:13.946Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.09365987640192264. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:13.949Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1860
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:13.951Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:13.955Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.09365987640192264
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:14.059Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 137° (duty: 0.101)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:14.061Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.10128938735027085. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:14.065Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2012
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:14.068Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:14.073Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.10128938735027085
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:14.164Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 151° (duty: 0.109)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:14.166Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.10891889829861906. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:14.169Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2163
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:14.171Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:14.174Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.10891889829861906
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:14.276Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 165° (duty: 0.117)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:14.279Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.11654840924696727. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:14.281Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2315
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:14.283Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:14.284Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.11654840924696727
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:14.379Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 179° (duty: 0.124)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:14.380Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.12417792019531548. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:14.385Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2466
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:14.387Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:14.390Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.12417792019531548
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:14.492Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 180° (duty: 0.125)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:14.493Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.1250019073777371. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:14.498Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2482
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:14.501Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:14.504Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.1250019073777371
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:14.596Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 166° (duty: 0.117)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:14.599Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.11737239642938888. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:14.602Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2331
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:14.605Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:14.608Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.11737239642938888
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:14.712Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 153° (duty: 0.110)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:14.714Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.10974288548104066. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:14.718Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2179
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:14.720Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:14.722Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.10974288548104066
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:14.814Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 139° (duty: 0.102)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:14.816Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.10211337453269245. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:14.820Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2028
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:14.823Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:14.826Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.10211337453269245
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:14.915Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 125° (duty: 0.094)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:14.917Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.09448386358434424. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:14.920Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1876
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:14.925Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:14.927Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.09448386358434424
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:15.019Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 111° (duty: 0.087)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:15.021Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.08685435263599603. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:15.024Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1725
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:15.027Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:15.029Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.08685435263599603
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:15.126Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 98° (duty: 0.079)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:15.128Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.07922484168764782. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:15.132Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1573
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:15.134Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:15.137Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.07922484168764782
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:15.233Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 84° (duty: 0.072)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:15.235Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.0715953307392996. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:15.238Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1422
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:15.242Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:15.243Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.0715953307392996
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:15.345Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 70° (duty: 0.064)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:15.347Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.0639658197909514. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:15.351Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1270
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:15.354Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:15.356Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.0639658197909514
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:15.450Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 56° (duty: 0.056)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:15.452Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.05633630884260319. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:15.455Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1119
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:15.457Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:15.459Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.05633630884260319
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:15.551Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 43° (duty: 0.049)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:15.553Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.04870679789425498. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:15.556Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 967
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:15.558Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:15.561Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.04870679789425498
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:15.653Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 29° (duty: 0.041)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:15.655Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.04107728694590677. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:15.658Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 816
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:15.660Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:15.662Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.04107728694590677
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:15.759Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 15° (duty: 0.033)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:15.763Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.033447775997558556. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:15.767Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 664
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:15.769Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:15.772Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.033447775997558556
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:15.861Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 1° (duty: 0.026)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:15.863Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.025818265049210344. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:15.866Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 513
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:15.871Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:15.874Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.025818265049210344
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:15.964Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 0° (duty: 0.025)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:15.966Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.02499427786678874. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:15.970Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 496
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:15.974Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:15.977Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.02499427786678874
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:16.065Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 14° (duty: 0.033)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:16.068Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.03262378881513695. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:16.070Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 648
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:16.073Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:16.075Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.03262378881513695
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:16.179Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 27° (duty: 0.040)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:16.183Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.04025329976348516. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:16.186Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 799
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:16.190Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:16.192Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.04025329976348516
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:16.290Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 41° (duty: 0.048)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:16.292Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.047882810711833375. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:16.296Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 951
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:16.299Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:16.301Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.047882810711833375
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:16.394Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 55° (duty: 0.056)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:16.397Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.05551232166018158. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:16.400Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1102
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:16.402Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:16.405Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.05551232166018158
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:16.501Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 69° (duty: 0.063)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:16.503Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.06314183260852979. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:16.507Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1254
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:16.509Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:16.510Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.06314183260852979
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:16.617Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 82° (duty: 0.071)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:16.619Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.070771343556878. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:16.621Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1405
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:16.623Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:16.626Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.070771343556878
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:16.731Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 96° (duty: 0.078)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:16.733Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.07840085450522621. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:16.737Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1557
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:16.741Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:16.744Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.07840085450522621
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:16.839Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 110° (duty: 0.086)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:16.841Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.08603036545357443. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:16.844Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1708
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:16.847Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:16.851Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.08603036545357443
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:16.949Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 124° (duty: 0.094)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:16.952Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.09365987640192264. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:16.955Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1860
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:16.958Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:16.961Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.09365987640192264
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:17.050Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 137° (duty: 0.101)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:17.052Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.10128938735027085. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:17.054Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2012
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:17.058Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:17.061Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.10128938735027085
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:17.153Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 151° (duty: 0.109)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:17.155Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.10891889829861906. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:17.157Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2163
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:17.159Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:17.162Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.10891889829861906
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:17.256Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 165° (duty: 0.117)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:17.257Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.11654840924696727. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:17.259Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2315
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:17.262Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:17.265Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.11654840924696727
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:17.366Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 179° (duty: 0.124)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:17.369Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.12417792019531548. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:17.372Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2466
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:17.375Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:17.377Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.12417792019531548
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:17.468Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 180° (duty: 0.125)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:17.470Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.1250019073777371. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:17.474Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2482
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:17.477Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:17.479Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.1250019073777371
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:17.574Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 166° (duty: 0.117)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:17.576Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.11737239642938888. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:17.579Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2331
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:17.582Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:17.584Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.11737239642938888
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:17.684Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 153° (duty: 0.110)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:17.686Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.10974288548104066. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:17.689Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2179
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:17.692Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:17.694Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.10974288548104066
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:17.798Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 139° (duty: 0.102)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:17.801Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.10211337453269245. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:17.803Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2028
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:17.805Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:17.808Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.10211337453269245
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:17.902Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 125° (duty: 0.094)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:17.904Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.09448386358434424. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:17.906Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1876
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:17.910Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:17.914Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.09448386358434424
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:18.013Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 111° (duty: 0.087)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:18.016Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.08685435263599603. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:18.020Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1725
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:18.022Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:18.025Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.08685435263599603
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:18.123Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 98° (duty: 0.079)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:18.125Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.07922484168764782. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:18.127Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1573
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:18.128Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:18.130Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.07922484168764782
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:18.232Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 84° (duty: 0.072)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:18.234Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.0715953307392996. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:18.237Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1422
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:18.238Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:18.241Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.0715953307392996
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:18.334Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 70° (duty: 0.064)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:18.336Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.0639658197909514. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:18.338Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1270
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:18.341Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:18.344Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.0639658197909514
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:18.449Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 56° (duty: 0.056)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:18.452Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.05633630884260319. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:18.454Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1119
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:18.457Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:18.459Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.05633630884260319
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:18.565Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 43° (duty: 0.049)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:18.568Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.04870679789425498. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:18.570Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 967
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:18.572Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:18.574Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.04870679789425498
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:18.680Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 29° (duty: 0.041)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:18.682Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.04107728694590677. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:18.685Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 816
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:18.687Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:18.691Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.04107728694590677
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:18.795Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 15° (duty: 0.033)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:18.797Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.033447775997558556. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:18.801Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 664
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:18.805Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:18.807Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.033447775997558556
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:18.909Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 1° (duty: 0.026)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:18.910Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.025818265049210344. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:18.913Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 513
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:18.918Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:18.921Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.025818265049210344
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:19.009Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 0° (duty: 0.025)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:19.011Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.02499427786678874. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:19.015Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 496
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:19.018Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:19.022Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.02499427786678874
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:19.113Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 14° (duty: 0.033)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:19.115Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.03262378881513695. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:19.118Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 648
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:19.121Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:19.125Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.03262378881513695
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:19.222Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 27° (duty: 0.040)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:19.224Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.04025329976348516. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:19.226Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 799
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:19.228Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:19.230Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.04025329976348516
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:19.329Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 41° (duty: 0.048)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:19.331Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.047882810711833375. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:19.335Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 951
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:19.338Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:19.340Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.047882810711833375
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:19.433Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 55° (duty: 0.056)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:19.435Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.05551232166018158. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:19.437Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1102
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:19.439Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:19.441Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.05551232166018158
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:19.543Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 69° (duty: 0.063)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:19.547Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.06314183260852979. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:19.550Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1254
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:19.553Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:19.557Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.06314183260852979
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:19.647Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 82° (duty: 0.071)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:19.649Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.070771343556878. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:19.652Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1405
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:19.655Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:19.658Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.070771343556878
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:19.750Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 96° (duty: 0.078)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:19.752Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.07840085450522621. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:19.754Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1557
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:19.756Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:19.759Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.07840085450522621
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:19.863Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 110° (duty: 0.086)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:19.865Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.08603036545357443. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:19.869Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1708
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:19.872Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:19.875Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.08603036545357443
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:19.963Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 124° (duty: 0.094)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:19.965Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.09365987640192264. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:19.970Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1860
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:19.972Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:19.975Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.09365987640192264
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:20.064Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 137° (duty: 0.101)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:20.067Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.10128938735027085. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:20.071Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2012
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:20.075Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:20.077Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.10128938735027085
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:20.168Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 151° (duty: 0.109)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:20.170Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.10891889829861906. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:20.173Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2163
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:20.175Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:20.176Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.10891889829861906
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:20.281Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 165° (duty: 0.117)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:20.283Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.11654840924696727. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:20.286Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2315
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:20.289Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:20.292Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.11654840924696727
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:20.384Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 179° (duty: 0.124)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:20.386Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.12417792019531548. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:20.389Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2466
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:20.394Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:20.396Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.12417792019531548
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:20.496Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 180° (duty: 0.125)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:20.500Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.1250019073777371. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:20.503Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2482
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:20.506Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:20.509Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.1250019073777371
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:20.598Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 166° (duty: 0.117)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:20.600Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.11737239642938888. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:20.602Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2331
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:20.607Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:20.609Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.11737239642938888
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:20.704Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 153° (duty: 0.110)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:20.706Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.10974288548104066. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:20.709Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2179
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:20.711Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:20.714Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.10974288548104066
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:20.814Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 139° (duty: 0.102)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:20.817Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.10211337453269245. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:20.823Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 2028
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:20.826Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:20.826Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.10211337453269245
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:20.919Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 125° (duty: 0.094)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:20.921Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.09448386358434424. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:20.925Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1876
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:20.927Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:20.929Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.09448386358434424
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:21.036Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 111° (duty: 0.087)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:21.038Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.08685435263599603. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:21.040Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1725
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:21.042Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:21.044Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.08685435263599603
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:21.138Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 98° (duty: 0.079)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:21.140Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.07922484168764782. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:21.143Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1573
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:21.147Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:21.150Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.07922484168764782
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:21.247Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 84° (duty: 0.072)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:21.250Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.0715953307392996. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:21.255Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1422
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:21.258Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:21.261Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.0715953307392996
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:21.361Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: 70° (duty: 0.064)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:21.363Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0.0639658197909514. Nodes: servo-lzxw0h:sig, pico-w4732e:GP15
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:00:21.367Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-w4732e:GP15 -> idx 20 = 1270
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:00:21.370Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] virtualPin resolved 'GP15' -> phys:20 (Logical: GP15)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:21.372Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-w4732e] [WORKER] PIN_UPDATE: logical GP15 -> phys index 20, raw val 0.0639658197909514
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:00:21.434Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: STOP_SIM
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:00:21.436Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: ⏹ Simulation STOPPED
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:147:16
+
+[2026-03-16T16:00:21.461Z] [INFO] [CRITICALITY: LOW]
+  Message: Worker for pico-w4732e exited with code 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:289:20
+
+[2026-03-16T16:00:21.464Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-w4732e runtime stopped
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:303:16
+
+[2026-03-16T16:00:21.468Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Servo servo-lzxw0h Angle: NaN° (duty: NaN)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/servo.js:49:28
+
+[2026-03-16T16:00:23.570Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:87:24
+

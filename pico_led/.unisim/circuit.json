@@ -25,8 +25,8 @@
     {
       "id": "resistor-rpdn4o",
       "type": "resistor",
-      "x": 250,
-      "y": 100,
+      "x": 340,
+      "y": 160,
       "data": {
         "resistance": 220,
         "tolerance": 5
@@ -65,8 +65,8 @@
       "endPin": {
         "componentId": "resistor-rpdn4o",
         "pinId": "pin1",
-        "x": 250,
-        "y": 100,
+        "x": 340,
+        "y": 160,
         "type": "component-pin"
       },
       "color": "hsl(222, 85%, 55%)"
@@ -76,8 +76,8 @@
       "startPin": {
         "componentId": "resistor-rpdn4o",
         "pinId": "pin2",
-        "x": 250,
-        "y": 160,
+        "x": 340,
+        "y": 220,
         "type": "component-pin"
       },
       "endPin": {

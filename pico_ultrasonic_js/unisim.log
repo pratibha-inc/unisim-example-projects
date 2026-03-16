@@ -2550,3 +2550,3003 @@
   Message: Client disconnected
   Location: D:\UniSim\unisim-core\src\connectivity\server.ts:94:24
 
+[2026-03-16T16:04:24.982Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:100:16
+
+[2026-03-16T16:04:24.985Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: file:///D:/UniSim/unisim-core/dist/app/index.js:11:8
+
+[2026-03-16T16:04:26.288Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:62:20
+
+[2026-03-16T16:04:26.307Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: PIN_STATE
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:26.309Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Snapshotting all pin states for UI...
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:203:16
+
+[2026-03-16T16:04:26.731Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:26.745Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:147:16
+
+[2026-03-16T16:04:26.777Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-z57u5t (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-16T16:04:26.780Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: ultrasonic-es3s3k
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-16T16:04:26.782Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-z57u5t:GP15 <-> ultrasonic-es3s3k:trig
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T16:04:26.784Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: pico-z57u5t:GP15 ↔ ultrasonic-es3s3k:trig
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T16:04:26.786Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-z57u5t:GP14 <-> ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T16:04:26.787Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: pico-z57u5t:GP14 ↔ ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T16:04:26.787Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-z57u5t:GND <-> ultrasonic-es3s3k:gnd
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T16:04:26.788Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: pico-z57u5t:GND ↔ ultrasonic-es3s3k:gnd
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T16:04:26.789Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected ultrasonic-es3s3k:vcc <-> pico-z57u5t:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T16:04:26.790Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: ultrasonic-es3s3k:vcc ↔ pico-z57u5t:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T16:04:26.791Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 4 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:338:20
+
+[2026-03-16T16:04:26.794Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 150cm [norm:0.375]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:26.795Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:26.796Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.3750
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:26.797Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.375. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:26.799Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Board pico-z57u5t runtime not yet ready for synchronization.
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:192:28
+
+[2026-03-16T16:04:30.752Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:30.753Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:147:16
+
+[2026-03-16T16:04:30.754Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-z57u5t (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-16T16:04:30.756Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: ultrasonic-es3s3k
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-16T16:04:30.758Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-z57u5t:GP15 <-> ultrasonic-es3s3k:trig
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T16:04:30.760Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: pico-z57u5t:GP15 ↔ ultrasonic-es3s3k:trig
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T16:04:30.761Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-z57u5t:GP14 <-> ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T16:04:30.762Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: pico-z57u5t:GP14 ↔ ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T16:04:30.764Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-z57u5t:GND <-> ultrasonic-es3s3k:gnd
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T16:04:30.764Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: pico-z57u5t:GND ↔ ultrasonic-es3s3k:gnd
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T16:04:30.765Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 3 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:338:20
+
+[2026-03-16T16:04:30.767Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 150cm [norm:0.375]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:30.769Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: OFF (VCC Net: 0)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:30.771Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.0000
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:30.773Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:30.776Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Board pico-z57u5t runtime not yet ready for synchronization.
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:192:28
+
+[2026-03-16T16:04:33.942Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:33.943Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:147:16
+
+[2026-03-16T16:04:33.945Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-z57u5t (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-16T16:04:33.946Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: ultrasonic-es3s3k
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-16T16:04:33.947Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-z57u5t:GP15 <-> ultrasonic-es3s3k:trig
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T16:04:33.948Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: pico-z57u5t:GP15 ↔ ultrasonic-es3s3k:trig
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T16:04:33.949Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-z57u5t:GP14 <-> ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T16:04:33.950Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: pico-z57u5t:GP14 ↔ ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T16:04:33.951Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-z57u5t:GND <-> ultrasonic-es3s3k:gnd
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T16:04:33.951Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: pico-z57u5t:GND ↔ ultrasonic-es3s3k:gnd
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T16:04:33.952Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected ultrasonic-es3s3k:vcc <-> pico-z57u5t:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T16:04:33.952Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: ultrasonic-es3s3k:vcc ↔ pico-z57u5t:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T16:04:33.953Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 4 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:338:20
+
+[2026-03-16T16:04:33.955Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 150cm [norm:0.375]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:33.957Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:33.960Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.3750
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:33.961Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.375. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:33.964Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Board pico-z57u5t runtime not yet ready for synchronization.
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:192:28
+
+[2026-03-16T16:04:38.141Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: START_SIM
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:38.144Z] [INFO] [CRITICALITY: LOW]
+  Message: ▶ Simulation STARTED
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:84:16
+
+[2026-03-16T16:04:38.147Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-z57u5t:GP15 <-> ultrasonic-es3s3k:trig
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T16:04:38.148Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-z57u5t:GP14 <-> ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T16:04:38.149Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-z57u5t:GND <-> ultrasonic-es3s3k:gnd
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T16:04:38.151Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected ultrasonic-es3s3k:vcc <-> pico-z57u5t:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T16:04:38.151Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Netlist rebuilt from 4 wires
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:108:16
+
+[2026-03-16T16:04:38.152Z] [INFO] [CRITICALITY: LOW]
+  Message: START_SIM: Board [pico-z57u5t] received 0 files: 
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:118:20
+
+[2026-03-16T16:04:38.154Z] [INFO] [CRITICALITY: LOW]
+  Message: Spawning runtime for board: pico-z57u5t (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:26:16
+
+[2026-03-16T16:04:38.156Z] [INFO] [CRITICALITY: LOW]
+  Message: Loaded pin-maps.json from disk
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:50:20
+
+[2026-03-16T16:04:38.164Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: pico-z57u5t
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-16T16:04:38.165Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-z57u5t runtime started
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:293:16
+
+[2026-03-16T16:04:38.166Z] [INFO] [CRITICALITY: LOW]
+  Message: All board runtimes spawned successfully.
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:123:16
+
+[2026-03-16T16:04:38.168Z] [INFO] [CRITICALITY: LOW]
+  Message: Spawning Master Coordinator (JS Brain)...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:309:16
+
+[2026-03-16T16:04:38.171Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=Z. Nodes: pico-z57u5t:GP15, ultrasonic-es3s3k:trig
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:38.172Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP15 -> idx 20 = 65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:38.176Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=Z. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:38.179Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:38.181Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-z57u5t:GND, ultrasonic-es3s3k:gnd
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:38.183Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GND -> idx 3 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:38.184Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=3.3. Nodes: ultrasonic-es3s3k:vcc, pico-z57u5t:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:38.186Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:3V3 -> idx 36 = 65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:38.187Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Synced 4 nets to all workers.
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:208:16
+
+[2026-03-16T16:04:38.192Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: PIN_STATE
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:38.194Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Snapshotting all pin states for UI...
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:203:16
+
+[2026-03-16T16:04:38.247Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] Worker initialized for boardId: pico-z57u5t. physToLogicalMap size: 43
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:38.250Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-z57u5t] Starting WASM execution... loading Pyodide
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-16T16:04:38.253Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-z57u5t] DEBUG PATH - __dirname: D:\UniSim\unisim-core\dist\core\runtime, fileURL: D:\UniSim\unisim-core\dist\core\runtime\worker.js, pyodideDir: D:\UniSim\unisim-core\node_modules\pyodide
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-16T16:04:38.256Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved '3V3' -> phys:36 (Logical: 3V3)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:38.263Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical 3V3 -> phys index 36, raw val 3.3
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:38.267Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Master Coordinator: Starting JS Brain...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:38.270Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Master Coordinator: JS Brain initialized.
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:38.275Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] JS Ultrasonic Logic Started
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:38.278Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] [BRAIN-DEBUG] HCSR04 Echo Pin Read: raw=65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:38.281Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Distance: 400.0 cm
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:39.286Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] [BRAIN-DEBUG] HCSR04 Echo Pin Read: raw=65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:39.288Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Distance: 400.0 cm
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:40.293Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] [BRAIN-DEBUG] HCSR04 Echo Pin Read: raw=65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:40.295Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Distance: 400.0 cm
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:40.447Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-z57u5t] Pyodide loaded. Setting up VFS and shims.
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-16T16:04:40.466Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-z57u5t] No main.py/main.cpp found. Starting board in Hardware Shim mode.
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-16T16:04:41.298Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] [BRAIN-DEBUG] HCSR04 Echo Pin Read: raw=65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:41.300Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Distance: 400.0 cm
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:42.302Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] [BRAIN-DEBUG] HCSR04 Echo Pin Read: raw=65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:42.304Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Distance: 400.0 cm
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:43.314Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] [BRAIN-DEBUG] HCSR04 Echo Pin Read: raw=65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:43.316Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Distance: 400.0 cm
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:44.319Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] [BRAIN-DEBUG] HCSR04 Echo Pin Read: raw=65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:44.321Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Distance: 400.0 cm
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:45.321Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] [BRAIN-DEBUG] HCSR04 Echo Pin Read: raw=65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:45.323Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Distance: 400.0 cm
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:46.327Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] [BRAIN-DEBUG] HCSR04 Echo Pin Read: raw=65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:46.329Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Distance: 400.0 cm
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:47.341Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] [BRAIN-DEBUG] HCSR04 Echo Pin Read: raw=65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:47.344Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Distance: 400.0 cm
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:47.944Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:47.946Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (138)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:47.947Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 138cm [norm:0.345]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:47.948Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:47.950Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.3450
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:47.953Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.345. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:47.955Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 6851
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:47.957Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:47.960Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.345
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:47.962Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:47.965Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.345
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.040Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:48.041Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (77)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:48.044Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 77cm [norm:0.193]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:48.047Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:48.050Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.1925
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:48.053Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.1925. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:48.055Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 3823
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:48.059Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.061Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.1925
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.064Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.067Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.1925
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.150Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:48.151Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (39)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:48.152Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 39cm [norm:0.098]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:48.154Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:48.159Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.0975
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:48.163Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.0975. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:48.166Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 1936
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:48.168Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.170Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.0975
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.171Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.173Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.0975
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.254Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:48.255Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (25)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:48.257Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 25cm [norm:0.063]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:48.259Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:48.263Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.0625
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:48.266Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.0625. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:48.269Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 1241
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:48.270Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.272Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.0625
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.273Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.276Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.0625
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.350Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] [BRAIN-DEBUG] HCSR04 Echo Pin Read: raw=4096
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:48.352Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Distance: 25.0 cm
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:48.355Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:48.356Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (20)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:48.357Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 20cm [norm:0.050]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:48.359Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:48.362Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.0500
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:48.366Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.05. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:48.368Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 993
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:48.370Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.372Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.05
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.375Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.378Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.05
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.742Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:48.744Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (23)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:48.745Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 23cm [norm:0.058]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:48.746Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:48.748Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.0575
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:48.750Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.0575. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:48.752Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 1142
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:48.754Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.756Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.0575
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.758Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.762Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.0575
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.833Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:48.834Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (56)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:48.835Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 56cm [norm:0.140]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:48.837Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:48.841Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.1400
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:48.844Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.14. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:48.847Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 2780
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:48.850Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.852Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.14
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.853Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.854Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.14
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.937Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:48.938Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (63)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:48.940Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 63cm [norm:0.158]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:48.941Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:48.945Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.1575
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:48.948Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.1575. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:48.951Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 3128
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:48.954Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.956Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.1575
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.959Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:48.962Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.1575
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.038Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:49.040Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (70)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:49.042Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 70cm [norm:0.175]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:49.043Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:49.045Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.1750
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:49.048Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.175. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:49.051Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 3475
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:49.054Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.057Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.175
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.060Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.063Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.175
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.147Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:49.148Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (91)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:49.151Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 91cm [norm:0.228]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:49.153Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:49.155Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.2275
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:49.158Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.2275. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:49.162Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 4518
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:49.165Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.168Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.2275
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.170Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.172Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.2275
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.253Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:49.254Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (111)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:49.255Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 111cm [norm:0.278]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:49.258Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:49.261Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.2775
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:49.264Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.2775. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:49.266Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 5511
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:49.269Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.271Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.2775
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.273Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.275Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.2775
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.351Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] [BRAIN-DEBUG] HCSR04 Echo Pin Read: raw=18186
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:49.353Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Distance: 111.0 cm
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:49.356Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:49.360Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (123)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:49.362Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 123cm [norm:0.307]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:49.365Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:49.367Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.3075
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:49.369Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.3075. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:49.371Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 6107
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:49.374Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.376Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.3075
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.379Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.382Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.3075
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.463Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:49.464Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (139)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:49.467Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 139cm [norm:0.347]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:49.468Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:49.470Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.3475
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:49.472Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.3475. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:49.475Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 6901
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:49.479Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.482Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.3475
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.484Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.487Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.3475
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.573Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:49.575Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (166)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:49.578Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 166cm [norm:0.415]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:49.580Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:49.582Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.4150
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:49.584Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.415. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:49.587Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 8242
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:49.589Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.591Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.415
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.595Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.599Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.415
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.686Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:49.687Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (182)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:49.688Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 182cm [norm:0.455]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:49.690Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:49.692Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.4550
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:49.695Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.455. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:49.697Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 9036
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:49.700Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.702Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.455
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.704Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.707Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.455
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.786Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:49.787Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (191)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:49.788Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 191cm [norm:0.477]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:49.790Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:49.792Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.4775
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:49.795Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.4775. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:49.797Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 9483
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:49.800Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.802Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.4775
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.804Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.806Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.4775
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.887Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:49.888Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (200)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:49.890Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 200cm [norm:0.500]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:49.893Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:49.896Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.5000
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:49.898Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.5. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:49.900Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 9930
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:49.902Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.904Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.5
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.907Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.909Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.5
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:49.991Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:49.992Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (213)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:49.995Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 213cm [norm:0.532]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:49.999Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:50.002Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.5325
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:50.004Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.5325. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:50.005Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 10575
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:50.008Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.011Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.5325
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.014Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.017Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.5325
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.101Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:50.102Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (229)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:50.103Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 229cm [norm:0.573]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:50.104Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:50.106Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.5725
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:50.109Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.5725. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:50.112Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 11369
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:50.114Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.117Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.5725
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.119Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.121Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.5725
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.206Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:50.208Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (238)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:50.211Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 238cm [norm:0.595]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:50.213Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:50.215Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.5950
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:50.217Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.595. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:50.220Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 11816
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:50.222Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.224Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.595
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.226Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.228Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.595
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.312Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:50.314Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (241)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:50.316Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 241cm [norm:0.603]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:50.318Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:50.320Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.6025
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:50.321Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.6025. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:50.323Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 11965
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:50.327Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.330Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.6025
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.331Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.333Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.6025
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.357Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] [BRAIN-DEBUG] HCSR04 Echo Pin Read: raw=39485
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:50.360Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Distance: 241.0 cm
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:50.434Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:50.435Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (241)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:50.436Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 241cm [norm:0.603]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:50.437Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:50.439Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.6025
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:50.442Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.6025. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:50.445Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 11965
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:50.448Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.450Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.6025
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.535Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:50.536Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (236)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:50.538Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 236cm [norm:0.590]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:50.540Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:50.541Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.5900
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:50.544Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.59. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:50.547Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 11717
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:50.550Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.552Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.59
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.555Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.558Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.59
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.648Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:50.649Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (216)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:50.650Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 216cm [norm:0.540]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:50.653Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:50.655Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.5400
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:50.659Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.54. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:50.661Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 10724
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:50.664Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.666Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.54
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.668Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.671Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.54
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.755Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:50.756Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (193)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:50.758Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 193cm [norm:0.482]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:50.759Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:50.761Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.4825
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:50.764Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.4825. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:50.766Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 9582
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:50.769Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.772Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.4825
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.774Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.776Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.4825
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.867Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:50.868Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (177)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:50.870Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 177cm [norm:0.443]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:50.872Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:50.875Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.4425
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:50.877Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.4425. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:50.879Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 8788
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:50.881Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.883Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.4425
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.885Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.887Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.4425
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.970Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:50.971Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (161)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:50.973Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 161cm [norm:0.403]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:50.975Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:50.977Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.4025
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:50.979Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.4025. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:50.981Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 7993
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:50.983Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.985Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.4025
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.987Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:50.989Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.4025
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.084Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:51.085Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (145)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:51.088Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 145cm [norm:0.362]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:51.091Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:51.094Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.3625
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:51.096Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.3625. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:51.100Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 7199
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:51.102Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.104Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.3625
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.106Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.110Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.3625
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.226Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:51.228Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (129)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:51.230Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 129cm [norm:0.323]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:51.231Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:51.233Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.3225
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:51.237Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.3225. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:51.239Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 6405
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:51.241Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.244Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.3225
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.246Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.248Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.3225
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.338Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:51.340Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (122)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:51.343Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 122cm [norm:0.305]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:51.345Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:51.348Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.3050
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:51.350Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.305. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:51.353Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 6057
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:51.357Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.360Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.305
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.362Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.364Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.305
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.372Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] [BRAIN-DEBUG] HCSR04 Echo Pin Read: raw=19988
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:51.375Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Distance: 122.0 cm
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:51.468Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:51.469Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (111)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:51.471Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 111cm [norm:0.278]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:51.472Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:51.476Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.2775
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:51.479Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.2775. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:51.482Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 5511
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:51.484Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.487Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.2775
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.489Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.494Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.2775
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.590Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:51.591Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (100)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:51.593Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 100cm [norm:0.250]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:51.597Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:51.599Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.2500
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:51.603Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.25. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:51.607Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 4965
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:51.611Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.614Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.25
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.617Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.618Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.25
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.745Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:51.747Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (88)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:51.749Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 88cm [norm:0.220]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:51.751Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:51.754Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.2200
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:51.757Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.22. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:51.761Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 4369
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:51.765Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.768Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.22
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.770Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.774Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.22
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.876Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:51.877Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (84)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:51.881Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 84cm [norm:0.210]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:51.885Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:51.888Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.2100
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:51.893Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.21. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:51.896Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 4170
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:51.899Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.903Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.21
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.908Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:51.912Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.21
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:52.372Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] [BRAIN-DEBUG] HCSR04 Echo Pin Read: raw=13762
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:52.375Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Distance: 84.0 cm
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:52.559Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:52.561Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (86)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:52.563Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 86cm [norm:0.215]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:52.565Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:52.567Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.2150
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:52.570Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.215. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:52.572Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 4270
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:52.575Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:52.579Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.215
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:52.584Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:52.587Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.215
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:52.670Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:52.671Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (106)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:52.672Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 106cm [norm:0.265]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:52.675Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:52.678Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.2650
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:52.681Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.265. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:52.684Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 5263
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:52.686Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:52.689Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.265
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:52.692Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:52.696Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.265
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:52.777Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:52.778Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (120)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:52.781Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 120cm [norm:0.300]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:52.783Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:52.786Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.3000
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:52.789Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.3. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:52.793Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 5958
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:52.796Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:52.799Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.3
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:52.801Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:52.804Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.3
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:52.886Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:52.887Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (143)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:52.889Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 143cm [norm:0.357]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:52.892Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:52.895Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.3575
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:52.898Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.3575. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:52.901Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 7100
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:52.903Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:52.905Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.3575
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:52.908Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:52.911Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.3575
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:52.997Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:52.998Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (168)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:53.000Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 168cm [norm:0.420]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:53.001Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:53.003Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.4200
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:53.007Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.42. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:53.010Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 8341
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:53.012Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.015Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.42
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.017Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.020Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.42
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.102Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:53.107Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (186)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:53.110Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 186cm [norm:0.465]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:53.111Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:53.114Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.4650
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:53.116Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.465. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:53.119Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 9234
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:53.121Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.125Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.465
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.129Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.134Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.465
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.224Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:53.226Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (200)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:53.229Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 200cm [norm:0.500]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:53.231Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:53.232Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.5000
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:53.234Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.5. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:53.237Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 9930
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:53.239Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.244Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.5
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.246Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.248Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.5
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.353Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:53.355Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (236)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:53.357Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 236cm [norm:0.590]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:53.359Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:53.362Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.5900
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:53.365Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.59. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:53.369Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 11717
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:53.374Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.379Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.59
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.381Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.384Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.59
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.387Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] [BRAIN-DEBUG] HCSR04 Echo Pin Read: raw=38666
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:53.391Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Distance: 236.0 cm
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:53.480Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:53.482Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (259)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:53.484Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 259cm [norm:0.647]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:53.487Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:53.489Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.6475
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:53.493Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.6475. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:53.497Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 12859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:53.499Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.501Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.6475
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.503Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.505Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.6475
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.614Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:53.616Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (273)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:53.618Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 273cm [norm:0.682]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:53.620Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:53.622Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.6825
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:53.625Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.6825. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:53.628Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 13554
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:53.630Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.632Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.6825
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.633Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.635Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.6825
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.737Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:53.738Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (279)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:53.740Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 279cm [norm:0.698]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:53.742Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:53.745Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.6975
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:53.747Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.6975. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:53.750Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 13852
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:53.753Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.756Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.6975
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.760Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.762Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.6975
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.862Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:53.863Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (277)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:53.866Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 277cm [norm:0.693]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:53.869Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:53.871Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.6925
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:53.873Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.6925. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:53.876Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 13752
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:53.879Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.882Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.6925
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.884Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.886Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.6925
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:53.984Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:53.987Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (266)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:53.988Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 266cm [norm:0.665]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:53.990Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:53.993Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.6650
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:53.995Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.665. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:53.998Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 13206
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:54.001Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.007Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.665
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.009Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.011Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.665
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.133Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:54.135Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (238)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:54.138Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 238cm [norm:0.595]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:54.140Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:54.142Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.5950
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:54.145Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.595. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:54.149Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 11816
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:54.151Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.152Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.595
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.155Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.158Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.595
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.254Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:54.256Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (198)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:54.258Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 198cm [norm:0.495]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:54.260Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:54.262Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.4950
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:54.264Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.495. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:54.267Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 9830
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:54.270Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.273Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.495
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.277Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.279Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.495
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.377Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:54.379Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (170)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:54.381Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 170cm [norm:0.425]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:54.384Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:54.387Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.4250
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:54.389Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.425. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:54.393Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 8440
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:54.395Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] [BRAIN-DEBUG] HCSR04 Echo Pin Read: raw=32440
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:54.398Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Distance: 198.0 cm
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:54.401Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.403Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.425
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.405Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.409Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.425
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.532Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:54.534Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (134)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:54.536Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 134cm [norm:0.335]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:54.537Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:54.539Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.3350
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:54.541Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.335. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:54.545Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 6653
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:54.549Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.553Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.335
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.555Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.560Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.335
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.653Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:54.654Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (107)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:54.656Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 107cm [norm:0.268]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:54.658Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:54.661Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.2675
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:54.664Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.2675. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:54.668Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 5312
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:54.670Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.675Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.2675
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.678Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.679Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.2675
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.771Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:54.772Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (91)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:54.774Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 91cm [norm:0.228]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:54.776Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:54.778Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.2275
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:54.780Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.2275. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:54.783Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 4518
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:54.787Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.791Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.2275
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.793Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.795Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.2275
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.880Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:54.883Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (84)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:54.885Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 84cm [norm:0.210]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:54.886Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:54.889Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.2100
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:54.893Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.21. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:54.895Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 4170
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:54.898Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.901Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.21
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.903Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:54.906Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.21
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:55.002Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:04:55.003Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: ultrasonic-es3s3k -> set_environment (81)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T16:04:55.005Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Ultrasonic ultrasonic-es3s3k UI Update: 81cm [norm:0.203]
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:39:16
+
+[2026-03-16T16:04:55.006Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Power Status: ON (VCC Net: 3.3)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:46:16
+
+[2026-03-16T16:04:55.008Z] [INFO] [CRITICALITY: LOW]
+  Message: Ultrasonic ultrasonic-es3s3k Driving ECHO pin: 0.2025
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/ultrasonic.js:50:16
+
+[2026-03-16T16:04:55.011Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0.2025. Nodes: pico-z57u5t:GP14, ultrasonic-es3s3k:echo
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T16:04:55.014Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-z57u5t:GP14 -> idx 19 = 4021
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T16:04:55.017Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:55.020Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.2025
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:55.023Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] virtualPin resolved 'GP14' -> phys:19 (Logical: GP14)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:55.026Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-z57u5t] [WORKER] PIN_UPDATE: logical GP14 -> phys index 19, raw val 0.2025
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T16:04:55.397Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] [BRAIN-DEBUG] HCSR04 Echo Pin Read: raw=13271
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:55.399Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Distance: 81.0 cm
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:56.409Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] [BRAIN-DEBUG] HCSR04 Echo Pin Read: raw=13271
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:56.416Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Distance: 81.0 cm
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:57.414Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] [BRAIN-DEBUG] HCSR04 Echo Pin Read: raw=13271
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:57.418Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Distance: 81.0 cm
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:58.417Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] [BRAIN-DEBUG] HCSR04 Echo Pin Read: raw=13271
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:58.418Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Distance: 81.0 cm
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:59.427Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] [BRAIN-DEBUG] HCSR04 Echo Pin Read: raw=13271
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:04:59.430Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Distance: 81.0 cm
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:05:00.441Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] [BRAIN-DEBUG] HCSR04 Echo Pin Read: raw=13271
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:05:00.444Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Distance: 81.0 cm
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:05:01.447Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] [BRAIN-DEBUG] HCSR04 Echo Pin Read: raw=13271
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:05:01.449Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Distance: 81.0 cm
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:05:02.458Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] [BRAIN-DEBUG] HCSR04 Echo Pin Read: raw=13271
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:05:02.461Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Distance: 81.0 cm
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T16:05:03.286Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: STOP_SIM
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T16:05:03.288Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: ⏹ Simulation STOPPED
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:147:16
+
+[2026-03-16T16:05:03.316Z] [INFO] [CRITICALITY: LOW]
+  Message: Worker for pico-z57u5t exited with code 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:289:20
+
+[2026-03-16T16:05:03.319Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-z57u5t runtime stopped
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:303:16
+
+[2026-03-16T16:05:08.043Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:87:24
+

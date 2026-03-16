@@ -30,7 +30,7 @@
   ],
   "wires": [
     {
-      "id": "wire-0wrdqr",
+      "id": "wire-nnfhng",
       "startPin": {
         "componentId": "lcd_i2c-3vpij2",
         "pinId": "gnd",
@@ -48,7 +48,7 @@
       "color": "hsl(0, 85%, 55%)"
     },
     {
-      "id": "wire-gdcfcj",
+      "id": "wire-m757p4",
       "startPin": {
         "componentId": "lcd_i2c-3vpij2",
         "pinId": "vcc",
@@ -66,7 +66,7 @@
       "color": "hsl(222, 85%, 55%)"
     },
     {
-      "id": "wire-y8bf5c",
+      "id": "wire-x6uhuv",
       "startPin": {
         "componentId": "lcd_i2c-3vpij2",
         "pinId": "sda",
@@ -84,7 +84,7 @@
       "color": "hsl(84, 85%, 55%)"
     },
     {
-      "id": "wire-he2qoh",
+      "id": "wire-ryr4i4",
       "startPin": {
         "componentId": "lcd_i2c-3vpij2",
         "pinId": "scl",

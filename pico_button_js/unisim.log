@@ -1,0 +1,1648 @@
+[2026-03-16T15:53:27.722Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:100:16
+
+[2026-03-16T15:53:27.725Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: file:///D:/UniSim/unisim-core/dist/app/index.js:11:8
+
+[2026-03-16T15:53:29.088Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:62:20
+
+[2026-03-16T15:53:29.105Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: PIN_STATE
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:53:29.107Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Snapshotting all pin states for UI...
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:203:16
+
+[2026-03-16T15:53:29.545Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:53:29.559Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:147:16
+
+[2026-03-16T15:53:29.598Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: button-zc261n
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-16T15:53:29.601Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: led-c0ttl4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-16T15:53:29.603Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-q3784x (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-16T15:53:29.606Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: resistor-fuhtef
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-16T15:53:29.609Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected button-zc261n:p1 <-> pico-q3784x:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:53:29.610Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: button-zc261n:p1 ↔ pico-q3784x:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:53:29.612Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected button-zc261n:p2 <-> pico-q3784x:GND
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:53:29.612Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: button-zc261n:p2 ↔ pico-q3784x:GND#3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:53:29.614Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-q3784x:GP1 <-> resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:53:29.616Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: pico-q3784x:GP1 ↔ resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:53:29.618Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected resistor-fuhtef:pin2 <-> led-c0ttl4:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:53:29.620Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: resistor-fuhtef:pin2 ↔ led-c0ttl4:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:53:29.622Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected led-c0ttl4:cathode <-> pico-q3784x:GND
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:53:29.623Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: led-c0ttl4:cathode ↔ pico-q3784x:GND#8
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:53:29.624Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 3 devices, and 5 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:338:20
+
+[2026-03-16T15:53:52.553Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: START_SIM
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:53:52.555Z] [INFO] [CRITICALITY: LOW]
+  Message: ▶ Simulation STARTED
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:84:16
+
+[2026-03-16T15:53:52.558Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected button-zc261n:p1 <-> pico-q3784x:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:53:52.559Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected button-zc261n:p2 <-> pico-q3784x:GND
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:53:52.561Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected pico-q3784x:GP1 <-> resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:53:52.562Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected resistor-fuhtef:pin2 <-> led-c0ttl4:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:53:52.563Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected led-c0ttl4:cathode <-> pico-q3784x:GND
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:53:52.564Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Netlist rebuilt from 5 wires
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:108:16
+
+[2026-03-16T15:53:52.565Z] [INFO] [CRITICALITY: LOW]
+  Message: START_SIM: Board [pico-q3784x] received 0 files: 
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:118:20
+
+[2026-03-16T15:53:52.568Z] [INFO] [CRITICALITY: LOW]
+  Message: Spawning runtime for board: pico-q3784x (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:26:16
+
+[2026-03-16T15:53:52.572Z] [INFO] [CRITICALITY: LOW]
+  Message: Loaded pin-maps.json from disk
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:50:20
+
+[2026-03-16T15:53:52.576Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: pico-q3784x
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-16T15:53:52.577Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-q3784x runtime started
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:293:16
+
+[2026-03-16T15:53:52.579Z] [INFO] [CRITICALITY: LOW]
+  Message: All board runtimes spawned successfully.
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:123:16
+
+[2026-03-16T15:53:52.580Z] [INFO] [CRITICALITY: LOW]
+  Message: Spawning Master Coordinator (JS Brain)...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:309:16
+
+[2026-03-16T15:53:52.585Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=Z. Nodes: button-zc261n:p1, pico-q3784x:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:52.589Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP0 -> idx 1 = 65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:52.591Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0. Nodes: button-zc261n:p2, pico-q3784x:GND, led-c0ttl4:cathode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:52.593Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GND -> idx 3 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:52.595Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=Z. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:52.597Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:52.600Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=Z. Nodes: resistor-fuhtef:pin2, led-c0ttl4:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:52.604Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Synced 4 nets to all workers.
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:208:16
+
+[2026-03-16T15:53:52.613Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: PIN_STATE
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:53:52.615Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Snapshotting all pin states for UI...
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:203:16
+
+[2026-03-16T15:53:52.663Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] Worker initialized for boardId: pico-q3784x. physToLogicalMap size: 43
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:52.664Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-q3784x] Starting WASM execution... loading Pyodide
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-16T15:53:52.668Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-q3784x] DEBUG PATH - __dirname: D:\UniSim\unisim-core\dist\core\runtime, fileURL: D:\UniSim\unisim-core\dist\core\runtime\worker.js, pyodideDir: D:\UniSim\unisim-core\node_modules\pyodide
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-16T15:53:52.672Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:52.676Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:52.679Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] virtualPin resolved 'GND' -> phys:3 (Logical: GND)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:52.681Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] [WORKER] PIN_UPDATE: logical GND -> phys index 3, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:52.687Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Master Coordinator: Starting JS Brain...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T15:53:52.691Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Master Coordinator: JS Brain initialized.
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T15:53:52.695Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] JS Button Logic Started
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T15:53:52.697Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:52.702Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:52.705Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:52.711Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=0. Nodes: resistor-fuhtef:pin2, led-c0ttl4:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:52.746Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:52.749Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:52.753Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:52.766Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] virtualPin resolved 'GP1' -> phys:2 (Logical: GP1)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:52.771Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:52.810Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:52.812Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:52.814Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:52.873Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:52.875Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:52.879Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:52.934Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:52.936Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:52.955Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:52.996Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:52.997Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:53.000Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:53.058Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:53.060Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:53.063Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:53.121Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:53.123Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:53.128Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:53.183Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:53.186Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:53.196Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:53.246Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:53.248Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:53.252Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:53.308Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:53.312Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:53.317Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:53.371Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:53.374Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:53.377Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:53.434Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:53.437Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:53.440Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:53.497Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:53.499Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:53.502Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:53.560Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:53.563Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:53.566Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:53.623Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:53.625Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:53.627Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:53.684Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:53.687Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:53.690Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:53.747Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:53.748Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:53.752Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:53.807Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:53.809Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:53.812Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:53.869Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:53.872Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:53.875Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:53.933Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:53.935Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:53.939Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:53.996Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:53.997Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:53.999Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:54.059Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:54.061Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:54.063Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:54.122Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:54.125Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:54.126Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:54.184Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:54.187Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:54.191Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:54.245Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:54.247Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:54.249Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:54.308Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:54.311Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:54.314Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:54.370Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:54.372Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:54.375Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:54.433Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:54.435Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:54.438Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:54.494Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:54.495Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:54.496Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:54.557Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:54.560Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:54.562Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:54.619Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:54.621Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:54.624Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:54.629Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:53:54.630Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: button-zc261n -> press (true)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T15:53:54.632Z] [INFO] [CRITICALITY: LOW]
+  Message: Button button-zc261n pressed
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/button.js:60:16
+
+[2026-03-16T15:53:54.634Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0. Nodes: button-zc261n:p1, pico-q3784x:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:54.638Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP0 -> idx 1 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:54.682Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 1 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:54.684Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=1. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:54.687Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:54.689Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=1. Nodes: resistor-fuhtef:pin2, led-c0ttl4:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:54.693Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: LED led-c0ttl4 is now ON (duty: 1)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/led.js:59:24
+
+[2026-03-16T15:53:54.745Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 1 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:54.746Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=1. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:54.749Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:54.806Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 1 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:54.809Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=1. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:54.811Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:54.868Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 1 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:54.870Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=1. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:54.873Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:54.888Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:53:54.890Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: button-zc261n -> release (false)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T15:53:54.892Z] [INFO] [CRITICALITY: LOW]
+  Message: Button button-zc261n released
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/button.js:70:16
+
+[2026-03-16T15:53:54.895Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=Z. Nodes: button-zc261n:p1, pico-q3784x:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:54.897Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0. Nodes: button-zc261n:p2, pico-q3784x:GND, led-c0ttl4:cathode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:54.900Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP0 -> idx 1 = 65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:54.903Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GND -> idx 3 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:54.930Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:54.932Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:54.935Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:54.937Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=0. Nodes: resistor-fuhtef:pin2, led-c0ttl4:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:54.940Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: LED led-c0ttl4 is now OFF (duty: 0)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/led.js:59:24
+
+[2026-03-16T15:53:54.992Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:54.994Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:54.996Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:55.054Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:55.056Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:55.059Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:55.116Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:55.119Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:55.123Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:55.177Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:55.179Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:55.183Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:55.241Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:55.243Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:55.245Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:55.305Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:55.306Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:55.309Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:55.367Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:55.370Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:55.374Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:55.430Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:55.432Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:55.434Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:55.492Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:55.494Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:55.496Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:55.520Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:53:55.522Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: button-zc261n -> press (true)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T15:53:55.525Z] [INFO] [CRITICALITY: LOW]
+  Message: Button button-zc261n pressed
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/button.js:60:16
+
+[2026-03-16T15:53:55.528Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0. Nodes: button-zc261n:p1, pico-q3784x:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:55.529Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP0 -> idx 1 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:55.555Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 1 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:55.558Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=1. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:55.561Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:55.563Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=1. Nodes: resistor-fuhtef:pin2, led-c0ttl4:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:55.566Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: LED led-c0ttl4 is now ON (duty: 1)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/led.js:59:24
+
+[2026-03-16T15:53:55.618Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 1 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:55.620Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=1. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:55.623Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:55.659Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-q3784x] Pyodide loaded. Setting up VFS and shims.
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-16T15:53:55.680Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 1 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:55.682Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=1. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:55.685Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:55.687Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.690Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.692Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.694Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.696Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] virtualPin resolved 'GP1' -> phys:2 (Logical: GP1)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.699Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.702Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.705Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.708Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.710Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.712Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] virtualPin resolved 'GND' -> phys:3 (Logical: GND)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.715Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] [WORKER] PIN_UPDATE: logical GND -> phys index 3, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.719Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] virtualPin resolved 'GP1' -> phys:2 (Logical: GP1)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.722Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.724Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.725Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.727Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.729Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.730Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] virtualPin resolved 'GP1' -> phys:2 (Logical: GP1)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.733Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.734Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-q3784x] No main.py/main.cpp found. Starting board in Hardware Shim mode.
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-16T15:53:55.743Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 1 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:55.745Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=1. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:55.747Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:55.787Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:53:55.788Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: button-zc261n -> release (false)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T15:53:55.791Z] [INFO] [CRITICALITY: LOW]
+  Message: Button button-zc261n released
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/button.js:70:16
+
+[2026-03-16T15:53:55.793Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=Z. Nodes: button-zc261n:p1, pico-q3784x:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:55.795Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0. Nodes: button-zc261n:p2, pico-q3784x:GND, led-c0ttl4:cathode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:55.796Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP0 -> idx 1 = 65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:55.797Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GND -> idx 3 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:55.797Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.798Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.800Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.804Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.807Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] virtualPin resolved 'GND' -> phys:3 (Logical: GND)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.808Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] [WORKER] PIN_UPDATE: logical GND -> phys index 3, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.810Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:55.812Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:55.814Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:55.815Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=0. Nodes: resistor-fuhtef:pin2, led-c0ttl4:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:55.819Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: LED led-c0ttl4 is now OFF (duty: 0)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/led.js:59:24
+
+[2026-03-16T15:53:55.822Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] virtualPin resolved 'GP1' -> phys:2 (Logical: GP1)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.826Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:55.868Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:55.870Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:55.873Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:55.930Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:55.932Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:55.934Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:55.992Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:55.995Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:55.998Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:56.054Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:56.055Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:56.057Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:56.118Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:56.120Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:56.122Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:56.179Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:56.181Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:56.184Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:56.244Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:56.245Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:56.247Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:56.307Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:56.309Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:56.312Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:56.350Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:53:56.352Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: button-zc261n -> press (true)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T15:53:56.355Z] [INFO] [CRITICALITY: LOW]
+  Message: Button button-zc261n pressed
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/button.js:60:16
+
+[2026-03-16T15:53:56.360Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0. Nodes: button-zc261n:p1, pico-q3784x:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:56.363Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP0 -> idx 1 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:56.364Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:56.365Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:56.366Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:56.370Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:56.373Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 1 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:56.375Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=1. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:56.377Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:56.379Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=1. Nodes: resistor-fuhtef:pin2, led-c0ttl4:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:56.381Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: LED led-c0ttl4 is now ON (duty: 1)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/led.js:59:24
+
+[2026-03-16T15:53:56.385Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] virtualPin resolved 'GP1' -> phys:2 (Logical: GP1)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:56.388Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:56.432Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 1 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:56.434Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=1. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:56.437Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:56.493Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 1 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:56.494Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=1. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:56.496Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:56.556Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 1 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:56.558Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=1. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:56.559Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 19859
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:56.608Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: COMPONENT_ACTION
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:53:56.609Z] [INFO] [CRITICALITY: LOW]
+  Message: 🎛 COMPONENT_ACTION: button-zc261n -> release (false)
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:368:20
+
+[2026-03-16T15:53:56.611Z] [INFO] [CRITICALITY: LOW]
+  Message: Button button-zc261n released
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/button.js:70:16
+
+[2026-03-16T15:53:56.613Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=Z. Nodes: button-zc261n:p1, pico-q3784x:GP0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:56.615Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=0. Nodes: button-zc261n:p2, pico-q3784x:GND, led-c0ttl4:cathode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:56.618Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP0 -> idx 1 = 65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:56.621Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GND -> idx 3 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:56.623Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:56.625Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:56.627Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] virtualPin resolved 'GP0' -> phys:1 (Logical: GP0)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:56.630Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] [WORKER] PIN_UPDATE: logical GP0 -> phys index 1, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:56.632Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] virtualPin resolved 'GND' -> phys:3 (Logical: GND)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:56.635Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] [WORKER] PIN_UPDATE: logical GND -> phys index 3, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:56.638Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:56.641Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:56.644Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:56.646Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=0. Nodes: resistor-fuhtef:pin2, led-c0ttl4:anode
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:56.648Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: LED led-c0ttl4 is now OFF (duty: 0)
+  Location: file:///D:/UniSim/unisim-core/dist/plugins/devices/led.js:59:24
+
+[2026-03-16T15:53:56.650Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] virtualPin resolved 'GP1' -> phys:2 (Logical: GP1)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:56.659Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-q3784x] [WORKER] PIN_UPDATE: logical GP1 -> phys index 2, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:53:56.682Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:56.685Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:56.687Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:56.745Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:56.746Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:56.747Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:56.808Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:56.810Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:56.812Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:56.872Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:56.875Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:56.878Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:56.934Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:56.937Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:56.939Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:56.997Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:56.998Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:57.000Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:57.061Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:57.062Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:57.064Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:57.124Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:57.125Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:57.128Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:57.185Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:57.188Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:57.190Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:57.247Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:57.248Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:57.250Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:57.308Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:57.309Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:57.311Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:57.371Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:57.373Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:57.376Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:57.433Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:57.436Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:57.439Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:57.496Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:57.498Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:57.502Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:57.559Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:57.561Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:57.563Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:57.623Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:57.624Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:57.628Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:57.685Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:57.687Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:57.689Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:57.747Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:57.748Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:57.750Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:57.809Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:57.810Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:57.812Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:57.872Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:57.874Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:57.878Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:57.935Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN-IO] Writing 0 to pico-q3784x:GP1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:384:28
+
+[2026-03-16T15:53:57.937Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=0. Nodes: pico-q3784x:GP1, resistor-fuhtef:pin1
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:53:57.939Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-q3784x:GP1 -> idx 2 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:53:57.961Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: STOP_SIM
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:53:57.963Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: ⏹ Simulation STOPPED
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:147:16
+
+[2026-03-16T15:53:57.994Z] [INFO] [CRITICALITY: LOW]
+  Message: Worker for pico-q3784x exited with code 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:289:20
+
+[2026-03-16T15:53:57.995Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-q3784x runtime stopped
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:303:16
+
+[2026-03-16T15:54:00.062Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:87:24
+

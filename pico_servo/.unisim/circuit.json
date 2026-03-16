@@ -40,7 +40,7 @@
       "color": "hsl(0, 85%, 55%)"
     },
     {
-      "id": "wire-id00o7",
+      "id": "wire-9zm98b",
       "startPin": {
         "componentId": "servo-lzxw0h",
         "pinId": "vcc",
@@ -58,7 +58,7 @@
       "color": "hsl(222, 85%, 55%)"
     },
     {
-      "id": "wire-q5p11r",
+      "id": "wire-rthru6",
       "startPin": {
         "componentId": "servo-lzxw0h",
         "pinId": "gnd",

@@ -2262,3 +2262,583 @@
   Message: Client disconnected
   Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:87:24
 
+[2026-03-16T15:56:05.233Z] [INFO] [CRITICALITY: LOW]
+  Message: Message Server listening on port 8765
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:100:16
+
+[2026-03-16T15:56:05.237Z] [INFO] [CRITICALITY: LOW]
+  Message: UniSim Core v2 initialized
+  Location: file:///D:/UniSim/unisim-core/dist/app/index.js:11:8
+
+[2026-03-16T15:56:06.533Z] [INFO] [CRITICALITY: LOW]
+  Message: Client connected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:62:20
+
+[2026-03-16T15:56:06.553Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: PIN_STATE
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:56:06.555Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Snapshotting all pin states for UI...
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:203:16
+
+[2026-03-16T15:56:07.002Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:56:07.016Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:147:16
+
+[2026-03-16T15:56:07.050Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-64dcar (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-16T15:56:07.058Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: lcd_i2c-3vpij2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-16T15:56:07.060Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected lcd_i2c-3vpij2:gnd <-> pico-64dcar:GND
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:56:07.060Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: lcd_i2c-3vpij2:gnd ↔ pico-64dcar:GND#3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:56:07.062Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected lcd_i2c-3vpij2:vcc <-> pico-64dcar:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:56:07.063Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: lcd_i2c-3vpij2:vcc ↔ pico-64dcar:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:56:07.063Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected lcd_i2c-3vpij2:sda <-> pico-64dcar:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:56:07.064Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: lcd_i2c-3vpij2:sda ↔ pico-64dcar:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:56:07.064Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected lcd_i2c-3vpij2:scl <-> pico-64dcar:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:56:07.065Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: lcd_i2c-3vpij2:scl ↔ pico-64dcar:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:56:07.066Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 4 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:338:20
+
+[2026-03-16T15:56:12.579Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:56:12.580Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:147:16
+
+[2026-03-16T15:56:12.583Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-64dcar (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-16T15:56:12.585Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: lcd_i2c-3vpij2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-16T15:56:12.588Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected lcd_i2c-3vpij2:vcc <-> pico-64dcar:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:56:12.590Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: lcd_i2c-3vpij2:vcc ↔ pico-64dcar:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:56:12.591Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected lcd_i2c-3vpij2:sda <-> pico-64dcar:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:56:12.593Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: lcd_i2c-3vpij2:sda ↔ pico-64dcar:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:56:12.594Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected lcd_i2c-3vpij2:scl <-> pico-64dcar:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:56:12.595Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: lcd_i2c-3vpij2:scl ↔ pico-64dcar:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:56:12.596Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 3 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:338:20
+
+[2026-03-16T15:56:14.704Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:56:14.705Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:147:16
+
+[2026-03-16T15:56:14.707Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-64dcar (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-16T15:56:14.708Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: lcd_i2c-3vpij2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-16T15:56:14.709Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected lcd_i2c-3vpij2:sda <-> pico-64dcar:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:56:14.710Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: lcd_i2c-3vpij2:sda ↔ pico-64dcar:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:56:14.711Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected lcd_i2c-3vpij2:scl <-> pico-64dcar:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:56:14.712Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: lcd_i2c-3vpij2:scl ↔ pico-64dcar:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:56:14.713Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 2 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:338:20
+
+[2026-03-16T15:56:16.853Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:56:16.855Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:147:16
+
+[2026-03-16T15:56:16.857Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-64dcar (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-16T15:56:16.858Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: lcd_i2c-3vpij2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-16T15:56:16.860Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected lcd_i2c-3vpij2:scl <-> pico-64dcar:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:56:16.861Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: lcd_i2c-3vpij2:scl ↔ pico-64dcar:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:56:16.862Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 1 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:338:20
+
+[2026-03-16T15:56:19.304Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:56:19.306Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:147:16
+
+[2026-03-16T15:56:19.308Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-64dcar (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-16T15:56:19.309Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: lcd_i2c-3vpij2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-16T15:56:19.310Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 0 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:338:20
+
+[2026-03-16T15:56:22.904Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:56:22.905Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:147:16
+
+[2026-03-16T15:56:22.906Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-64dcar (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-16T15:56:22.907Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: lcd_i2c-3vpij2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-16T15:56:22.908Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected lcd_i2c-3vpij2:gnd <-> pico-64dcar:GND
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:56:22.910Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: lcd_i2c-3vpij2:gnd ↔ pico-64dcar:GND#3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:56:22.911Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 1 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:338:20
+
+[2026-03-16T15:56:26.471Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:56:26.472Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:147:16
+
+[2026-03-16T15:56:26.474Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-64dcar (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-16T15:56:26.476Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: lcd_i2c-3vpij2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-16T15:56:26.477Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected lcd_i2c-3vpij2:gnd <-> pico-64dcar:GND
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:56:26.478Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: lcd_i2c-3vpij2:gnd ↔ pico-64dcar:GND#3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:56:26.479Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected lcd_i2c-3vpij2:vcc <-> pico-64dcar:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:56:26.480Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: lcd_i2c-3vpij2:vcc ↔ pico-64dcar:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:56:26.481Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 2 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:338:20
+
+[2026-03-16T15:56:35.733Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:56:35.734Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:147:16
+
+[2026-03-16T15:56:35.736Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-64dcar (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-16T15:56:35.738Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: lcd_i2c-3vpij2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-16T15:56:35.740Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected lcd_i2c-3vpij2:gnd <-> pico-64dcar:GND
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:56:35.742Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: lcd_i2c-3vpij2:gnd ↔ pico-64dcar:GND#3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:56:35.744Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected lcd_i2c-3vpij2:vcc <-> pico-64dcar:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:56:35.745Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: lcd_i2c-3vpij2:vcc ↔ pico-64dcar:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:56:35.746Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected lcd_i2c-3vpij2:sda <-> pico-64dcar:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:56:35.747Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: lcd_i2c-3vpij2:sda ↔ pico-64dcar:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:56:35.748Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 3 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:338:20
+
+[2026-03-16T15:56:38.771Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: SYNC_CIRCUIT
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:56:38.773Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Circuit cleared
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:147:16
+
+[2026-03-16T15:56:38.775Z] [INFO] [CRITICALITY: LOW]
+  Message: Registering mapping for board: pico-64dcar (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/mapping/service.js:14:16
+
+[2026-03-16T15:56:38.776Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: lcd_i2c-3vpij2
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-16T15:56:38.777Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected lcd_i2c-3vpij2:gnd <-> pico-64dcar:GND
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:56:38.778Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: lcd_i2c-3vpij2:gnd ↔ pico-64dcar:GND#3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:56:38.779Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected lcd_i2c-3vpij2:vcc <-> pico-64dcar:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:56:38.780Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: lcd_i2c-3vpij2:vcc ↔ pico-64dcar:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:56:38.781Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected lcd_i2c-3vpij2:sda <-> pico-64dcar:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:56:38.782Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: lcd_i2c-3vpij2:sda ↔ pico-64dcar:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:56:38.782Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected lcd_i2c-3vpij2:scl <-> pico-64dcar:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:56:38.783Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Wire added: lcd_i2c-3vpij2:scl ↔ pico-64dcar:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:69:16
+
+[2026-03-16T15:56:38.784Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: SYNC_CIRCUIT: Registered 1 boards, 1 devices, and 4 wires
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:338:20
+
+[2026-03-16T15:56:46.989Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: START_SIM
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:56:46.992Z] [INFO] [CRITICALITY: LOW]
+  Message: ▶ Simulation STARTED
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:84:16
+
+[2026-03-16T15:56:46.994Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected lcd_i2c-3vpij2:gnd <-> pico-64dcar:GND
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:56:46.995Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected lcd_i2c-3vpij2:vcc <-> pico-64dcar:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:56:46.997Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected lcd_i2c-3vpij2:sda <-> pico-64dcar:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:56:46.998Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Connected lcd_i2c-3vpij2:scl <-> pico-64dcar:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:140:16
+
+[2026-03-16T15:56:46.999Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Netlist rebuilt from 4 wires
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:108:16
+
+[2026-03-16T15:56:46.999Z] [INFO] [CRITICALITY: LOW]
+  Message: START_SIM: Board [pico-64dcar] received 1 files: main.py
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:118:20
+
+[2026-03-16T15:56:47.002Z] [INFO] [CRITICALITY: LOW]
+  Message: Spawning runtime for board: pico-64dcar (rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:26:16
+
+[2026-03-16T15:56:47.008Z] [INFO] [CRITICALITY: LOW]
+  Message: Loaded pin-maps.json from disk
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:50:20
+
+[2026-03-16T15:56:47.014Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Device registered in solver: pico-64dcar
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:31:16
+
+[2026-03-16T15:56:47.015Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-64dcar runtime started
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:293:16
+
+[2026-03-16T15:56:47.016Z] [INFO] [CRITICALITY: LOW]
+  Message: All board runtimes spawned successfully.
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:123:16
+
+[2026-03-16T15:56:47.017Z] [INFO] [CRITICALITY: LOW]
+  Message: Spawning Master Coordinator (JS Brain)...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:309:16
+
+[2026-03-16T15:56:47.022Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_1 value=0. Nodes: lcd_i2c-3vpij2:gnd, pico-64dcar:GND
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:56:47.026Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-64dcar:GND -> idx 3 = 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:56:47.028Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_2 value=3.3. Nodes: lcd_i2c-3vpij2:vcc, pico-64dcar:3V3
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:56:47.030Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-64dcar:3V3 -> idx 36 = 65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:56:47.031Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_3 value=Z. Nodes: lcd_i2c-3vpij2:sda, pico-64dcar:GP4
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:56:47.034Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-64dcar:GP4 -> idx 6 = 65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:56:47.036Z] [INFO] [CRITICALITY: LOW]
+  Message: [SYNC-TRACE] Net net_4 value=Z. Nodes: lcd_i2c-3vpij2:scl, pico-64dcar:GP5
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:161:16
+
+[2026-03-16T15:56:47.038Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [SYNC-DEBUG] Success: pico-64dcar:GP5 -> idx 7 = 65535
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:176:28
+
+[2026-03-16T15:56:47.041Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Synced 4 nets to all workers.
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/manager.js:208:16
+
+[2026-03-16T15:56:47.050Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: PIN_STATE
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:56:47.051Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Snapshotting all pin states for UI...
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:203:16
+
+[2026-03-16T15:56:47.096Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Master Coordinator: Starting JS Brain...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T15:56:47.099Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] JS Brain: Booting pico_lcd...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T15:56:47.102Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] Master Coordinator: JS Brain initialized.
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T15:56:47.107Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-64dcar] Worker initialized for boardId: pico-64dcar. physToLogicalMap size: 43
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:56:47.110Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-64dcar] Starting WASM execution... loading Pyodide
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-16T15:56:47.113Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-64dcar] DEBUG PATH - __dirname: D:\UniSim\unisim-core\dist\core\runtime, fileURL: D:\UniSim\unisim-core\dist\core\runtime\worker.js, pyodideDir: D:\UniSim\unisim-core\node_modules\pyodide
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-16T15:56:47.116Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-64dcar] virtualPin resolved 'GND' -> phys:3 (Logical: GND)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:56:47.120Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-64dcar] [WORKER] PIN_UPDATE: logical GND -> phys index 3, raw val 0
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:56:47.123Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-64dcar] virtualPin resolved '3V3' -> phys:36 (Logical: 3V3)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:56:47.127Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-64dcar] [WORKER] PIN_UPDATE: logical 3V3 -> phys index 36, raw val 3.3
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:56:47.129Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-64dcar] virtualPin resolved 'GP4' -> phys:6 (Logical: GP4)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:56:47.130Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-64dcar] [WORKER] PIN_UPDATE: logical GP4 -> phys index 6, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:56:47.132Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-64dcar] virtualPin resolved 'GP5' -> phys:7 (Logical: GP5)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:56:47.133Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-64dcar] [WORKER] PIN_UPDATE: logical GP5 -> phys index 7, raw val 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:56:47.134Z] [INFO] [CRITICALITY: LOW]
+  Message: [BRAIN] System Ready. Monitoring hardware events...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:440:28
+
+[2026-03-16T15:56:49.561Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-64dcar] Pyodide loaded. Setting up VFS and shims.
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-16T15:56:49.583Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-64dcar] Executing code (508 bytes). Injecting into globals and executing async loop.
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-16T15:56:49.599Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-64dcar] [PY-TRACE] Python _unisimm_main started. Executing user code...
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-16T15:56:49.605Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-64dcar] virtualPin resolved 'GP4' -> phys:6 (Logical: GP4)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:56:49.608Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [PULL/DRIVE] Configured pico-64dcar:GP4 | pull: NONE | drive: undefined
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:249:20
+
+[2026-03-16T15:56:49.614Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-64dcar] virtualPin resolved 'GP5' -> phys:7 (Logical: GP5)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:56:49.616Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [PULL/DRIVE] Configured pico-64dcar:GP5 | pull: NONE | drive: undefined
+  Location: file:///D:/UniSim/unisim-core/dist/core/circuit/solver.js:249:20
+
+[2026-03-16T15:56:49.619Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: [pico-64dcar] virtualPin resolved 'GP4' -> phys:6 (Logical: GP4)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:179:28
+
+[2026-03-16T15:56:49.623Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-64dcar] [I2C Init] SCL: undefined, SDA: GP4 (Arch: rp2040)
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-16T15:56:49.627Z] [INFO] [CRITICALITY: LOW]
+  Message: [pico-64dcar] === Pico LCD Test Started (GP4 SDA, GP5 SCL) ===
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:181:28
+
+[2026-03-16T15:57:10.167Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: Received JSON command: STOP_SIM
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:105:20
+
+[2026-03-16T15:57:10.173Z] [DEBUG] [CRITICALITY: DEBUG]
+  Message: ⏹ Simulation STOPPED
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/router.js:147:16
+
+[2026-03-16T15:57:10.210Z] [INFO] [CRITICALITY: LOW]
+  Message: Worker for pico-64dcar exited with code 1
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:289:20
+
+[2026-03-16T15:57:10.213Z] [INFO] [CRITICALITY: LOW]
+  Message: Board pico-64dcar runtime stopped
+  Location: file:///D:/UniSim/unisim-core/dist/core/runtime/manager.js:303:16
+
+[2026-03-16T15:57:11.792Z] [INFO] [CRITICALITY: LOW]
+  Message: Client disconnected
+  Location: file:///D:/UniSim/unisim-core/dist/connectivity/server.js:87:24
+

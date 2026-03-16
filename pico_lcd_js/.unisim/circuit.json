@@ -12,12 +12,12 @@
     {
       "id": "lcd_i2c-gz7r61",
       "type": "lcd_i2c",
-      "x": 440,
-      "y": 160,
+      "x": 520,
+      "y": 140,
       "data": {
         "text": [
-          "",
-          ""
+          "I2C Bus Scan...",
+          "LCD Found: 0x27"
         ]
       },
       "locked": false
@@ -25,76 +25,76 @@
   ],
   "wires": [
     {
-      "id": "wire-daqv0h",
+      "id": "wire-2obrbb",
       "startPin": {
         "componentId": "lcd_i2c-gz7r61",
         "pinId": "gnd",
-        "x": 455,
-        "y": 180,
+        "x": 535,
+        "y": 160,
         "type": "component-pin"
       },
       "endPin": {
         "componentId": "pico-q3784x",
-        "pinId": "GND#38",
-        "x": 320,
+        "pinId": "GND#3",
+        "x": 240,
         "y": 100,
         "type": "component-pin"
       },
       "color": "hsl(0, 85%, 55%)"
     },
     {
-      "id": "wire-syftgq",
+      "id": "wire-n51mk7",
       "startPin": {
         "componentId": "lcd_i2c-gz7r61",
         "pinId": "vcc",
-        "x": 455,
-        "y": 200,
+        "x": 535,
+        "y": 180,
         "type": "component-pin"
       },
       "endPin": {
         "componentId": "pico-q3784x",
         "pinId": "3V3",
-        "x": 320,
+        "x": 380,
         "y": 140,
         "type": "component-pin"
       },
       "color": "hsl(222, 85%, 55%)"
     },
     {
-      "id": "wire-sda-i2c",
+      "id": "wire-a5xm58",
       "startPin": {
         "componentId": "lcd_i2c-gz7r61",
         "pinId": "sda",
-        "x": 455,
-        "y": 220,
+        "x": 535,
+        "y": 200,
         "type": "component-pin"
       },
       "endPin": {
         "componentId": "pico-q3784x",
         "pinId": "GP4",
-        "x": 320,
-        "y": 180,
+        "x": 240,
+        "y": 160,
         "type": "component-pin"
       },
-      "color": "hsl(140, 85%, 55%)"
+      "color": "hsl(84, 85%, 55%)"
     },
     {
-      "id": "wire-scl-i2c",
+      "id": "wire-gxaoby",
       "startPin": {
         "componentId": "lcd_i2c-gz7r61",
         "pinId": "scl",
-        "x": 455,
-        "y": 240,
+        "x": 535,
+        "y": 220,
         "type": "component-pin"
       },
       "endPin": {
         "componentId": "pico-q3784x",
         "pinId": "GP5",
-        "x": 320,
-        "y": 200,
+        "x": 240,
+        "y": 180,
         "type": "component-pin"
       },
-      "color": "hsl(200, 85%, 55%)"
+      "color": "hsl(307, 85%, 55%)"
     }
   ]
 }
