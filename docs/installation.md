@@ -3,41 +3,31 @@
 Before you start simulating, ensure your development environment is set up correctly.
 
 ### 1. Essential Software
-To work with UniSim, you need the following tools installed on your system:
+To work with UniSim, you only need:
 
 - **Visual Studio Code (VS Code)**: The primary editor. UniSim integrates deeply with VS Code for a seamless "code-to-circuit" experience.
   - [Download VS Code](https://code.visualstudio.com/)
-- **Node.js (LTS)**: Required for the UniSim CLI and the JavaScript API.
-  - [Download Node.js](https://nodejs.org/)
-- **Python 3.x**: Required if you plan to write MicroPython firmware for your microcontrollers.
-  - [Download Python](https://www.python.org/)
+- **UniSim Installer**: Download the latest `.exe` from the official portal. This includes:
+  - **UniSim Desktop**: The 3D/2D simulation environment.
+  - **UniSim CLI**: Command-line tools for advanced users.
+  - **UniSim Core**: The high-performance simulation engine.
 
 ### 2. VS Code Extension
-For the best experience, install the **UniSim Extension** from the VS Code Marketplace. This provides:
-- Syntax highlighting for `.circuit.json` files.
-- Integrated simulator dashboard.
-- Real-time linting of your hardware connections.
+The UniSim Extension provides hardware-aware features inside VS Code.
+- **Easy Install**: Open UniSim Desktop and click the **"Install VS Code Extension"** button in the sidebar or bottom panel. (Recommended)
+- **Manual Install**: You can also find the `.vsix` in your installation directory.
 
-### 3. Installing UniSim CLI
-Open your terminal (PowerShell, Command Prompt, or Terminal) and run:
-
-```bash
-npm install -g unisim
-```
-
-Verify the installation:
+### 3. Verification
+Once installed, open your terminal (PowerShell) and type:
 ```bash
 unisim --version
 ```
+No separate Node.js or Python installation is required for the core experience.
 
 ### 4. Hardware Requirements
-While UniSim is lightweight, a machine with a dedicated GPU or modern integrated graphics is recommended for the smoothest experience when using the 3D-heavy UI.
+UniSim uses GPU acceleration. A modern integrated or dedicated GPU is recommended.
 
 ### 5. First Time Setup
-Once installed, initialize your first project in a new directory:
-
-```bash
-unisim init my-first-project
-cd my-first-project
-npm run dev
-```
+1. Open **UniSim Desktop**.
+2. Click **"New Project"**.
+3. A PowerShell window will automatically open, pre-configured with the UniSim CLI.

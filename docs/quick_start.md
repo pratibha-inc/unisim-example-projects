@@ -4,23 +4,16 @@ Follow this 5-minute guide to go from zero to your first interactive hardware si
 
 ---
 
-### Step 1: Install Pre-requisites
-Ensure you have the following installed on your machine:
-1. **Visual Studio Code**: [Download Here](https://code.visualstudio.com/)
-2. **Node.js (LTS)**: [Download Here](https://nodejs.org/)
+### Step 1: Download & Install UniSim
+Get the UniSim Installer from the official portal. Run the `.exe` and follow the prompts.
 
-### Step 2: Install UniSim CLI
-Open your terminal (PowerShell or Command Prompt) and run:
-```bash
-npm install -g unisim
-```
+### Step 2: Open UniSim Desktop
+Launch UniSim from your desktop or start menu.
 
 ### Step 3: Create Your First Project
-Navigate to your preferred workspace folder and initialize a new project:
-```bash
-unisim init button-blink
-cd button-blink
-```
+Click **"New Project"** in the sidebar. Give it a name like `button-blink`. 
+
+**Note**: A PowerShell window will pop up automatically. **Keep it open**—it's running your simulation server!
 
 ### Step 4: The Hardware Setup (Circuit)
 Open the project in VS Code. UniSim automatically creates a default circuit for you in `.unisim/circuit.json`. 
@@ -54,11 +47,9 @@ unisim.on('ready', main);
 ```
 
 ### Step 6: Launch & Run
-In your terminal, run the development server:
-```bash
-npm run dev
-```
-Wait for your browser to open automatically. You will see the **UniSim Dashboard**.
+Since you created the project via the UI, the simulation is already starting! 
+1. Check the **PowerShell window** to ensure the server is ready.
+2. Click the **"Run"** button in the top toolbar of UniSim Desktop.
 
 ### Step 7: Interact & Debug
 1. **Interact**: In the 3D circuit view, click on the **Button** component. You will see the **LED** light up instantly.
